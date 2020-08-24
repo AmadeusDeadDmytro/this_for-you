@@ -59,9 +59,10 @@
   }
 
   .photo_blocks__div {
-    height: fit-content !important;
+    height: max-content !important;
     flex-flow: wrap !important;
     justify-content: space-between;
+    display: block;
 
     .photo_blocks__img {
       margin-top: 15px;
