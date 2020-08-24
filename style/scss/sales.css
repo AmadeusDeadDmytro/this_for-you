@@ -10,14 +10,12 @@
   display: flex;
   justify-content: center;
 }
-.block__title h3:after {
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  height: 1px;
-  max-width: 88%;
-  width: 80%;
+.block__title .block__title_decoration {
   background: #234612;
+  height: 1px;
+  width: 88%;
+  bottom: -10px;
+  position: absolute;
 }
 
 .sales nav {
