@@ -11,7 +11,6 @@
   justify-content: center;
 }
 .block__title h3:after {
-  content: "";
   position: absolute;
   bottom: -10px;
   height: 1px;
