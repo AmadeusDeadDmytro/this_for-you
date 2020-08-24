@@ -20,7 +20,10 @@
         position: absolute;
         bottom: -10px;
         height: 1px;
-        //width: 88%;
+
+        max-width: 88%;
+        width: 80%;
+
         background: $primary-color;
     }
 }
