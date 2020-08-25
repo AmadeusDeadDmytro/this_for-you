@@ -8,6 +8,9 @@
 .footer .footer__div .footer__row {
   height: 652px;
   padding-top: 128px;
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
 }
 .footer .footer__div .footer__row .footer__title h5 {
   color: white;

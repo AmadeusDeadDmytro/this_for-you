@@ -11,6 +11,9 @@
     .footer__row {
       height: 652px;
       padding-top: 128px;
+      display: flex;
+      justify-content: space-between;
+      width: 65%;
 
       .footer__title {
         h5 {

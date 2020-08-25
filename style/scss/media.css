@@ -200,6 +200,30 @@
     padding: 0 0 15px 0;
     width: 100% !important;
   }
+
+  .footer h5 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .footer .footer__row {
+    width: 100% !important;
+    padding-top: 40px !important;
+  }
+  .footer .text-3 {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .footer .footer__img {
+    height: 24px;
+  }
+  .footer .footer__img img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
 }
 @media (max-width: 539px) and (min-width: 450px) {
   h1 {
@@ -391,6 +415,26 @@
   .sales__div .sales_card {
     padding: 0 0 15px 0;
     width: 100% !important;
+  }
+
+  .footer h5 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .footer .footer__row {
+    width: 100% !important;
+    padding-top: 40px !important;
+  }
+  .footer .footer__img {
+    height: 29px;
+  }
+  .footer .footer__img img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
   }
 }
 @media (max-width: 699px) and (min-width: 540px) {
@@ -589,6 +633,22 @@
     padding: 0 0 15px 0;
     width: 100% !important;
   }
+
+  .footer .footer__row {
+    width: 100% !important;
+    padding-top: 60px !important;
+  }
+  .footer .footer__img {
+    height: 35px;
+  }
+  .footer .footer__img img {
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    height: 100%;
+  }
 }
 @media (max-width: 849px) and (min-width: 700px) {
   h1 {
@@ -706,6 +766,11 @@
     padding: 0 0 15px 0;
     width: 49.2% !important;
   }
+
+  .footer .footer__row {
+    width: 100% !important;
+    padding-top: 60px !important;
+  }
 }
 @media (max-width: 949px) and (min-width: 850px) {
   .contact__img_block {
@@ -780,6 +845,10 @@
     padding: 0 0 15px 0;
     width: 49.2% !important;
   }
+
+  .footer .footer__row {
+    width: 100% !important;
+  }
 }
 @media (max-width: 1199px) and (min-width: 950px) {
   .contact__img_block {
@@ -853,6 +922,10 @@
   .sales__div .sales_card {
     padding: 0 0 15px 0;
     width: 49.2% !important;
+  }
+
+  .footer .footer__row {
+    width: 100% !important;
   }
 }
 @media (max-width: 1399px) and (min-width: 1200px) {
