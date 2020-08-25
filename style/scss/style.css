@@ -12,115 +12,6 @@ body {
     max-width: 1860px;
   }
 }
-h1 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 102px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  color: white;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 38px;
-  line-height: 61px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #234612;
-}
-
-h4 {
-  font-family: History Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 45px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-h5 {
-  font-family: History Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 21px;
-  line-height: 34px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-
-.text-1 {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-
-.text-2 {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 29px;
-  margin: 0;
-}
-
-.text-3 {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 32px;
-  margin: 0;
-}
-
-.text-4 {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 23px;
-  line-height: 37px;
-  margin: 0;
-}
-
-h6 {
-  font-family: History Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-
-.text-big {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 42px;
-  margin: 0;
-}
-
-.text_green {
-  color: #1A9940 !important;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 @media (max-width: 991px) {
   h1 {
     font-size: 32px;
@@ -241,6 +132,71 @@ a:hover {
     margin-top: 55px !important;
   }
 }
+@media (max-width: 1349px) and (min-width: 1300px) {
+  .container {
+    max-width: 1270px !important;
+  }
+}
+@media (max-width: 1299px) and (min-width: 1250px) {
+  .container {
+    max-width: 1220px !important;
+  }
+}
+@media (max-width: 1249px) and (min-width: 1200px) {
+  .container {
+    max-width: 1170px !important;
+  }
+}
+@media (max-width: 1199px) and (min-width: 1150px) {
+  .container {
+    max-width: 1120px !important;
+  }
+}
+@media (max-width: 1149px) and (min-width: 1100px) {
+  .container {
+    max-width: 1070px !important;
+  }
+}
+@media (max-width: 1099px) and (min-width: 1050px) {
+  .container {
+    max-width: 1020px !important;
+  }
+}
+@media (max-width: 1049px) and (min-width: 1000px) {
+  .container {
+    max-width: 970px !important;
+  }
+}
+@media (max-width: 999px) and (min-width: 950px) {
+  .container {
+    max-width: 870px !important;
+  }
+}
+@media (max-width: 949px) and (min-width: 900px) {
+  .container {
+    max-width: 820px !important;
+  }
+}
+@media (max-width: 899px) and (min-width: 850px) {
+  .container {
+    max-width: 770px !important;
+  }
+}
+@media (max-width: 849px) and (min-width: 800px) {
+  .container {
+    max-width: 720px !important;
+  }
+}
+@media (max-width: 799px) and (min-width: 750px) {
+  .container {
+    max-width: 720px !important;
+  }
+}
+@media (max-width: 749px) and (min-width: 700px) {
+  .container {
+    max-width: 670px !important;
+  }
+}
 @media (max-width: 699px) and (min-width: 650px) {
   .container {
     max-width: 620px !important;
@@ -305,6 +261,114 @@ a:hover {
   .container {
     max-width: 289px !important;
   }
+}
+h1 {
+  font-family: 'History Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 102px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'History Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 61px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #234612;
+}
+
+h4 {
+  font-family: History Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h5 {
+  font-family: History Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.text-1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.text-2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+}
+
+.text-3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.text-4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 37px;
+  margin: 0;
+}
+
+h6 {
+  font-family: History Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.text-big {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 42px;
+  margin: 0;
+}
+
+.text_green {
+  color: #1A9940 !important;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
