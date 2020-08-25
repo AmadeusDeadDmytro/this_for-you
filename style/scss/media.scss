@@ -1,4 +1,38 @@
 @media (max-width: 449px) {
+
+  h1 {
+    font-size: 35px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 38px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .text-2 {
+    font-size: 14px;
+  }
+
+  .text-4 {
+    font-size: 17px;
+  }
+
+  .text-big {
+    font-size: 19px;
+    line-height: 34px;
+  }
+
+  .catalog_block__link a h5 {
+    width: 155px !important;
+    height: 55px !important;
+    font-size: 11px;
+  }
+
   .header {
     height: inherit;
     margin-bottom: 15px;
@@ -23,10 +57,6 @@
     }
   }
 
-  .catalog_block__title h1 {
-    font-size: 20px;
-  }
-
   .order__row {
     flex-direction: column;
 
@@ -34,6 +64,12 @@
       width: 100%;
       height: 300px;
       padding-bottom: 10px;
+    }
+    .order__title {
+      margin-bottom: 10px !important;
+    }
+    .order__inform {
+      margin: 20px 0 30px 0 !important;
     }
   }
 
@@ -71,6 +107,7 @@
     .photo_blocks__img {
       margin-top: 15px;
       margin-right: 0 !important;
+      width: 100% !important;
     }
   }
 
@@ -88,6 +125,14 @@
 
     .button__link {
       margin-bottom: 10px;
+    }
+    .gift_block__link {
+      width: 200px !important;
+      height: 40px !important;
+
+      a {
+        font-size: 14px !important;
+      }
     }
   }
 
@@ -134,6 +179,9 @@
       width: 100% !important;
       padding-bottom: 15px;
     }
+    .mono_bouquets__title {
+      margin-bottom: 15px !important;
+    }
     .mono_bouquets__div {
       width: 100% !important;
     }
@@ -177,6 +225,41 @@
 }
 
 @media (max-width: 539px) and (min-width: 450px) {
+
+  h1 {
+    font-size: 38px;
+    line-height: 58px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  .text-2 {
+    font-size: 14px;
+  }
+  .text-3 {
+    font-size: 15px;
+  }
+
+  .text-4 {
+    font-size: 12px;
+  }
+
+  .text-big {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .catalog_block__link a h5 {
+    width: 155px !important;
+    height: 55px !important;
+    font-size: 11px;
+  }
+
   .header {
     height: inherit;
     margin-bottom: 15px;
@@ -244,9 +327,9 @@
     .photo_blocks__img {
       margin-top: 15px;
       margin-right: 0 !important;
+      width: 100% !important;
     }
   }
-
 
   .gift {
     flex-direction: column-reverse;
@@ -262,6 +345,15 @@
 
     .button__link {
       margin-bottom: 10px;
+    }
+
+    .gift_block__link {
+      width: 200px !important;
+      height: 40px !important;
+
+      a {
+        font-size: 14px !important;
+      }
     }
   }
 
@@ -303,6 +395,10 @@
   .mono_bouquets {
     flex-direction: column-reverse;
 
+    .mono_bouquets__title {
+      margin-bottom: 15px !important;
+    }
+
     .mono_bouquets__img {
       width: 100% !important;
       padding-bottom: 15px;
@@ -322,7 +418,6 @@
     margin-left: 20px;
     margin-top: 5px;
   }
-
 
   .sales {
 
@@ -347,6 +442,45 @@
 }
 
 @media (max-width: 699px) and (min-width: 540px) {
+
+  h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 39px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 14px;
+    line-height: 9px;
+  }
+
+  .text-1 {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .text-2 {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .text-4 {
+    font-size: 12px;
+  }
+
+  .catalog_block__link a h5 {
+    width: 155px !important;
+    height: 55px !important;
+    font-size: 11px;
+  }
+
   .header {
     height: inherit;
     margin-bottom: 15px;
@@ -417,11 +551,33 @@
     .photo_blocks__img {
       margin-top: 15px;
       margin-right: 0 !important;
+      width: 100% !important;
+    }
+  }
+
+  .gift__title {
+    margin-bottom: 15px !important;
+  }
+
+  .gift_block__link {
+    width: 200px !important;
+    height: 40px !important;
+
+    a {
+      font-size: 14px !important;
     }
   }
 
   .mono_bouquets {
     flex-direction: column-reverse;
+
+    .mono_bouquets__title {
+      margin-bottom: 15px !important;
+    }
+
+    .mono_bouquets__inform {
+      margin: 20px 0 30px 0 !important;
+    }
 
     .mono_bouquets__img {
       width: 100% !important;
@@ -507,6 +663,33 @@
 }
 
 @media (max-width: 849px) and (min-width: 700px) {
+  h1 {
+    font-size: 50px;
+    line-height: 75px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .text-2 {
+    font-size: 14px;
+  }
+
+  .text-4 {
+    font-size: 17px;
+  }
+
+  .catalog_block__link a h5 {
+    width: 155px !important;
+    height: 55px !important;
+    font-size: 11px;
+  }
+
   .order__row {
     flex-direction: column;
 
@@ -554,7 +737,6 @@
     flex-direction: column-reverse;
     .gift__right {
       width: 100% !important;
-      padding-top: 15px !important;
     }
   }
 
@@ -745,7 +927,7 @@
   }
 
   .gift__right {
-    padding: 0 0 10px 30px !important;
+    padding: 50px 0 50px 50px !important;
   }
 
   .our_blog__img {
@@ -855,7 +1037,6 @@
 }
 
 @media (max-width: 1799px) and (min-width: 1400px) {
-
   .contact__img_block {
     display: none !important;
   }
@@ -882,6 +1063,10 @@
       margin-top: 15px;
       margin-right: 0 !important;
     }
+  }
+
+  .our_blog__img {
+    width: 150px;
   }
 
   .contact__work {

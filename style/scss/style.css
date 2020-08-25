@@ -13,56 +13,6 @@ body {
   }
 }
 @media (max-width: 991px) {
-  h1 {
-    font-size: 32px;
-    line-height: 51px;
-  }
-
-  h3 {
-    font-size: 19px;
-    line-height: 30px;
-  }
-
-  h4 {
-    font-size: 14px;
-    line-height: 23px;
-  }
-
-  h5 {
-    font-size: 11px;
-    line-height: 17px;
-  }
-
-  .text-1 {
-    font-size: 13px;
-    line-height: 13px;
-  }
-
-  .text-2 {
-    font-size: 11px;
-    line-height: 17px;
-  }
-
-  .text-3 {
-    font-size: 10px;
-    line-height: 16px;
-  }
-
-  .text-4 {
-    font-size: 11px;
-    line-height: 18px;
-  }
-
-  h6 {
-    font-size: 8px;
-    line-height: 13px;
-  }
-
-  .text-big {
-    font-size: 13px;
-    line-height: 21px;
-  }
-
   .button__link a {
     padding: 7px 17px !important;
     font-size: 11px !important;
@@ -100,11 +50,6 @@ body {
   .our {
     margin-top: 55px !important;
     padding-bottom: 55px !important;
-  }
-
-  .catalog_block__link a {
-    width: 175px !important;
-    height: 32px !important;
   }
 
   .contact__work div {
