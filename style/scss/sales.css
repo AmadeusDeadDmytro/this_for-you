@@ -65,6 +65,7 @@
 }
 .sales__div .sales_card .sales_card__block .sales_card__price {
   color: #A91D20;
+  font-weight: bold;
 }
 .sales__div .sales_card .sales_card__block .sales_card__text {
   display: flex;
