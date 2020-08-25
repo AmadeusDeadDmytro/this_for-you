@@ -15,6 +15,9 @@
       display: block;
       height: 100%;
     }
+  .our_blog {
+    padding: 0;
+
     .our_blog__mob-img {
       min-width: 390px;
     }
@@ -29,13 +32,13 @@
         justify-content: center;
         align-items: flex-end;
 
-          h4 {
-            position: absolute;
-            writing-mode: vertical-lr;
-            transform: rotateZ(180deg);
-            bottom: 43px;
-            color: $white;
-          }
+        h4 {
+          position: absolute;
+          writing-mode: vertical-lr;
+          transform: rotateZ(180deg);
+          bottom: 43px;
+          color: $white;
+        }
       }
     }
 
@@ -79,5 +82,7 @@
         }
       }
     }
+  }
+
 }
 

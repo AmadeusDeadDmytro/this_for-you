@@ -12,57 +12,60 @@
   display: block;
   height: 100%;
 }
-.our .our_blog__mob-img {
+.our .our_blog {
+  padding: 0;
+}
+.our .our_blog .our_blog__mob-img {
   min-width: 390px;
 }
-.our .our_blog__img {
+.our .our_blog .our_blog__img {
   display: flex;
   justify-content: flex-end;
 }
-.our .our_blog__img .our_blog__img-block {
+.our .our_blog .our_blog__img .our_blog__img-block {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-.our .our_blog__img .our_blog__img-block h4 {
+.our .our_blog .our_blog__img .our_blog__img-block h4 {
   position: absolute;
   writing-mode: vertical-lr;
   transform: rotateZ(180deg);
   bottom: 43px;
   color: white;
 }
-.our .our_blog__row {
+.our .our_blog .our_blog__row {
   display: flex;
   justify-content: space-between;
 }
-.our .our_blog__div {
+.our .our_blog .our_blog__div {
   display: flex;
   flex: 1;
 }
-.our .our_blog__div .our_blog__container {
+.our .our_blog .our_blog__div .our_blog__container {
   padding: 110px 150px 110px 150px;
 }
-.our .our_blog__div .our_blog__container .our_blog__text {
+.our .our_blog .our_blog__div .our_blog__container .our_blog__text {
   margin-top: 30px;
   color: #999999;
 }
-.our .our_blog__div .our_blog__container .our_blog__link {
+.our .our_blog .our_blog__div .our_blog__container .our_blog__link {
   margin-top: 60px;
 }
-.our .our_blog__div .our_blog__container .our_blog__link a {
+.our .our_blog .our_blog__div .our_blog__container .our_blog__link a {
   text-decoration: none;
 }
-.our .our_blog__div .our_blog__container .our_blog__link a h6 {
+.our .our_blog .our_blog__div .our_blog__container .our_blog__link a h6 {
   text-transform: uppercase;
   color: #A91D20;
   border-bottom: 1px solid #A91D20;
   width: fit-content;
 }
-.our .our_blog__div .our_blog__container .our_blog__title {
+.our .our_blog .our_blog__div .our_blog__container .our_blog__title {
   margin-bottom: 40px;
 }
-.our .our_blog__div .our_blog__container .our_blog__title h4 {
+.our .our_blog .our_blog__div .our_blog__container .our_blog__title h4 {
   color: #234612;
 }
 

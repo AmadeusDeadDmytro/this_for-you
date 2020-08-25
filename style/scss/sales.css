@@ -17,6 +17,9 @@
   position: absolute;
 }
 
+.sales {
+  padding: 0;
+}
 .sales nav {
   display: flex;
   justify-content: center;
