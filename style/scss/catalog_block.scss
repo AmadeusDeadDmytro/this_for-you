@@ -11,6 +11,7 @@
 
         .catalog_block__title {
             text-align: center;
+
             h1 {
                 margin: 0;
             }
@@ -19,10 +20,7 @@
         .catalog_block__text {
             text-align: center;
             color: $white;
-
-            p {
-                margin: 0;
-            }
+            margin-top: 40px;
         }
 
         .catalog_block__link {
@@ -31,21 +29,22 @@
             margin-top: 50px;
 
             a {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                h5 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
 
-                width: 349px;
-                height: 65px;
-                background: #A91D20;
-                border: 1px solid #A91D20;
-                text-transform: uppercase;
+                    width: 349px;
+                    height: 65px;
+                    background: #A91D20;
+                    border: 1px solid #A91D20;
+                    text-transform: uppercase;
 
-                font-size: 21px;
-                line-height: 34px;
-                color: white;
-                box-sizing: border-box;
+                    color: white;
+                    box-sizing: border-box;
+                }
             }
+
         }
     }
 }

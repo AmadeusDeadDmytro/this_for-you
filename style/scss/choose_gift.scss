@@ -15,9 +15,28 @@
       .gift__div {
         .gift__title {
           margin-bottom: 60px;
+        }
 
-          h3 {
-            color: $primary-color;
+        .gift_block__link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          width: 355.21px;
+          height: 59px;
+          border: 1px solid #A91D20;
+          box-sizing: border-box;
+
+          a {
+            font-family: History Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 34px;
+            letter-spacing: 0.1em;
+            padding: 0;
+
+            color: $secondary-color;
           }
         }
 
