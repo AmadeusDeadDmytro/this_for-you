@@ -59,10 +59,14 @@
   }
 
   .photo_blocks__div {
-    height: max-content !important;
+    height: auto !important;
     flex-flow: wrap !important;
     justify-content: space-between;
     display: block;
+
+    img {
+      object-fit: none !important;
+    }
 
     .photo_blocks__img {
       margin-top: 15px;
@@ -232,6 +236,10 @@
     height: auto !important;
     flex-flow: wrap !important;
     justify-content: space-between;
+
+    img {
+      object-fit: none !important;
+    }
 
     .photo_blocks__img {
       margin-top: 15px;
