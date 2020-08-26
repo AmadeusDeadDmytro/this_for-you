@@ -995,6 +995,11 @@
   }
 }
 @media (max-width: 1799px) and (min-width: 1400px) {
+  h3 {
+    font-size: 33px;
+    line-height: 54px;
+  }
+
   .contact__img_block {
     display: none !important;
   }
