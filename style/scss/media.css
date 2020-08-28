@@ -917,8 +917,40 @@
   }
 
   h3 {
-    font-size: 33px;
-    line-height: 54px;
+    font-size: 31px;
+    line-height: 50px;
+  }
+
+  h4 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  h5 {
+    font-size: 19px;
+    line-height: 31px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  .text-1 {
+    font-size: 14px;
+  }
+
+  .text-2 {
+    font-size: 16px;
+  }
+
+  .text-4 {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .text-big {
+    font-size: 24px;
+    line-height: 38px;
   }
 
   .contact__img_block {
@@ -927,10 +959,6 @@
 
   .our {
     padding: 0;
-  }
-
-  .gift__right {
-    padding: 110px 45px !important;
   }
 
   .our_blog__container {
@@ -948,16 +976,8 @@
     margin-right: 0 !important;
   }
 
-  .our_blog__img {
-    width: 150px;
-  }
-
   .contact__work {
     padding-left: 15px;
-  }
-
-  .order__div {
-    margin-left: 15px;
   }
 
   .catalog_block__link a h5 {

@@ -4,13 +4,20 @@ body {
     margin: 0;
     padding: 0;
 }
+.container-my {
+    margin: 0 auto;
+}
+
+.container-my-lg {
+    margin: 0 auto;
+}
 
 @media (min-width: 1605px) {
-    .container {
+    .container-my {
         max-width: 1605px;
     }
 
-    .container-lg {
+    .container-my-lg {
         max-width: 1860px;
     }
 }

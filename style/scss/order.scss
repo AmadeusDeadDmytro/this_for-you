@@ -2,8 +2,7 @@
 @import './dimentions';
 
 .order {
-  margin-top: $top-default;
-  padding: 0;
+  padding-top:  $top-default;
 
   img {
     overflow: hidden;
@@ -17,13 +16,13 @@
 
   .order__row {
     display: flex;
-    justify-content: space-between;
 
     .order__div {
       display: flex;
       flex-direction: column;
       justify-content: center;
       padding: 0;
+      margin-left: 150px;
 
       .order__title {
         margin-bottom: 60px;

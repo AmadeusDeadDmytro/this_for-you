@@ -1,6 +1,5 @@
 .order {
-  margin-top: 110px;
-  padding: 0;
+  padding-top: 110px;
 }
 .order img {
   overflow: hidden;
@@ -13,13 +12,13 @@
 }
 .order .order__row {
   display: flex;
-  justify-content: space-between;
 }
 .order .order__row .order__div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
+  margin-left: 150px;
 }
 .order .order__row .order__div .order__title {
   margin-bottom: 60px;
