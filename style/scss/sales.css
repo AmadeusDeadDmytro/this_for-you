@@ -73,6 +73,7 @@
   display: flex;
   justify-content: right;
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 .sales__div .sales_card .sales_card__block .sales_card__text .sales_card__size {
   display: flex;
