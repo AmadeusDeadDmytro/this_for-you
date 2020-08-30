@@ -71,15 +71,15 @@ body {
   }
 
   .photo_blocks {
-    margin-top: 55px !important;
+    padding-top: 55px !important;
   }
 
   .order {
-    margin-top: 55px !important;
+    padding-top: 55px !important;
   }
 
   .gift__row {
-    margin-top: 55px !important;
+    padding-top: 55px !important;
   }
 
   .flowers_div .block__title {
@@ -95,7 +95,7 @@ body {
   }
 
   .our {
-    margin-top: 55px !important;
+    padding-top: 55px !important;
     padding-bottom: 55px !important;
   }
 
@@ -117,11 +117,11 @@ body {
   }
 
   .contact__row {
-    margin-bottom: 40px !important;
+    padding-bottom: 40px !important;
   }
 
   .footer {
-    margin-top: 55px !important;
+    padding-top: 55px !important;
   }
 }
 h1 {

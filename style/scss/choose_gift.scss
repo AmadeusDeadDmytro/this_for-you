@@ -2,9 +2,8 @@
 @import './dimentions';
 
 .gift {
-  margin-top: $top-default;
   display: flex;
-  padding: 0;
+  padding: $top-default 0 0 0;
 
   .gift__right {
       padding: $top-default 135px;

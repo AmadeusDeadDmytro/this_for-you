@@ -42,9 +42,9 @@ $(".slider").slick({
         {
             breakpoint: 576,
             settings: {
-                slidesToShow: 1.2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
-                arrows: true,
+                arrows: false,
                 infinite: true,
             }
         }

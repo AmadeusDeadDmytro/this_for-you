@@ -1,13 +1,12 @@
 .footer {
   background: #151212;
-  margin-top: 110px;
+  padding-top: 110px;
 }
 .footer .footer__div {
   padding: 0;
 }
 .footer .footer__div .footer__row {
   height: 652px;
-  padding-top: 128px;
   display: flex;
   justify-content: space-between;
   width: 65%;
