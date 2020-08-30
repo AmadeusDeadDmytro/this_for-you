@@ -13,6 +13,7 @@
   width: 65%;
 }
 .footer .footer__div .footer__row .footer__title h5 {
+  line-height: 59px;
   color: white;
   text-transform: uppercase;
 }

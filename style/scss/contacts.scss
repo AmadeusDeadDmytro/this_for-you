@@ -16,13 +16,14 @@
 
   .contact__row {
     display: flex;
+    justify-content: space-around;
     margin-bottom: 80px;
+    margin-right: 50px;
 
     .contact__div {
       display: flex;
       justify-content: space-around;
       flex-direction: column;
-      padding: 0  0 0 180px;
 
       .contact__content {
         div:first-child {

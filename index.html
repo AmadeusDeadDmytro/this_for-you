@@ -6,9 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./fonts/stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
 
     <link rel="stylesheet" href="./style/scss/header.css">
     <link rel="stylesheet" href="./style/scss/catalog_block.css">
@@ -37,29 +39,29 @@
             </div>
 
             <nav class="mob_hidden">
-                <ul>
-                    <li>
+                <ul class="header__ul">
+                    <li class="header__li">
                         <a href="#">
                         <h6>
                             Каталог
                         </h6>
                         </a>
                     </li>
-                    <li>
+                    <li class="header__li">
                         <a href="#">
                             <h6>
                                 Про нас
                             </h6>
                         </a>
                     </li>
-                    <li>
+                    <li class="header__li">
                         <a href="#">
                             <h6>
                                 Блог
                             </h6>
                         </a>
                     </li>
-                    <li>
+                    <li class="header__li">
                         <a href="#">
                             <h6>
                                 Контакти
@@ -81,10 +83,43 @@
                 <a href="#">
                 <img src="./img/shopping-bag.svg" alt="basket">
               </a>
-                <div class="sidebarIconToggle">
-                    <div class="spinner diagonal part-1"></div>
-                    <div class="spinner horizontal"></div>
-                    <div class="spinner diagonal part-2"></div>
+                <div class="menu-container">
+                    <div class="menu-wrapper">
+                        <div class="hamburger-menu"><span></span><span></span><span></span></div>
+                    </div>
+                    <nav>
+                        <ul class="menu-list accordion header__ul">
+                            <li id="nav1" class="toggle accordion-toggle header__li">
+                                <span class="icon-plus"></span>
+                                <a href="#"><h6>Каталог</h6></a>
+                            </li>
+
+                            <li id="nav2" class="toggle accordion-toggle header__li">
+                                <span class="icon-plus"></span>
+                                <a href="#"><h6>Про нас</h6></a>
+                            </li>
+
+                            <li id="nav3" class="toggle accordion-toggle header__li">
+                                <span class="icon-plus"></span>
+                                <a href="#"><h6>Блог</h6></a>
+                            </li>
+
+                            <li id="nav4" class="toggle accordion-toggle header__li">
+                                <span class="icon-plus"></span>
+                                <a href="#"><h6>Контакти</h6></a>
+                            </li>
+                            <li id="nav5" class="toggle accordion-toggle header__li">
+                                <div class="header__request_phone">
+
+                                <a href="#">
+                                    <h6>
+                                        Замовити дзвінок
+                                    </h6>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    </nav>
                 </div>
             </div>
     </div>
@@ -233,7 +268,7 @@
                 <div class="mono_bouquets__title">
                     <h3>Монобукети — бестселри<br>здатні передати ваші почуття</h3>
                 </div>
-                <div>
+                <div class="mono_bouquets__text">
                     <p class="text-4">
                         В 2020 дуже популярні монобукети або букети з польових квітів. <br>Завдяки своїй простоті і легкості вони виглядають дуже стильно.
                     </p>
@@ -308,7 +343,7 @@
                 <div class="order__title">
                     <h3>Авторський букет — це щось <br>чарівне та неповторне</h3>
                 </div>
-                <div>
+                <div class="order-text">
                     <p class="text-4">
                         Вибір справжніх цінителів, які не люблять шаблони і рамки. <br>Даруйте близьким не просто квіти, даруйте їм мистецтво!
                     </p>
@@ -661,7 +696,7 @@
 
                     <div class="our_blog__container">
                         <div class="our_blog__title">
-                            <h4>ДОГЛЯДУ ЗА букетами.<br>ДОВШЕ ЗБЕРЕГТИ КВІТИ?</h4>
+                            <h4>ДОГЛЯДУ ЗА букетами. <br>ДОВШЕ ЗБЕРЕГТИ КВІТИ?</h4>
                         </div>
                         <p class="text-3">
                             Подаровані квіти - це не тільки радість і подяка<br>тому, хто зробив чудовий подарунок.
@@ -681,16 +716,16 @@
                 <div class="our_blog__img">
                     <div class="our_blog__img-block">
                         <img src="./img/our_block/2.png" alt="">
-                        <h4>Декоративні квіти</h4>
+                        <h4 class="our_blog__h4">Декоративні квіти</h4>
 
                     </div>
                     <div class="our_blog__img-block">
                         <img src="./img/our_block/3.png" alt="">
-                        <h4>Як обрати подарунок</h4>
+                        <h4 class="our_blog__h4">Як обрати подарунок</h4>
                     </div>
                     <div class="our_blog__img-block">
                         <img src="./img/our_block/4.png" alt="">
-                        <h4>Квіткова композиція</h4>
+                        <h4 class="our_blog__h4">Квіткова композиція</h4>
                     </div>
 
                 </div>

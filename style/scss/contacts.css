@@ -12,13 +12,14 @@
 }
 .contact .contact__row {
   display: flex;
+  justify-content: space-around;
   margin-bottom: 80px;
+  margin-right: 50px;
 }
 .contact .contact__row .contact__div {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 0  0 0 180px;
 }
 .contact .contact__row .contact__div .contact__content div:first-child {
   margin-bottom: 10px;

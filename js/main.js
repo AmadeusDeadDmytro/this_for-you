@@ -18,19 +18,17 @@ $(".slider").slick({
         {
             breakpoint: 1200,
             settings: {
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                arrows: false,
-
-            }
-        },
-        {
-            breakpoint: 993,
-            settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 arrows: false,
-
+            }
+        },
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                arrows: false,
             }
         },
         {
@@ -39,17 +37,42 @@ $(".slider").slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 arrows: false,
-
             }
         },
         {
             breakpoint: 576,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 1.2,
                 slidesToScroll: 1,
-                arrows: false,
+                arrows: true,
                 infinite: true,
             }
         }
     ]
 });
+
+
+$(function() {
+    function slideMenu() {
+        var menuList =  $(".menu-container .menu-list");
+        var activeState = menuList.hasClass("active");
+
+        menuList.animate({left: activeState ? "0%" : "-100%"}, 400);
+    }
+    $(".menu-wrapper").click(function(event) {
+        event.stopPropagation();
+        $(".hamburger-menu").toggleClass("open");
+        $(".menu-container .menu-list").toggleClass("active");
+        slideMenu();
+
+        $("body").toggleClass("overflow-hidden");
+    });
+
+    $(".menu-list").find(".accordion-toggle").click(function() {
+        $(this).next().toggleClass("open").slideToggle("fast");
+        $(this).toggleClass("active-tab").find(".menu-link").toggleClass("active");
+
+        $(".menu-list .accordion-content").not($(this).next()).slideUp("fast").removeClass("open");
+        $(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
+    });
+}); // jQuery load
