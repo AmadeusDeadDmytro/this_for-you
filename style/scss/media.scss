@@ -174,6 +174,10 @@
     top: 30% !important;
   }
 
+  .photo_blocks {
+    margin-top: 25px !important;
+  }
+
   .photo_blocks__div {
     height: auto !important;
     flex-flow: wrap !important;
@@ -219,9 +223,7 @@
     .gift__title {
       text-align: center;
     }
-    .gift__text {
-      text-align: center;
-    }
+
 
     .gift__right {
       padding: 20px 0 0 0 !important;
@@ -243,7 +245,8 @@
         display: none;
       }
       .gift__text {
-        margin: 20px 0 25px 0 !important;
+        text-align: center;
+        margin: 20px 5px 25px 5px !important;
       }
     }
   }
@@ -264,7 +267,7 @@
         }
 
         .our_blog__container {
-          padding: 0 40px !important;
+          padding: 0 15px !important;
         }
       }
       .our_blog__img {
@@ -608,7 +611,7 @@
       }
 
       .our_blog__container {
-        padding: 0 40px !important;
+        padding: 0 !important;
       }
     }
     .our_blog__img {
@@ -792,7 +795,7 @@
       }
 
       .our_blog__container {
-        padding: 0 40px !important;
+        padding: 0 !important;
       }
     }
     .our_blog__img {
