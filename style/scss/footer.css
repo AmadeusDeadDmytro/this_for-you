@@ -1,6 +1,7 @@
 .footer {
   background: #151212;
-  padding-top: 110px;
+  margin-top: 110px;
+  padding-top: 128px;
 }
 .footer .footer__div {
   padding: 0;

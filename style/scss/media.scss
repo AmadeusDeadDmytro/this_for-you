@@ -5,11 +5,12 @@
     line-height: 41px;
   }
   h3 {
-    font-size: 18px;
-    line-height: 37px;
+    font-size: 14px;
+    line-height: 24px;
   }
   h4 {
-    font-size: 17px;
+    font-size: 15px !important;
+    line-height: 30px;
   }
 
   h5 {
@@ -19,10 +20,12 @@
 
   h6 {
     font-size: 14px;
+    line-height: 26px;
   }
 
   .text-1 {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 17px;
   }
   .text-2 {
     font-size: 14px;
@@ -30,11 +33,12 @@
 
   .text-3 {
     font-size: 15px;
+    line-height: 24px;
   }
 
   .text-4 {
-    font-size: 17px;
-    line-height: 31px;
+    font-size: 13px;
+    line-height: 22px;
   }
   .text-big {
     font-size: 15px;
@@ -61,17 +65,45 @@
 
   .menu-container {
     display: block !important;
+    margin-left: 10px !important;
   }
+
   .header {
     height: inherit;
     padding: 15px 20px;
+
+    .img__basket {
+      height: 20px;
+    }
+
+    img {
+      overflow: hidden;
+      box-sizing: border-box;
+      object-fit: cover;
+      position: relative;
+      display: block;
+      height: 100%;
+    }
+
+    .hamburger-menu {
+      width: 20px !important;
+      height: 10px !important;
+      margin: 8px !important;
+    }
+
+    span:nth-child(2) {
+      top: 5px !important;
+    }
+    span:nth-child(3) {
+      top: 10px !important;
+    }
 
     .header__request_phone {
       margin-right: 35px !important;
     }
 
     .logo {
-      height: 32px;
+      height: 26px;
       margin: 0;
 
       img {
@@ -85,6 +117,10 @@
     }
   }
 
+  .block__title {
+    padding: 19px 0 21px 0 !important;
+  }
+
   .catalog {
     height: 80vh;
 
@@ -93,27 +129,38 @@
       height: 38px !important;
     }
   }
+  .sales nav {
+    padding-bottom: 20px;
 
-  .sales nav ul {
-    padding-left: 15px;
-    li {
-      padding-right: 20px;
+    ul {
+      padding-left: 0;
+
+      li {
+        padding-right: 0px;
+        text-align: center;
+      }
     }
+  }
+
+  .our {
+    margin-top: 25px !important;
+    padding-bottom: 25px !important;
   }
 
   .order__row {
     flex-direction: column;
   }
   .order__div {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-left: 0 !important;
-    margin-top: 50px;
+    margin-top: 25px;
+    padding: 14px !important;
 
     .order__title br {
       display: none;
     }
     .order__title {
-      margin-bottom: 30px !important;
+      margin-bottom: 15px !important;
     }
     .order__inform {
       margin: 20px 0 30px 0 !important;
@@ -125,10 +172,6 @@
 
   .slider-button {
     top: 30% !important;
-  }
-
-  .sales_card {
-    padding: 0 7px 0 0 !important;
   }
 
   .photo_blocks__div {
@@ -156,7 +199,7 @@
     }
     .mono_bouquets__div {
       width: 100%;
-      padding-bottom: 15px;
+      padding: 15px;
     }
     .mono_bouquets__inform {
       margin: 20px 0 30px 0 !important;
@@ -168,6 +211,7 @@
 
   .gift {
     flex-direction: column-reverse;
+    padding-top: 15px !important;
   }
   .gift__row {
     margin-top: 0 !important;
@@ -198,6 +242,9 @@
 
       .gift__text br {
         display: none;
+      }
+      .gift__text {
+        margin: 20px 0 25px 0 !important;
       }
     }
   }
@@ -285,13 +332,15 @@
       flex-direction: column;
       align-items: center;
     }
+    .block__title {
+      padding: 20px 0 20px 0 !important;
+    }
     .contact__work {
       width: 100%;
       text-align: center;
       margin-bottom: 15px;
     }
   }
-
 
   .footer {
     .footer__row {
@@ -451,10 +500,6 @@
     }
   }
 
-  .sales_card {
-    padding: 0 7px 0 0 !important;
-  }
-
   .our {
     padding: 0;
 
@@ -536,15 +581,14 @@
       width: 100% !important;
 
       .gift_block__link {
-        width: 281.21px !important;
-        height: 55px !important;
-        margin: 0 auto 30px auto;
+        width: 221px !important;
+        height: 50px !important;
+        margin: 0 auto 20px auto;
         text-align: center;
 
-
         a {
-          font-size: 15px !important;
-          line-height: 25px !important;
+          font-size: 14px !important;
+          line-height: 11px !important;
         }
       }
 
@@ -592,7 +636,6 @@
 
   .contact__img {
     height: 300px;
-    margin-bottom: 20px;
   }
 
   .contact__row {
@@ -744,8 +787,39 @@
     }
   }
 
-  .sales_card {
-    padding: 0 7px 0 0 !important;
+  .our_blog__row {
+    flex-direction: column;
+
+    .our_blog__div {
+      flex-direction: column;
+
+      .our_blog__mob-img {
+        padding-bottom: 20px;
+        height: 400px;
+        min-width: 100%;
+      }
+
+      .our_blog__container {
+        padding: 0 40px !important;
+      }
+    }
+    .our_blog__img {
+      flex-direction: column;
+      margin-top: 30px;
+
+      .our_blog__img-block {
+        height: 77px;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,.25);
+        align-items: center !important;
+
+        h4 {
+          writing-mode: lr !important;
+          transform: inherit !important;
+          bottom: inherit !important;
+          left: 40px;
+        }
+      }
+    }
   }
 
   .our {
@@ -807,7 +881,6 @@
     }
   }
 
-
   .our_blog__container {
     padding: 90px 100px 90px 100px !important;
   }
@@ -854,44 +927,8 @@
     }
   }
 
-  .our_blog__row {
-    flex-direction: column;
-
-    .our_blog__div {
-      flex-direction: column;
-
-      .our_blog__mob-img {
-        padding-bottom: 20px;
-        height: 150px;
-        min-width: 100%;
-      }
-
-      .our_blog__container {
-        padding: 0 40px !important;
-      }
-    }
-    .our_blog__img {
-      flex-direction: column;
-      margin-top: 30px;
-
-      .our_blog__img-block {
-        height: 77px;
-        box-shadow: 0 4px 10px 0 rgba(0,0,0,.25);
-        align-items: center !important;
-
-        h4 {
-          writing-mode: lr !important;
-          transform: inherit !important;
-          bottom: inherit !important;
-          left: 40px;
-        }
-      }
-    }
-  }
-
   .contact__img {
     height: 300px;
-    margin-bottom: 20px;
   }
 
   .contact__row {
@@ -1002,10 +1039,6 @@
     .header__request_phone {
       margin-right: 35px !important;
     }
-  }
-
-  .sales_card {
-    padding: 0 7px 0 0 !important;
   }
 
   .our {

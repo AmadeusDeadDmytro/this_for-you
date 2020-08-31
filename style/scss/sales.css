@@ -41,8 +41,9 @@
   padding: 0;
 }
 
-.sales__div {
-  display: flex;
+.sales__div .slick-track  {
+  display: flex !important;
+  justify-content: center !important;
 }
 .sales__div .sales_card:last-child {
   padding: 0;
