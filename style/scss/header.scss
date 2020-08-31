@@ -20,9 +20,6 @@
         }
     }
 
-  .menu-container__nav {
-
-  }
   .menu-container {
     display: none;
     margin-left: 20px;
@@ -149,38 +146,37 @@
     }
   }
 
-    .header__ul {
-        display: flex;
-        align-items: center;
-        list-style-type: none;
+  .header__ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .header__li {
+      margin-left: 40px;
+
+      .header__li:first-child {
         margin: 0;
-        padding: 0;
+      }
 
-      .header__li {
-            margin-left: 40px;
-
-        .header__li:first-child {
-               margin: 0;
-            }
-
-            a {
-              color: $dark;
-                h6 {
-                    text-transform: uppercase;
-                }
-            }
+      a {
+        color: $dark;
+        h6 {
+          text-transform: uppercase;
         }
+      }
     }
+  }
 
-    .header__request_phone {
-        a {
-            h6 {
-                color: $secondary-color;
-                border-bottom: 1px solid $secondary-color;
-                text-transform: uppercase;
-                width: fit-content;
-            }
-        }
+  .header__request_phone {
+    a {
+      h6 {
+        color: $secondary-color;
+        border-bottom: 1px solid $secondary-color;
+        text-transform: uppercase;
+        width: fit-content;
+      }
     }
-
+  }
 }
