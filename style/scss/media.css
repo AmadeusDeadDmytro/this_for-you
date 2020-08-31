@@ -152,6 +152,10 @@
     flex-direction: column;
   }
 
+  .order__inform br {
+    display: none;
+  }
+
   .order__div {
     margin-bottom: 10px;
     margin-left: 0 !important;
@@ -222,6 +226,7 @@
   }
   .gift__row .gift__title {
     text-align: center;
+    margin-bottom: 15px !important;
   }
   .gift__row .gift__right {
     padding: 20px 0 0 0 !important;
@@ -547,8 +552,9 @@
   }
   .gift__row .gift__title {
     text-align: center;
+    margin-bottom: 15px !important;
   }
-  .gift__row .gift__text {
+  .gift__row .gorder__informift__text {
     text-align: center;
   }
   .gift__row .gift__right {
@@ -564,6 +570,10 @@
   .gift__row .gift__right .gift_block__link a {
     font-size: 14px !important;
     line-height: 11px !important;
+  }
+  .gift__row .gift__right .gift__text {
+    text-align: center;
+    padding-left: 5px;
   }
   .gift__row .gift__right .gift__text br {
     display: none;
