@@ -937,11 +937,15 @@
   }
 
   .text-1 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .text-2 {
     font-size: 14px;
+  }
+
+  .text-3 {
+    font-size: 13px;
   }
 
   .text-4 {
@@ -982,8 +986,17 @@
   .our {
     padding: 0;
   }
+  .our .our_blog__container {
+    padding: 20px 30px !important;
+  }
+  .our .our_blog__link {
+    margin-top: 30px !important;
+  }
+  .our .our_blog__title {
+    margin-bottom: 20px !important;
+  }
   .our .our_blog__img {
-    width: 12%;
+    width: 20%;
   }
   .our .our_blog__h4 {
     font-size: 19px;
