@@ -3,6 +3,8 @@
 }
 .contact .contact__img {
   overflow-x: auto;
+  display: flex;
+  justify-content: center;
 }
 .contact .contact__row {
   display: flex;
