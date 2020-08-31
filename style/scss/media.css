@@ -74,6 +74,10 @@
   .header {
     height: inherit;
     padding: 15px 20px;
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
   }
   .header .img__basket {
     height: 20px;
@@ -111,6 +115,11 @@
     position: relative;
     display: block;
     height: 100%;
+  }
+
+  .hamburger-menu.open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-135deg);
+    top: 17px !important;
   }
 
   .block__title {
@@ -228,10 +237,6 @@
   .gift__row {
     margin-top: 0 !important;
   }
-  .gift__row .gift__img {
-    padding-right: 15%;
-    background: #d8d6d8;
-  }
   .gift__row .gift__title {
     text-align: center;
     margin-bottom: 15px !important;
@@ -342,7 +347,7 @@
     width: 100% !important;
     flex-direction: column;
     height: auto !important;
-    margin-left: 20px;
+    padding-left: 20px;
   }
   .footer .footer__row div {
     margin-bottom: 20px;
@@ -566,10 +571,6 @@
   }
   .gift__row .gorder__informift__text {
     text-align: center;
-  }
-  .gift__row .gift__img {
-    padding-right: 15%;
-    background: #d8d6d8;
   }
   .gift__row .gift__right {
     padding: 20px 0 0 0 !important;
@@ -897,10 +898,6 @@
   }
   .gift__row .gift__right .gift__text br {
     display: none;
-  }
-  .gift__row .gift__img {
-    padding-right: 15%;
-    background: #d8d6d8;
   }
 
   .contact__row {

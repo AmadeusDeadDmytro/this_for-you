@@ -73,6 +73,10 @@
   .header {
     height: inherit;
     padding: 15px 20px;
+    position: fixed;
+    z-index: 999;
+    background: white;
+    width: 100%;
 
     .img__basket {
       height: 20px;
@@ -118,7 +122,10 @@
       }
     }
   }
-
+  .hamburger-menu.open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-135deg);
+    top: 17px !important;
+  }
   .block__title {
     padding: 19px 0 21px 0 !important;
   }
@@ -234,11 +241,6 @@
   }
   .gift__row {
     margin-top: 0 !important;
-
-    .gift__img {
-      padding-right: 15%;
-      background: $cardImg;
-    }
 
     .gift__title {
       text-align: center;
@@ -367,7 +369,7 @@
       width: 100% !important;
       flex-direction: column;
       height: auto !important;
-      margin-left: 20px;
+      padding-left: 20px;
 
       div {
         margin-bottom: 20px;
@@ -597,11 +599,6 @@
     }
     .gorder__informift__text {
       text-align: center;
-    }
-
-    .gift__img {
-      padding-right: 15%;
-      background: $cardImg;
     }
 
     .gift__right {
@@ -953,10 +950,6 @@
       .gift__text br {
         display: none;
       }
-    }
-    .gift__img {
-      padding-right: 15%;
-      background: $cardImg;
     }
   }
 
