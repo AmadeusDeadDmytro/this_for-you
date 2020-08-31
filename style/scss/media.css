@@ -1,8 +1,4 @@
 @media (max-width: 539px) and (min-width: 200px) {
-  body {
-    background: rosybrown;
-  }
-
   h1 {
     font-size: 25px;
     line-height: 41px;
@@ -48,11 +44,25 @@
     line-height: 26px;
   }
 
+  .button__link a {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 8px 20px;
+  }
+
   .sales nav ul {
     flex-wrap: wrap;
   }
   .sales nav ul li {
     width: 50%;
+  }
+
+  .mob_hidden {
+    display: none;
+  }
+
+  .menu-container {
+    display: block !important;
   }
 
   .header {
@@ -83,12 +93,6 @@
     height: 38px !important;
   }
 
-  .button__link a {
-    font-size: 14px;
-    line-height: 23px;
-    padding: 8px 20px;
-  }
-
   .sales nav ul {
     padding-left: 15px;
   }
@@ -116,14 +120,6 @@
   }
   .order__div .order-text br {
     display: none;
-  }
-
-  .mob_hidden {
-    display: none;
-  }
-
-  .menu-container {
-    display: block !important;
   }
 
   .slider-button {
@@ -253,20 +249,30 @@
     margin-top: 30px !important;
   }
 
+  .go-catalog {
+    padding: 30px 0 30px 0 !important;
+  }
+
+  .contact__img {
+    height: 400px;
+  }
+
   .contact__row {
     margin-right: 0 !important;
     flex-wrap: wrap;
+    margin-bottom: 0 !important;
   }
   .contact__row .contact__div {
-    width: 50%;
+    width: 100%;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .contact__row .contact__work {
-    width: 50%;
+    width: 100%;
     text-align: center;
+    margin-bottom: 15px;
   }
 
   .footer .footer__row {
@@ -547,9 +553,15 @@
     left: 40px;
   }
 
+  .contact__img {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
   .contact__row {
     margin-right: 0 !important;
     flex-wrap: wrap;
+    margin-bottom: 0 !important;
   }
   .contact__row .contact__div {
     width: 50%;
@@ -823,9 +835,15 @@
     left: 40px;
   }
 
+  .contact__img {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
   .contact__row {
     margin-right: 0 !important;
     flex-wrap: wrap;
+    margin-bottom: 0 !important;
   }
   .contact__row .contact__div {
     width: 50%;

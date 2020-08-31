@@ -47,5 +47,8 @@
 .contact .contact__row .contact__work p {
   color: #151212;
 }
+.contact .contact__img {
+  margin-bottom: 20px;
+}
 
 /*# sourceMappingURL=contacts.css.map */
