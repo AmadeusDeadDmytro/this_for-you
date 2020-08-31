@@ -222,6 +222,7 @@
   }
   .gift__row .gift__title {
     text-align: center;
+    margin-bottom: 15px !important;
   }
   .gift__row .gift__right {
     padding: 20px 0 0 0 !important;
@@ -547,6 +548,7 @@
   }
   .gift__row .gift__title {
     text-align: center;
+    margin-bottom: 15px !important;
   }
   .gift__row .gift__text {
     text-align: center;
