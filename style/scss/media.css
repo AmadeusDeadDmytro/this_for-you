@@ -149,7 +149,7 @@
     padding-left: 0;
   }
   .sales nav ul li {
-    padding-right: 0px;
+    padding-right: 0;
     text-align: center;
   }
 
@@ -477,6 +477,10 @@
     display: none;
   }
 
+  .header__li {
+    margin-right: 47px;
+  }
+
   .menu-container {
     display: block !important;
   }
@@ -728,6 +732,9 @@
     position: relative;
     display: block;
     height: 100%;
+  }
+  .header .header__li {
+    margin-right: 60px;
   }
 
   .mob_hidden {

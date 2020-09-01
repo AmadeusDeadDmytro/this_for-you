@@ -65,8 +65,6 @@ $(function() {
         $(".hamburger-menu").toggleClass("open");
         $(".menu-container .menu-list").toggleClass("active");
         slideMenu();
-
-        $("body").toggleClass("overflow-hidden");
     });
 
     $(".menu-list").find(".accordion-toggle").click(function() {

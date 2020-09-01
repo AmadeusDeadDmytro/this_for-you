@@ -1,3 +1,9 @@
+.fixed-top {
+  position: fixed;
+  z-index: 990;
+  background: white;
+}
+
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -31,6 +37,7 @@
   overflow-y: auto;
   overflow-x: hidden;
   left: -100%;
+  top: 62px;
 }
 .header .menu-container .menu-list li.accordion-toggle, .header .menu-container .menu-list #menu-container .menu-list .menu-login {
   font-size: 16px;

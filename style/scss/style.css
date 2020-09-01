@@ -1,67 +1,68 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: auto !important;
 }
 
-.container-my {
+.container {
   margin: 0 auto;
 }
 
-.container-my-lg {
+.container-lg-my {
   margin: 0 auto;
 }
 
 @media (min-width: 1605px) {
-  .container-my {
+  .container {
     max-width: 1605px;
   }
 
-  .container-my-lg {
+  .container-lg-my {
     max-width: 1860px;
   }
 }
 @media (max-width: 539px) and (min-width: 200px) {
-  .container-my {
+  .container {
     max-width: 100%;
   }
 }
 @media (max-width: 767px) and (min-width: 540px) {
-  .container-my {
+  .container {
     max-width: 85%;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
-  .container-my {
+  .container {
     max-width: 85%;
   }
 }
 @media (max-width: 1199px) and (min-width: 992px) {
-  .container-my {
+  .container {
     max-width: 960px;
   }
 }
 @media (max-width: 1250px) and (min-width: 1200px) {
-  .container-my {
+  .container {
     max-width: 1170px;
   }
 }
 @media (max-width: 1299px) and (min-width: 1251px) {
-  .container-my {
+  .container {
     max-width: 1230px;
   }
 }
 @media (max-width: 1348px) and (min-width: 1300px) {
-  .container-my {
+  .container {
     max-width: 1230px;
   }
 }
 @media (max-width: 1499px) and (min-width: 1349px) {
-  .container-my {
+  .container {
     max-width: 1230px;
   }
 }
 @media (max-width: 1605px) and (min-width: 1500px) {
-  .container-my {
+  .container {
     max-width: 1400px;
   }
 }
