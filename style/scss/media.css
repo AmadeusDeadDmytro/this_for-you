@@ -62,6 +62,10 @@
     width: 50%;
   }
 
+  .slider.slider .slick-track, .regular.slider .slick-list, .sub-category.slider .slick-track, .sub-category.slider .slick-list {
+    margin: 0 0 0 -50px !important;
+  }
+
   .mob_hidden {
     display: none;
   }
@@ -163,6 +167,10 @@
   .sales nav ul li {
     padding-right: 0;
     text-align: center;
+  }
+
+  .sales_card {
+    padding: 0 0 0 15px !important;
   }
 
   .our {
