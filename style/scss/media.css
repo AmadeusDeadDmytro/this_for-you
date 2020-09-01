@@ -447,6 +447,9 @@
     height: inherit;
     padding: 15px 0;
   }
+  .header .menu-list {
+    top: 56px !important;
+  }
   .header .logo {
     height: 35px;
   }
