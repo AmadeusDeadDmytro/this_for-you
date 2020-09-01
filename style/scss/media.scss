@@ -70,6 +70,18 @@
     margin-left: 10px !important;
   }
 
+  .hamburger-menu span:nth-child(1) {
+    top: -1px !important;
+  }
+
+  .menu-list {
+    top: 56px !important;
+  }
+
+  .header__li {
+    margin-left: 0 !important;
+  }
+
   .header {
     height: inherit;
     padding: 15px 20px;
