@@ -150,6 +150,12 @@
 .header .header__ul .header__li a h6 {
   text-transform: uppercase;
 }
+.header .header__request_phone a::before {
+  content: none !important;
+}
+.header .header__request_phone a::after {
+  content: none !important;
+}
 .header .header__request_phone a h6 {
   color: #A91D20;
   border-bottom: 1px solid #A91D20;

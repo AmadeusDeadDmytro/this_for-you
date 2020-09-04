@@ -175,8 +175,13 @@
       }
     }
   }
-
   .header__request_phone {
+    a::before {
+      content: none !important;
+    }
+    a::after {
+      content: none !important;
+    }
     a {
       h6 {
         color: $secondary-color;
@@ -186,4 +191,6 @@
       }
     }
   }
+
 }
+
