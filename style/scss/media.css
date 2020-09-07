@@ -192,6 +192,9 @@
     margin-top: 25px !important;
     padding-bottom: 25px !important;
   }
+  .our .our_blog__container br {
+    display: none !important;
+  }
 
   .order__row {
     flex-direction: column;
@@ -550,6 +553,9 @@
   .our .our_blog__title h4 {
     font-size: 20px;
   }
+  .our .our_blog__container br {
+    display: none !important;
+  }
   .our .our_blog__img {
     width: 100%;
   }
@@ -852,9 +858,6 @@
   .our .our_blog__title {
     margin-bottom: 20px !important;
   }
-  .our .our_blog__title br {
-    display: none;
-  }
   .our .our_blog__title h4 {
     font-size: 20px;
   }
@@ -1085,6 +1088,10 @@
     margin-right: 0 !important;
   }
 
+  .photo_blocks .photo_blocks__title {
+    padding: 65px 0 60px 0;
+  }
+
   .mono_bouquets__text p br {
     display: none;
   }
@@ -1210,6 +1217,10 @@
     margin-right: 0 !important;
   }
 
+  .photo_blocks .photo_blocks__title {
+    padding: 80px 0 80px 0;
+  }
+
   .our_blog__container {
     padding: 90px 100px 90px 100px !important;
   }
@@ -1246,8 +1257,8 @@
 }
 @media (max-width: 1499px) and (min-width: 1251px) {
   h1 {
-    font-size: 60px;
-    line-height: 96px;
+    font-size: 54px;
+    line-height: 87px;
   }
 
   h3 {
@@ -1290,7 +1301,7 @@
     padding: 0;
   }
   .our .our_blog__img {
-    width: 12%;
+    width: 16%;
   }
   .our .our_blog__h4 {
     font-size: 19px;
@@ -1322,6 +1333,10 @@
     width: 32.6% !important;
     margin-top: 15px;
     margin-right: 0 !important;
+  }
+
+  .photo_blocks .photo_blocks__title {
+    padding: 90px 0 90px 0;
   }
 
   .catalog_block__link a h5 {
@@ -1395,6 +1410,10 @@
   }
   .our .our_blog__img {
     width: 295px;
+  }
+
+  .photo_blocks .photo_blocks__title {
+    padding: 100px 0 100px 0;
   }
 
   .photo_blocks__div {
