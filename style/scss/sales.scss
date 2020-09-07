@@ -25,17 +25,17 @@
 .sales {
     padding: 0;
 
-    nav {
+    .sales__nav {
         display: flex;
         justify-content: center;
         padding-bottom: 60px;
 
-        ul {
+        .sales__ul {
             display: flex;
             margin: 0;
             padding: 0;
 
-            li {
+            .sales__li {
                 list-style-type: none;
                 padding-right: 60px;
 

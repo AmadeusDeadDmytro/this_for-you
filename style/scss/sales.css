@@ -20,24 +20,24 @@
 .sales {
   padding: 0;
 }
-.sales nav {
+.sales .sales__nav {
   display: flex;
   justify-content: center;
   padding-bottom: 60px;
 }
-.sales nav ul {
+.sales .sales__nav .sales__ul {
   display: flex;
   margin: 0;
   padding: 0;
 }
-.sales nav ul li {
+.sales .sales__nav .sales__ul .sales__li {
   list-style-type: none;
   padding-right: 60px;
 }
-.sales nav ul li a {
+.sales .sales__nav .sales__ul .sales__li a {
   color: #151212;
 }
-.sales nav ul li:last-child {
+.sales .sales__nav .sales__ul li:last-child {
   padding: 0;
 }
 
