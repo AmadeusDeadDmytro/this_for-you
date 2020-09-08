@@ -76,6 +76,10 @@
 
   .block__title {
     padding: 30px 0 20px 0 !important;
+
+    h3:after {
+      bottom: -5px;
+    }
   }
 
   .header {
@@ -213,6 +217,10 @@
 
   .block__title {
     padding: 25px 0 30px 0 !important;
+
+    h3:after {
+      bottom: -6px;
+    }
   }
 
   .order {

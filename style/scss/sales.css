@@ -12,7 +12,7 @@
 .block__title h3:after {
   content: "";
   position: absolute;
-  bottom: -15px;
+  bottom: -10px;
   height: 1px;
   width: 88%;
   background: #234612;

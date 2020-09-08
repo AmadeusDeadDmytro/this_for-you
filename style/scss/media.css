@@ -78,6 +78,9 @@
   .block__title {
     padding: 30px 0 20px 0 !important;
   }
+  .block__title h3:after {
+    bottom: -5px;
+  }
 
   .header {
     height: inherit;
@@ -192,6 +195,9 @@
 
   .block__title {
     padding: 25px 0 30px 0 !important;
+  }
+  .block__title h3:after {
+    bottom: -6px;
   }
 
   .order .order__row {
