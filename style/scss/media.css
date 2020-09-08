@@ -75,6 +75,10 @@
     margin-left: 10px !important;
   }
 
+  .block__title {
+    padding: 30px 0 20px 0 !important;
+  }
+
   .header {
     height: inherit;
     padding: 15px 20px;
@@ -145,9 +149,15 @@
   .catalog {
     height: 80vh;
   }
-  .catalog .catalog_block__link a h5 {
-    width: 200px !important;
-    height: 38px !important;
+  .catalog .catalog_block .catalog_block__text {
+    margin-top: 0px;
+  }
+  .catalog .catalog_block .catalog_block__link {
+    margin-top: 15px;
+  }
+  .catalog .catalog_block .catalog_block__link a h5 {
+    width: 190px;
+    height: 35px;
   }
 
   .sales nav {
@@ -180,6 +190,10 @@
     align-items: center;
   }
 
+  .block__title {
+    padding: 25px 0 30px 0 !important;
+  }
+
   .our {
     margin-top: 25px !important;
     padding: 0;
@@ -199,9 +213,6 @@
   }
   .our .our_blog__link {
     margin-top: 30px !important;
-  }
-  .our .block__title {
-    padding: 25px 0 30px 0 !important;
   }
   .our .our_blog__title {
     margin-bottom: 0 !important;
