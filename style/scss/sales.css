@@ -20,6 +20,9 @@
 .sales {
   padding: 0;
 }
+.sales .tab__content {
+  display: none;
+}
 .sales .sales__nav {
   display: flex;
   justify-content: center;
@@ -50,6 +53,7 @@
 .sales__div .sales_card {
   padding: 0 15px 0 0;
   text-decoration: none;
+  outline: none;
 }
 .sales__div .sales_card .sales_card__img img {
   overflow: hidden;

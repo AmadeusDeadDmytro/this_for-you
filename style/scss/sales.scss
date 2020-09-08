@@ -25,6 +25,10 @@
 .sales {
     padding: 0;
 
+    .tab__content {
+        display: none;
+    }
+
     .sales__nav {
         display: flex;
         justify-content: center;
@@ -60,6 +64,7 @@
     .sales_card {
         padding: 0 15px 0 0;
         text-decoration: none;
+        outline: none;
 
         .sales_card__img {
             img {

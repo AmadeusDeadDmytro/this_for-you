@@ -122,7 +122,7 @@
 </header>
 
 <main role="main">
-    <div class="container-lg-my catalog__mob catalog">
+    <div class="container-bg catalog__mob catalog">
 
         <div class="catalog_block">
           <div class="catalog_block__title">
@@ -155,9 +155,9 @@
             </div>
 
         <nav class="sales__nav">
-            <ul class="sales__ul nav-pills mb-3" id="pills-tab" role="tablist">
+            <ul class="sales__ul nav-pills" id="pills-tab" role="tablist">
                 <li class="sales__li" role="presentation">
-                    <a class="text-4"  data-toggle="pill" href="#" onclick="openCity(event, 'all')">Всі хіти</a>
+                    <a class="text-4"  data-toggle="pill" href="#" onclick="openCity(event, 'all')" id="defaultOpen">Всі хіти</a>
                 </li>
                 <li class="sales__li" role="presentation">
                     <a class="text-4" href="#"  onclick="openCity(event, 'bukets')">Букети</a>
@@ -173,8 +173,7 @@
             </ul>
         </nav>
 
-
-        <div id="all" class="tabcontent">
+        <div id="all" class="tab__content">
             <div class="sales__div slider">
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
@@ -259,93 +258,11 @@
                         <div class="sales_card__price text-2">1 750 грн.</div>
                     </div>
                 </a>
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/card/1.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">букет «berry»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
 
-                        </div>
-                        <div class="sales_card__price text-2">1 250 грн.</div>
-                    </div>
-                </a>
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/card/2.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">Монобукети «small pink»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
-                        </div>
-                        <div class="sales_card__price text-2">2 300 грн.</div>
-                    </div>
-                </a>
-
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/card/3.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">букет «Wildflowers»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
-                        </div>
-                        <div class="sales_card__price text-2">750 грн.</div>
-                    </div>
-                </a>
-
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/card/4.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">Авторський букет «the Rose»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
-                        </div>
-                        <div class="sales_card__price text-2">1 750 грн.</div>
-                    </div>
-                </a>
             </div>
         </div>
 
-        <div id="bukets" class="tabcontent">
+        <div id="bukets" class="tab__content">
             <div class="sales__div slider">
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
@@ -430,10 +347,11 @@
                         <div class="sales_card__price text-2">1 750 грн.</div>
                     </div>
                 </a>
+
             </div>
         </div>
 
-        <div id="flower" class="tabcontent">
+        <div id="flower" class="tab__content">
             <div class="sales__div slider">
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
@@ -518,10 +436,11 @@
                         <div class="sales_card__price text-2">1 750 грн.</div>
                     </div>
                 </a>
+
             </div>
         </div>
 
-        <div id="gift" class="tabcontent">
+        <div id="gift" class="tab__content">
             <div class="sales__div slider">
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
@@ -606,9 +525,10 @@
                         <div class="sales_card__price text-2">1 750 грн.</div>
                     </div>
                 </a>
+
             </div>
         </div>
-
+    </div>
     <div class="container mono_bouquets">
             <div class=" mono_bouquets__div">
                 <div class="mono_bouquets__title">
@@ -635,7 +555,7 @@
 
     </div>
 
-    <div class="container-lg-my photo_blocks">
+    <div class="container-bg photo_blocks">
         <div class="container photo_blocks__main">
             <div class="block__title photo_blocks__title">
                 <h3>
@@ -739,89 +659,6 @@
             </div>
 
         <div class="sales__div slider">
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/flowers_1/flowers_1.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">букет «berry»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
-                        </div>
-                        <div class="sales_card__price text-2">1 750 грн.</div>
-                    </div>
-                </a>
-
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/flowers_1/flowers_2.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">Монобукети «small pink»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
-                        </div>
-                        <div class="sales_card__price text-2">1 750 грн.</div>
-                    </div>
-                </a>
-
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/flowers_1/flowers_3.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">букет «Wildflowers»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
-                        </div>
-                        <div class="sales_card__price text-2">1 750 грн.</div>
-                    </div>
-                </a>
-
-                <a href="#" class="sales_card">
-                    <div class="sales_card__img">
-                        <img src="./img/flowers_1/flowers_4.png" alt="">
-                    </div>
-                    <div class="sales_card__block">
-                        <h6 class="sales_card__title">букет «berry»</h6>
-                        <div class="sales_card__text">
-                            <div class="sales_card__size">
-                                <div class="text-1">Розмір</div>
-                                <div class="text-1">L</div>
-                            </div>
-                            <div class="text-1 text_green">В наявності</div>
-                            <div class="sales_card__size">
-                                <div class="text-1">Артикул</div>
-                                <div class="text-1">10234</div>
-                            </div>
-                        </div>
-                        <div class="sales_card__price text-2">1 750 грн.</div>
-                    </div>
-                </a>
             <a href="#" class="sales_card">
                 <div class="sales_card__img">
                     <img src="./img/flowers_1/flowers_1.png" alt="">
@@ -1272,7 +1109,7 @@
 
     </div>
 
-    <div class="container-lg-my our">
+    <div class="container-bg our">
 
         <div class="container our_blog">
             <div class="block__title">
