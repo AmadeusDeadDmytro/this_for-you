@@ -9,12 +9,13 @@
   display: flex;
   justify-content: center;
 }
-.block__title .block__title_decoration {
-  background: #234612;
+.block__title h3:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
   height: 1px;
   width: 88%;
-  bottom: -10px;
-  position: absolute;
+  background: #234612;
 }
 
 .sales {
