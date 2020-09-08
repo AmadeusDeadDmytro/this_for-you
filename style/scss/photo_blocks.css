@@ -17,8 +17,11 @@
 .photo_blocks .photo_blocks__div .photo_blocks__img:nth-child(2n) {
   order: 1;
 }
+.photo_blocks .photo_blocks__div .mar_right {
+  margin-right: 0 !important;
+}
 .photo_blocks .photo_blocks__div .last_block {
-  margin-top: 15px !important;
+  margin-top: 10px !important;
 }
 .photo_blocks .photo_blocks__div .last_block img {
   overflow: hidden;
@@ -32,7 +35,7 @@
 .photo_blocks .photo_blocks__div .photo_blocks__img {
   position: relative;
   width: fit-content;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .photo_blocks .photo_blocks__div .photo_blocks__img .photo_blocks__first {
   overflow: hidden;

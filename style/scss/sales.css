@@ -52,7 +52,7 @@
   padding: 0;
 }
 .sales__div .sales_card {
-  padding: 0 15px 0 0;
+  padding: 0 15px 0 5px;
   text-decoration: none;
   outline: none;
 }

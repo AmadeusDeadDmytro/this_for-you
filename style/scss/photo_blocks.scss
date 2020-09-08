@@ -22,8 +22,14 @@
     .photo_blocks__img:nth-child(2n) {
       order: 1;
     }
+
+    .mar_right {
+      margin-right: 0 !important;
+    }
+
+
     .last_block {
-      margin-top: 15px !important;
+      margin-top: 10px !important;
 
       img {
         overflow: hidden;
@@ -39,7 +45,7 @@
     .photo_blocks__img {
       position: relative;
       width: fit-content;
-      margin-right: 15px;
+      margin-right: 10px;
 
       .photo_blocks__first {
         overflow: hidden;
