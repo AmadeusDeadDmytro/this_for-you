@@ -5,6 +5,7 @@
   z-index: 990;
   background: white;
 }
+
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +64,6 @@
         position: relative;
         width: 25px;
         height: 20px;
-        margin: 15px;
 
         span {
           opacity: 1;
