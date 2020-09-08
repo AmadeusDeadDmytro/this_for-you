@@ -74,17 +74,6 @@
     margin-left: 10px !important;
   }
 
-  .hamburger-menu span:nth-child(1) {
-    top: -1px !important;
-  }
-  .hamburger-menu.open span:nth-child(3) {
-    transform: translateY(-9px) rotate(-135deg);
-    top: 17px !important;
-  }
-  .menu-list {
-    top: 56px !important;
-  }
-
   .header {
     height: inherit;
     padding: 15px 20px;
@@ -92,6 +81,12 @@
     z-index: 999;
     background: white;
     width: 100%;
+
+    .menu-container {
+      .menu-list {
+        top: 54px;
+      }
+    }
 
     .header__li {
       margin-left: 0 !important;
@@ -110,6 +105,13 @@
       height: 100%;
     }
 
+    .hamburger-menu span:nth-child(1) {
+      top: -1px !important;
+    }
+    .hamburger-menu.open span:nth-child(3) {
+      transform: translateY(-9px) rotate(-135deg);
+      top: 17px !important;
+    }
     .hamburger-menu {
       width: 20px !important;
       height: 10px !important;
@@ -497,9 +499,6 @@
 
     .header__request_phone {
       margin-right: 35px !important;
-    }
-    .menu-list {
-      top: 70px !important;
     }
 
     .logo {
