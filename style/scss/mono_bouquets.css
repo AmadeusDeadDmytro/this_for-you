@@ -39,7 +39,7 @@
   font-style: normal;
   font-weight: normal;
   padding: 11px 41px;
-  width: fit-content;
+  width: max-content;
   font-size: 21px;
   line-height: 160%;
   letter-spacing: 0.1em;

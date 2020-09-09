@@ -233,7 +233,7 @@
   }
 
   .photo_blocks {
-    margin-top: 25px;
+    margin-top: 25px !important;
   }
   .photo_blocks .photo_blocks__title {
     padding: 35px 0 20px 0;
@@ -286,6 +286,7 @@
   }
   .gift .gift__right .gift__div .gift__title {
     text-align: center;
+    margin-bottom: 0;
   }
   .gift .gift__right .gift__div .gift_block__link {
     width: 221px;
@@ -592,6 +593,7 @@
     width: 49%;
     margin-top: 13px !important;
     margin-right: 0;
+    height: 50vh;
   }
 
   .mono_bouquets {
@@ -919,6 +921,7 @@
     width: 49%;
     margin-top: 12px !important;
     margin-right: 0;
+    height: 50vh;
   }
 
   .mono_bouquets {
