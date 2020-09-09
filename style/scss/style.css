@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: auto !important;
+  overflow: auto;
 }
 
 .container {
   margin: 0 auto;
 }
 
-.container-lg-my {
+.container-bg {
   margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@ body {
     max-width: 1605px;
   }
 
-  .container-lg-my {
+  .container-bg {
     max-width: 1860px;
   }
 }
