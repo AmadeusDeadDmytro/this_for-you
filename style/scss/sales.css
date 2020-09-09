@@ -6,7 +6,11 @@
 .block__title h3 {
   border-bottom: 2px solid #234612;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .block__title h3:after {
