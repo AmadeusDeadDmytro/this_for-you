@@ -78,10 +78,13 @@ $(function() {
     });
 }); // jQuery load
 
+
 // tabs
 function openCity(evt, tabsContent) {
     var i, tabcontent, tablinks;
+
     tabcontent = document.getElementsByClassName("tab__content");
+
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
@@ -103,15 +106,29 @@ function openCity(evt, tabsContent) {
 
 document.getElementById("defaultOpen").click();
 
-
 // img
 $(document).ready(function(){
     $('.contact__img').scrollLeft(400)
-})
-  window.addEventListener("resize", resizeThrottler, false);
-  var resizeTimeout;
+});
 
-  function resizeThrottler() {
+function headerFixed() {
+    window.addEventListener("scroll" ,() => {
+
+        if(window.scrollY > 100){
+            $(".fixed-top").addClass("header__top");
+        } else {
+            $(".fixed-top").removeClass("header__top");
+        }
+    });
+}
+
+headerFixed();
+
+window.addEventListener("resize", resizeThrottler, false);
+
+var resizeTimeout;
+
+function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
       if ( !resizeTimeout ) {
           resizeTimeout = setTimeout(function() {
@@ -121,11 +138,12 @@ $(document).ready(function(){
               // The actualResizeHandler will execute at a rate of 15fps
           }, 66);
       }
-  }
+}
 
-  function actualResizeHandler() {
-      $(document).ready(function(){
-          $('.contact__img').scrollLeft(400)
-      })
-  }
-  sliderFunction('slider')
+function actualResizeHandler() {
+    $(document).ready(function(){
+        $('.contact__img').scrollLeft(400)
+    })
+}
+
+sliderFunction('slider')
