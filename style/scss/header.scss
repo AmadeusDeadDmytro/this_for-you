@@ -4,6 +4,7 @@
   position: fixed;
   z-index: 990;
   background: white;
+  box-shadow: 0 4px 5px -5px;
 }
 
 .header {
@@ -41,7 +42,7 @@
       z-index: 999;
       overflow-y: auto;
       overflow-x: hidden;
-      left: -100%;
+      left: -101%;
       top: 62px;
 
       li.accordion-toggle, #menu-container .menu-list .menu-login {

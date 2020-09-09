@@ -60,7 +60,7 @@ $(function() {
         var menuList =  $(".menu-container .menu-list");
         var activeState = menuList.hasClass("active");
 
-        menuList.animate({left: activeState ? "0%" : "-100%"}, 400);
+        menuList.animate({left: activeState ? "0%" : "-101%"}, 400);
     }
     $(".menu-wrapper").click(function(event) {
         event.stopPropagation();
