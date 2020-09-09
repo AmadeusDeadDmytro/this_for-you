@@ -1684,6 +1684,14 @@
   .mono_bouquets {
     .mono_bouquets__div {
       padding-right: 25px;
+
+      .mono_bouquets__inform {
+        margin: 20px 0 30px 0;
+      }
+
+      .mono_bouquets__title {
+        margin-bottom: 30px;
+      }
     }
 
     .mono_bouquets__text p br {
@@ -1693,14 +1701,6 @@
       br {
         display: none;
       }
-    }
-
-    .mono_bouquets__inform {
-      margin: 20px 0 30px 0 !important;
-    }
-
-    .mono_bouquets__title {
-      margin-bottom: 30px !important;
     }
   }
 
@@ -1974,6 +1974,7 @@
       margin-bottom: 30px;
     }
   }
+
 
   .gift__row {
     .gift_block__link {

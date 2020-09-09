@@ -99,5 +99,5 @@ document.getElementById("defaultOpen").click();
 
 // img
 $(document).ready(function(){
-    $('.contact__img').scrollLeft(200)
+    $('.contact__img').scrollLeft(400)
 })

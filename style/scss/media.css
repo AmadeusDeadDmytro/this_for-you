@@ -1514,17 +1514,17 @@
   .mono_bouquets .mono_bouquets__div {
     padding-right: 25px;
   }
+  .mono_bouquets .mono_bouquets__div .mono_bouquets__inform {
+    margin: 20px 0 30px 0;
+  }
+  .mono_bouquets .mono_bouquets__div .mono_bouquets__title {
+    margin-bottom: 30px;
+  }
   .mono_bouquets .mono_bouquets__text p br {
     display: none;
   }
   .mono_bouquets .mono_bouquets__inform p br {
     display: none;
-  }
-  .mono_bouquets .mono_bouquets__inform {
-    margin: 20px 0 30px 0 !important;
-  }
-  .mono_bouquets .mono_bouquets__title {
-    margin-bottom: 30px !important;
   }
 
   .contact__img img {
