@@ -1,59 +1,61 @@
-$(".slider").slick({
-    dots: false,
-    infinite: true,
-    arrows: false,
-    prevArrow: '<button id="prev" type="button" class="slider-button"><svg width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 1L1 21L21 41" stroke="#A0A0A0"/></svg></button>',
-    nextArrow: '<button id="next" type="button" class="slider-button"><svg width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L21 21L1 41" stroke="#2FB042"/></svg></button>',
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-        {
-            breakpoint: 1679,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                infinite: true,
-                arrows: false,
-            }
-        },
-        {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                arrows: false,
-            }
-        },
-        {
-            breakpoint: 991,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                arrows: false,
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                arrows: false,
-            }
-        },
 
-        {
-            breakpoint: 579,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerMode: true,
-                arrows: false,
-                infinite: true,
-            }
-        }
-    ]
-});
+  function sliderFunction(current) {
+      $(`.${current}`).slick({
+          dots: false,
+          infinite: true,
+          arrows: false,
+          prevArrow: '<button id="prev" type="button" class="slider-button"><svg width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 1L1 21L21 41" stroke="#A0A0A0"/></svg></button>',
+          nextArrow: '<button id="next" type="button" class="slider-button"><svg width="22" height="42" viewBox="0 0 22 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L21 21L1 41" stroke="#2FB042"/></svg></button>',
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          responsive: [
+              {
+                  breakpoint: 1679,
+                  settings: {
+                      slidesToShow: 4,
+                      slidesToScroll: 1,
+                      infinite: true,
+                      arrows: false,
+                  }
+              },
+              {
+                  breakpoint: 1200,
+                  settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 1,
+                      arrows: false,
+                  }
+              },
+              {
+                  breakpoint: 991,
+                  settings: {
+                      slidesToShow: 3,
+                      slidesToScroll: 1,
+                      arrows: false,
+                  }
+              },
+              {
+                  breakpoint: 768,
+                  settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1,
+                      arrows: false,
+                  }
+              },
 
+              {
+                  breakpoint: 579,
+                  settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      centerMode: true,
+                      arrows: false,
+                      infinite: true,
+                  }
+              }
+          ]
+      });
+  }
 
 $(function() {
     function slideMenu() {
@@ -78,20 +80,82 @@ $(function() {
     });
 }); // jQuery load
 
-
 // tabs
-function openCity(evt, cityName) {
+function openCity(evt, tabsContent) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab__content");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
+
     tablinks = document.getElementsByClassName("sales__li");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+
+    document.getElementById(tabsContent).style.display = "block";
     evt.currentTarget.className += " active";
+
+    if (tabsContent === 'all') {
+        $(".slider1").slick({
+            dots: false,
+            infinite: true,
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1679,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+
+                {
+                    breakpoint: 579,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        arrows: false,
+                        infinite: true,
+                    }
+                }
+            ]
+        });
+    }
+
+    if (tabsContent === 'bukets') {
+        sliderFunction('slider2')
+    }
+
 }
 
 document.getElementById("defaultOpen").click();
@@ -101,3 +165,24 @@ document.getElementById("defaultOpen").click();
 $(document).ready(function(){
     $('.contact__img').scrollLeft(400)
 })
+  window.addEventListener("resize", resizeThrottler, false);
+  var resizeTimeout;
+
+  function resizeThrottler() {
+      // ignore resize events as long as an actualResizeHandler execution is in the queue
+      if ( !resizeTimeout ) {
+          resizeTimeout = setTimeout(function() {
+              resizeTimeout = null;
+              actualResizeHandler();
+
+              // The actualResizeHandler will execute at a rate of 15fps
+          }, 66);
+      }
+  }
+
+  function actualResizeHandler() {
+      $(document).ready(function(){
+          $('.contact__img').scrollLeft(400)
+      })
+  }
+  sliderFunction('slider')
