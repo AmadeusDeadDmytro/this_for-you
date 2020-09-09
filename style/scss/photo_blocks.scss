@@ -10,6 +10,8 @@
   }
 
   .photo_blocks__title {
+    display: flex;
+    justify-content: center;
     padding: $top-default 0 122px 0;
   }
 

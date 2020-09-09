@@ -11,6 +11,7 @@
 }
 .block__title h3:after {
   content: "";
+  display: block;
   position: absolute;
   bottom: -10px;
   height: 1px;

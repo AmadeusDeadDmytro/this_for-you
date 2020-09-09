@@ -6,6 +6,8 @@
   padding: 0;
 }
 .photo_blocks .photo_blocks__title {
+  display: flex;
+  justify-content: center;
   padding: 110px 0 122px 0;
 }
 .photo_blocks .photo_blocks__div {
