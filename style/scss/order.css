@@ -29,5 +29,8 @@
 .order .order__row .order__div .order__inform p {
   color: #999999;
 }
+.order .button__link a {
+  width: 215px;
+}
 
 /*# sourceMappingURL=order.css.map */

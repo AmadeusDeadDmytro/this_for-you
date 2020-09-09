@@ -3,6 +3,9 @@
   display: flex;
   order: 1;
 }
+.mono_bouquets .button__link a {
+  width: 206px;
+}
 .mono_bouquets .mono_bouquets__div {
   display: flex;
   flex-direction: column;
@@ -39,7 +42,7 @@
   font-style: normal;
   font-weight: normal;
   padding: 11px 41px;
-  width: max-content;
+  width: fit-content;
   font-size: 21px;
   line-height: 160%;
   letter-spacing: 0.1em;
