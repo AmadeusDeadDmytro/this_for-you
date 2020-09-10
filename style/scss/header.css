@@ -1,13 +1,7 @@
 .fixed-top {
-  position: relative;
   background: white;
-}
-
-.header__top {
-  position: fixed;
   z-index: 990;
-  box-shadow: 0 9px 8px -5px;
-  background: white;
+  transition: 0.7s all linear;
 }
 
 .header {

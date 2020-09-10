@@ -113,11 +113,13 @@ $(document).ready(function(){
 
 function headerFixed() {
     window.addEventListener("scroll" ,() => {
-
+        var header = document.getElementById('header_top');
         if(window.scrollY > 100){
-            $(".fixed-top").addClass("header__top");
+            header.style.position = "fixed";
+            header.style.boxShadow = "0 9px 8px -5px";
         } else {
-            $(".fixed-top").removeClass("header__top");
+            header.style.position = "relative";
+            header.style.boxShadow = "none";
         }
     });
 }

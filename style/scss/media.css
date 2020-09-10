@@ -1425,8 +1425,8 @@
 }
 @media (max-width: 1199px) and (min-width: 992px) {
   h1 {
-    font-size: 44px;
-    line-height: 70px;
+    font-size: 46px;
+    line-height: 76px;
   }
 
   h3 {
@@ -1457,6 +1457,10 @@
     font-size: 14px;
   }
 
+  body {
+    background: black;
+  }
+
   .text-3 {
     font-size: 13px;
     line-height: 26px;
@@ -1485,6 +1489,9 @@
     margin-right: 35px;
   }
 
+  .catalog .catalog_block .catalog_block__text {
+    margin-top: 30px;
+  }
   .catalog .catalog_block .catalog_block__link a h5 {
     width: 274px;
     height: 48px;
@@ -1662,9 +1669,12 @@
     padding: 9px 30px;
   }
 
-  .catalog_block__link a h5 {
-    width: 317px !important;
-    height: 53px !important;
+  .catalog .catalog_block .catalog_block__text {
+    margin-top: 30px;
+  }
+  .catalog .catalog_block .catalog_block__link a h5 {
+    width: 317px;
+    height: 53px;
   }
 
   .block__title {
@@ -1763,7 +1773,7 @@
 @media (max-width: 1499px) and (min-width: 1251px) {
   h1 {
     font-size: 51px;
-    line-height: 78px;
+    line-height: 89px;
   }
 
   h3 {
@@ -1806,6 +1816,14 @@
     font-size: 18px;
     line-height: 30px;
     padding: 9px 30px;
+  }
+
+  .catalog .catalog_block .catalog_block__text {
+    margin-top: 35px;
+  }
+  .catalog .catalog_block .catalog_block__link a h5 {
+    width: 324px;
+    height: 53px;
   }
 
   .mono_bouquets .button__link a {
