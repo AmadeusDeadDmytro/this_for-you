@@ -38,6 +38,7 @@
 .our .our_blog .our_blog__row {
   display: flex;
   justify-content: space-between;
+  background: white;
 }
 .our .our_blog .our_blog__div {
   display: flex;

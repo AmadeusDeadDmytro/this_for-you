@@ -155,24 +155,24 @@
         <nav class="sales__nav">
             <ul class="sales__ul nav-pills" id="pills-tab" role="tablist">
                 <li class="sales__li" role="presentation">
-                    <div class="text-4"  data-toggle="pill" href="#" onclick="openCity(event, 'all')" id="defaultOpen">Всі хіти</div>
+                    <div class="text-4" href="#" onclick="openCity('all')" id="defaultOpen">Всі хіти</div>
                 </li>
                 <li class="sales__li" role="presentation">
-                    <div class="text-4" href="#"  onclick="openCity(event, 'bukets')">Букети</div>
+                    <div class="text-4" href="#"  onclick="openCity('bukets')">Букети</div>
                 </li>
                 <li class="sales__li" role="presentation">
                     <div class="text-4" href="#"
-                       onclick="openCity(event, 'flower')"
+                       onclick="openCity('flower')"
                     >Квіти поштучно</div>
                 </li>
                 <li class="sales__li" role="presentation">
-                    <div class="text-4" href="#"  onclick="openCity(event, 'gift')">Подарунки</div>
+                    <div class="text-4" href="#"  onclick="openCity('gift')">Подарунки</div>
                 </li>
             </ul>
         </nav>
 
         <div id="all" class="tab__content">
-            <div class="sales__div slider">
+            <div class="sales__div slider1">
 
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
@@ -344,7 +344,7 @@
         </div>
 
         <div id="bukets" class="tab__content">
-            <div class="sales__div slider1">
+            <div class="sales__div slider2">
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
                         <img src="./img/card/1.png" alt="">
@@ -433,7 +433,7 @@
         </div>
 
         <div id="flower" class="tab__content">
-            <div class="sales__div slider1">
+            <div class="sales__div slider3">
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
                         <img src="./img/card/1.png" alt="">
@@ -522,7 +522,7 @@
         </div>
 
         <div id="gift" class="tab__content">
-            <div class="sales__div slider1">
+            <div class="sales__div slider4">
                 <a href="#" class="sales_card">
                     <div class="sales_card__img">
                         <img src="./img/card/1.png" alt="">
@@ -606,7 +606,6 @@
                         <div class="sales_card__price text-2">1 750 грн.</div>
                     </div>
                 </a>
-
             </div>
         </div>
     </div>

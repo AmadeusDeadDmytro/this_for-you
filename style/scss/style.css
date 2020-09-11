@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-@media (min-width: 1605px) {
+@media (min-width: 1920px) {
   .container {
     max-width: 1605px;
   }
@@ -48,7 +48,7 @@ body {
 }
 @media (max-width: 1299px) and (min-width: 1251px) {
   .container {
-    max-width: 1230px;
+    max-width: 1220px;
   }
 }
 @media (max-width: 1348px) and (min-width: 1300px) {

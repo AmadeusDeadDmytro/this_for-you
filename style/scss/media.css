@@ -15,8 +15,8 @@
   }
 
   h5 {
-    font-size: 14px;
-    line-height: 18px;
+    width: 200px;
+    height: 50px;
   }
 
   h6 {
@@ -66,7 +66,19 @@
     margin: 0 0 0 -50px !important;
   }
 
-  .slider.slider1 .slick-track, .regular.slider .slick-list, .sub-category.slider .slick-track, .sub-category.slider .slick-list {
+  .slider1 .slick-list, .sub-category.slider .slick-track, .sub-category.slider .slick-list {
+    margin: 0 0 0 -50px !important;
+  }
+
+  .slider2 .slick-list, .sub-category.slider .slick-track, .sub-category.slider .slick-list {
+    margin: 0 0 0 -50px !important;
+  }
+
+  .slider3 .slick-list, .sub-category.slider .slick-track, .sub-category.slider .slick-list {
+    margin: 0 0 0 -50px !important;
+  }
+
+  .slider4 .slick-list, .sub-category.slider .slick-track, .sub-category.slider .slick-list {
     margin: 0 0 0 -50px !important;
   }
 
@@ -86,24 +98,25 @@
     bottom: -5px;
   }
 
-  .header {
+  .fixed-top {
     height: inherit;
     padding: 15px 20px;
-    position: fixed;
-    z-index: 999;
     background: white;
     width: 100%;
   }
-  .header .menu-container .menu-list {
+  .fixed-top .menu-container .menu-list {
     top: 54px;
   }
-  .header .header__li {
+  .fixed-top .header {
+    height: inherit;
+  }
+  .fixed-top .header__li {
     margin-left: 0 !important;
   }
-  .header .img__basket {
+  .fixed-top .img__basket {
     height: 20px;
   }
-  .header img {
+  .fixed-top img {
     overflow: hidden;
     box-sizing: border-box;
     object-fit: cover;
@@ -111,32 +124,32 @@
     display: block;
     height: 100%;
   }
-  .header .hamburger-menu span:nth-child(1) {
+  .fixed-top .hamburger-menu span:nth-child(1) {
     top: -1px !important;
   }
-  .header .hamburger-menu.open span:nth-child(3) {
+  .fixed-top .hamburger-menu.open span:nth-child(3) {
     transform: translateY(-9px) rotate(-135deg);
     top: 17px !important;
   }
-  .header .hamburger-menu {
+  .fixed-top .hamburger-menu {
     width: 20px !important;
     height: 10px !important;
     margin: 8px !important;
   }
-  .header span:nth-child(2) {
+  .fixed-top span:nth-child(2) {
     top: 5px !important;
   }
-  .header span:nth-child(3) {
+  .fixed-top span:nth-child(3) {
     top: 10px !important;
   }
-  .header .header__request_phone {
+  .fixed-top .header__request_phone {
     margin-right: 35px !important;
   }
-  .header .logo {
+  .fixed-top .logo {
     height: 26px;
     margin: 0;
   }
-  .header .logo img {
+  .fixed-top .logo img {
     overflow: hidden;
     box-sizing: border-box;
     object-fit: cover;
