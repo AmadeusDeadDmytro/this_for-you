@@ -2028,5 +2028,10 @@
     height: 100%;
   }
 }
+@media (max-width: 1640px) and (min-width: 1605px) {
+  .container {
+    max-width: 1440px;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */
