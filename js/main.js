@@ -82,7 +82,7 @@ $(function() {
 
 
 // tabs
-function openCity(tabsContent) {
+function openContent(tabsContent) {
 
     console.log('#' + tabsContent)
     $(".tab__content").hide()
