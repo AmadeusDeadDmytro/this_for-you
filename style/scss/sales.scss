@@ -46,8 +46,9 @@
             .sales__li {
                 list-style-type: none;
                 padding-right: 60px;
+                cursor: pointer;
 
-                a {
+                div {
                     color: $dark;
                 }
             }

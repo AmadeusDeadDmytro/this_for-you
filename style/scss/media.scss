@@ -1343,7 +1343,7 @@
       margin-right: 35px !important;
     }
     .logo {
-      height: 35px;
+      height: 37px;
       margin: 0;
 
       img {
@@ -1668,8 +1668,19 @@
   }
 
   .header {
+    height: 80px;
+
     .logo {
       margin: 0;
+      height: 45px;
+
+      img {
+        overflow: hidden;
+        box-sizing: border-box;
+        object-fit: cover;
+        display: block;
+        height: 100%;
+      }
     }
     .header__card {
       .header__request_phone {
@@ -1677,6 +1688,7 @@
       }
     }
   }
+
   .catalog .catalog_block {
     .catalog_block__text {
       margin-top: 30px;
@@ -1887,8 +1899,21 @@
     padding: 9px 30px;
   }
 
-  .header .logo {
-    margin-right: 0;
+  .header {
+    height: 80px;
+
+    .logo {
+      margin: 0;
+      height: 45px;
+
+      img {
+        overflow: hidden;
+        box-sizing: border-box;
+        object-fit: cover;
+        display: block;
+        height: 100%;
+      }
+    }
   }
 
   .catalog .catalog_block {
@@ -2090,6 +2115,23 @@
     padding: 9px 30px;
   }
 
+  .header {
+    height: 80px;
+
+    .logo {
+      margin: 0;
+      height: 45px;
+
+      img {
+        overflow: hidden;
+        box-sizing: border-box;
+        object-fit: cover;
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+
   .catalog .catalog_block {
     .catalog_block__text {
       margin-top: 35px;
@@ -2224,7 +2266,6 @@
 }
 
 @media (max-width: 1604.99px) and (min-width: 1500px) {
-
   h1 {
     font-size: 52px;
     line-height: 84px;
@@ -2258,6 +2299,23 @@
   .text-big {
     font-size: 22px;
     line-height: 35px;
+  }
+
+  .header {
+    height: 80px;
+
+    .logo {
+      margin: 0;
+      height: 45px;
+
+      img {
+        overflow: hidden;
+        box-sizing: border-box;
+        object-fit: cover;
+        display: block;
+        height: 100%;
+      }
+    }
   }
 
   .our {
@@ -2354,6 +2412,7 @@
 }
 
 @media (max-width: 1639px) and (min-width: 1605px) {
+
   h3 {
     font-size: 29px;
     line-height: 51px;
@@ -2365,6 +2424,23 @@
   .text-2 {
     font-size: 17px;
   }
+
+  .header {
+
+    .logo {
+      margin: 0;
+      height: 45px;
+
+      img {
+        overflow: hidden;
+        box-sizing: border-box;
+        object-fit: cover;
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+
   .our .our_blog .our_blog__div .our_blog__container {
     padding: 50px;
   }
@@ -2415,5 +2491,4 @@
       }
     }
   }
-
 }

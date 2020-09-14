@@ -40,8 +40,9 @@
 .sales .sales__nav .sales__ul .sales__li {
   list-style-type: none;
   padding-right: 60px;
+  cursor: pointer;
 }
-.sales .sales__nav .sales__ul .sales__li a {
+.sales .sales__nav .sales__ul .sales__li div {
   color: #151212;
 }
 .sales .sales__nav .sales__ul li:last-child {
