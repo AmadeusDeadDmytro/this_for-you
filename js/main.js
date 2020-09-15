@@ -57,6 +57,14 @@
     }
   }
 
+  function openContent(tabsContent) {
+
+      console.log('#' + tabsContent)
+      $(".tab__content").hide()
+      $('#' + tabsContent).show()
+      sliderFunction('#' + tabsContent + ' .sales__div');
+  }
+
 $(function() {
     function slideMenu() {
         var menuList =  $(".menu-container .menu-list");
@@ -82,18 +90,18 @@ $(function() {
 
 
 // tabs
-function openContent(tabsContent) {
-
-    console.log('#' + tabsContent)
-    $(".tab__content").hide()
-    $('#' + tabsContent).show()
-    sliderFunction('#' + tabsContent + ' .sales__div');
-}
 
 document.getElementById("defaultOpen").click();
 
 // img
 $(document).ready(function(){
+
+    $(".our_blog__decorate").click(function(){
+
+        $(".our_blog__img-block").removeClass('active');
+        $(this).parent().addClass('active')
+    })
+
     $('.contact__img').scrollLeft(400)
 });
 
