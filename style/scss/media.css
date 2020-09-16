@@ -2119,6 +2119,9 @@
   .our .our_blog .our_blog__div-content .our_blog__div .our_blog__container {
     padding: 50px;
   }
+  .our .our_blog .our_blog__div-content .our_blog__div .our_blog__container .our_blog__title {
+    margin-bottom: 25px;
+  }
   .our .our_blog .our_blog__div-content .our_blog__div {
     max-width: 91%;
   }

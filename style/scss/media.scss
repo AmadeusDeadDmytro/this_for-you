@@ -2325,6 +2325,7 @@
     width: 317px !important;
     height: 53px !important;
   }
+
   .gift .gift__right .gift__div {
     .gift__text {
       margin-bottom: 50px;
@@ -2423,6 +2424,10 @@
     .our_blog {
       .our_blog__div-content .our_blog__div .our_blog__container {
         padding: 50px;
+
+        .our_blog__title {
+          margin-bottom: 25px;
+        }
       }
 
       .our_blog__div-content .our_blog__div {
@@ -2432,7 +2437,7 @@
       .our_blog__img .our_blog__img-block .our_blog__decorate {
         width: 100px !important;
       }
-      .our_blog__img-block.active{
+      .our_blog__img-block.active {
         width: calc(100% - -157px) !important;
       }
 

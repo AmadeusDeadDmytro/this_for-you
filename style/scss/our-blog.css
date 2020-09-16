@@ -70,6 +70,7 @@
 }
 .our .our_blog .our_blog__img .our_blog__img-block.active .our_blog__decorate {
   right: 0;
+  display: none;
   left: unset;
 }
 .our .our_blog .our_blog__row {
