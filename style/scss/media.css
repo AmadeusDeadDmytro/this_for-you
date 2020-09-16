@@ -339,7 +339,7 @@
   }
   .our .our_blog .our_blog__mob-img {
     min-width: 390px;
-    height: 50vh;
+    height: 40vh;
   }
   .our .our_blog .our_blog__img {
     flex-direction: column;
@@ -448,10 +448,6 @@
   }
 }
 @media (max-width: 578px) and (min-width: 540px) {
-  body {
-    background: #6c757d;
-  }
-
   h1 {
     font-size: 34px;
     line-height: 59px;
@@ -721,7 +717,7 @@
   }
   .our .our_blog .our_blog__mob-img {
     min-width: 390px;
-    height: 50vh;
+    height: 40vh;
   }
   .our .our_blog .our_blog__img {
     flex-direction: column;
