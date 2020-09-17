@@ -32,6 +32,10 @@
     .tab__content {
         display: none;
     }
+    .tab__content.active {
+        display: block;
+    }
+
 
     .sales__nav {
         display: flex;
@@ -47,6 +51,10 @@
                 list-style-type: none;
                 padding-right: 60px;
                 cursor: pointer;
+
+                .active {
+
+                }
 
                 div {
                     color: $dark;

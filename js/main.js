@@ -1,69 +1,273 @@
 
-  function sliderFunction(current) {
-    if($(current).length > 0 ) {
-      $(current).not(current + '.slick-initialized').slick({
-          dots: false,
-          infinite: true,
-          arrows: false,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [
-              {
-                  breakpoint: 1679,
-                  settings: {
-                      slidesToShow: 4,
-                      slidesToScroll: 1,
-                      infinite: true,
-                      arrows: false,
-                  }
-              },
-              {
-                  breakpoint: 1200,
-                  settings: {
-                      slidesToShow: 3,
-                      slidesToScroll: 1,
-                      arrows: false,
-                  }
-              },
-              {
-                  breakpoint: 991,
-                  settings: {
-                      slidesToShow: 3,
-                      slidesToScroll: 1,
-                      arrows: false,
-                  }
-              },
-              {
-                  breakpoint: 768,
-                  settings: {
-                      slidesToShow: 2,
-                      slidesToScroll: 1,
-                      arrows: false,
-                  }
-              },
-
-              {
-                  breakpoint: 579,
-                  settings: {
-                      slidesToShow: 1,
-                      slidesToScroll: 1,
-                      centerMode: true,
-                      arrows: false,
-                      infinite: true,
-                  }
+  $('.slider1').slick({
+      dots: false,
+      infinite: true,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+          {
+              breakpoint: 1679,
+              settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  arrows: false,
               }
-          ]
-      });
-    }
-  }
+          },
+          {
+              breakpoint: 1200,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 991,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
 
-  function openContent(tabsContent) {
+          {
+              breakpoint: 579,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  arrows: false,
+                  infinite: true,
+              }
+          }
+      ]
+  });
 
-      console.log('#' + tabsContent)
-      $(".tab__content").hide()
-      $('#' + tabsContent).show()
-      sliderFunction('#' + tabsContent + ' .sales__div');
-  }
+  $('.slider2').slick({
+      dots: false,
+      infinite: true,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+          {
+              breakpoint: 1679,
+              settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 1200,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 991,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+
+          {
+              breakpoint: 579,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  arrows: false,
+                  infinite: true,
+              }
+          }
+      ]
+  });
+
+  $('.slider3').slick({
+      dots: false,
+      infinite: true,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+          {
+              breakpoint: 1679,
+              settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 1200,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 991,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+
+          {
+              breakpoint: 579,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  arrows: false,
+                  infinite: true,
+              }
+          }
+      ]
+  });
+
+  $('.slider4').slick({
+      dots: false,
+      infinite: true,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+          {
+              breakpoint: 1679,
+              settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 1200,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 991,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+
+          {
+              breakpoint: 579,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  arrows: false,
+                  infinite: true,
+              }
+          }
+      ]
+  });
+
+  $('.slider').slick({
+      dots: false,
+      infinite: true,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+          {
+              breakpoint: 1679,
+              settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 1200,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 991,
+              settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+          {
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  arrows: false,
+              }
+          },
+
+          {
+              breakpoint: 579,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  centerMode: true,
+                  arrows: false,
+                  infinite: true,
+              }
+          }
+      ]
+  });
 
 $(function() {
     function slideMenu() {
@@ -88,11 +292,6 @@ $(function() {
     });
 }); // jQuery load
 
-
-// tabs
-
-document.getElementById("defaultOpen").click();
-
 // img
 $(document).ready(function(){
 
@@ -102,12 +301,33 @@ $(document).ready(function(){
         $(this).parent().addClass('active')
     })
 
-    $('.contact__img').scrollLeft(400)
+    $('.contact__img').scrollLeft(400);
+
+    $(".sales__li").click(function(){
+
+        var panel = $(this).attr('data-id');
+debugger
+        $(".tab__content").removeClass('active');
+        $("#" + panel).addClass('active');
+
+        if (panel === 'all') {
+            $(".slider1").slick('reinit')
+        } else if (panel === 'bukets') {
+            $(".slider2").slick('reinit')
+        } else if (panel === 'flower') {
+            $(".slider3").slick('reinit')
+        } else if (panel === 'gift') {
+            $(".slider4").slick('reinit')
+        }
+
+        $('#' + panel).children().children('.sales_card').hide();
+    })
 });
 
 function headerFixed() {
     window.addEventListener("scroll" ,() => {
         var header = document.getElementById('header_top');
+
         if(window.scrollY > 100){
             header.style.position = "fixed";
             header.style.boxShadow = "0 5px 8px -5px";
@@ -126,7 +346,8 @@ var resizeTimeout;
 
 function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
-      if ( !resizeTimeout ) {
+
+    if ( !resizeTimeout ) {
           resizeTimeout = setTimeout(function() {
               resizeTimeout = null;
               actualResizeHandler();
@@ -142,4 +363,3 @@ function actualResizeHandler() {
     })
 }
 
-sliderFunction('.slider')
