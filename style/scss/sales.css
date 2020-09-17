@@ -27,6 +27,9 @@
 .sales .tab__content {
   display: none;
 }
+.sales .tab__content.active {
+  display: block;
+}
 .sales .sales__nav {
   display: flex;
   justify-content: center;
