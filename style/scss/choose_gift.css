@@ -39,7 +39,6 @@
   padding: 0;
 }
 .gift .gift__img img {
-  overflow: hidden;
   box-sizing: border-box;
   object-fit: cover;
   width: 100%;

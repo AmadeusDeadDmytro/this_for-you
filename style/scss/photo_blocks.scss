@@ -4,6 +4,7 @@
 .photo_blocks {
   background: #FAFAFA;
   margin-top: $top-default;
+  padding-bottom: $top-default;
 
   .photo_blocks__main {
     padding: 0;
@@ -29,12 +30,11 @@
       margin-right: 0 !important;
     }
 
-
     .last_block {
       margin-top: 10px !important;
+      overflow: hidden;
 
       img {
-        overflow: hidden;
         box-sizing: border-box;
         object-fit: cover;
         width: 100%;

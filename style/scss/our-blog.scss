@@ -7,7 +7,6 @@
   padding-bottom: $top-default;
 
     img {
-      overflow: hidden;
       box-sizing: border-box;
       object-fit: cover;
       position: relative;
@@ -46,12 +45,12 @@
           width: 130px;
           padding-bottom: 40px;
           position: absolute;
+          background-position: left;
           left: 0;
           height: 100%;
           cursor: pointer;
 
           img {
-            overflow: hidden;
             box-sizing: border-box;
             object-fit: cover;
             position: relative;
@@ -79,7 +78,7 @@
 
         }
 
-        .our_blog__decorate{
+        .our_blog__decorate {
           right: 0;
           display: none;
           left: unset;
@@ -117,12 +116,18 @@
 
             a {
               text-decoration: none;
-              h6 {
-                text-transform: uppercase;
-                color: $secondary-color;
-                border-bottom: 1px solid $secondary-color;
-                width: 196px;
-              }
+              text-transform: uppercase;
+              color: $secondary-color;
+              border-bottom: 1px solid $secondary-color;
+              width: 196px;
+
+              font-family: History Pro;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 26px;
+              letter-spacing: 0.1em;
+              margin: 0;
             }
           }
 

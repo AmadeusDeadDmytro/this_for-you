@@ -30,7 +30,7 @@
 .contact .contact__row .contact__div .contact__text {
   color: #444444;
 }
-.contact .contact__row .contact__work div {
+.contact .contact__row .contact__div:first-child div {
   font-family: History Pro;
   font-style: normal;
   font-weight: normal;
@@ -39,7 +39,7 @@
   letter-spacing: 0.1em;
   color: #234612;
 }
-.contact .contact__row .contact__work p {
+.contact .contact__row .contact__div:first-child p {
   color: #151212;
 }
 

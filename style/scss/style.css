@@ -70,10 +70,18 @@ body {
   .container {
     max-width: 1400px;
   }
+
+  .container-bg {
+    max-width: 1560px;
+  }
 }
 @media (max-width: 1919px) and (min-width: 1640px) {
   .container {
     max-width: 1550px;
+  }
+
+  .container-bg {
+    max-width: 1590px;
   }
 }
 @media (max-width: 991px) {
@@ -181,6 +189,16 @@ h5 {
   margin: 0;
 }
 
+h6 {
+  font-family: History Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
 .text-1 {
   font-family: Open Sans;
   font-style: normal;
@@ -215,16 +233,6 @@ h5 {
   font-weight: 300;
   font-size: 23px;
   line-height: 37px;
-  margin: 0;
-}
-
-h6 {
-  font-family: History Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.1em;
   margin: 0;
 }
 

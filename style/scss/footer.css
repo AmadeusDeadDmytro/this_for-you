@@ -7,7 +7,6 @@
   padding: 0;
 }
 .footer .footer__div .footer__row {
-  height: 652px;
   display: flex;
   justify-content: space-between;
   width: 65%;
@@ -16,10 +15,6 @@
   line-height: 59px;
   color: white;
   text-transform: uppercase;
-}
-.footer .footer__div .footer__row .footer__block {
-  max-width: 188px;
-  max-height: 328px;
 }
 .footer .footer__div .footer__row .footer__block .footer__text ul {
   margin-top: 30px;

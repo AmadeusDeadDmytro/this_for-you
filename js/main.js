@@ -331,7 +331,7 @@ $(document).ready(function(){
       if($(window)[0].scrollY > 100) {
           header.addClass('header_active');
       } else {
-          header.removeClass('active');
+          header.removeClass('header_active');
       }
   });
 if ($(window).innerWidth() < 1000) {
