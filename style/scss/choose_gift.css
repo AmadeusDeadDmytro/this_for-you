@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 .gift .gift__right .gift__div .gift_block__link a {
-  font-family: History Pro;
+  font-family: 'History Pro';
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -39,7 +39,6 @@
   padding: 0;
 }
 .gift .gift__img img {
-  overflow: hidden;
   box-sizing: border-box;
   object-fit: cover;
   width: 100%;

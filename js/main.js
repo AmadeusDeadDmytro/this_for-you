@@ -331,7 +331,7 @@ $(document).ready(function(){
       if($(window)[0].scrollY > 100) {
           header.addClass('header_active');
       } else {
-          header.removeClass('active');
+          header.removeClass('header_active');
       }
   });
 if ($(window).innerWidth() < 1000) {
@@ -341,9 +341,9 @@ if ($(window).innerWidth() < 1000) {
 function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
 
-    $(document).ready(function(){
+    if ($(window).innerWidth() < 1000) {
         $('.contact__img').scrollLeft(400)
-    })
+    }
 }
 
 

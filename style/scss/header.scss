@@ -4,6 +4,8 @@
   background: white;
   z-index: 990;
   transition: 0.7s all linear;
+  position: relative;
+  width: 100%;
 }
 
 .header_active {
@@ -18,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
+
 
 
     .logo {
@@ -176,9 +179,14 @@
 
       a {
         color: $dark;
-        h6 {
-          text-transform: uppercase;
-        }
+        font-family: 'History Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.1em;
+        margin: 0;
+        text-transform: uppercase;
       }
     }
   }
@@ -190,12 +198,18 @@
       content: none !important;
     }
     a {
-      h6 {
-        color: $secondary-color;
-        border-bottom: 1px solid $secondary-color;
-        text-transform: uppercase;
-        width: fit-content;
-      }
+      font-family: 'History Pro';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.1em;
+      margin: 0;
+      color: $secondary-color;
+      border-bottom: 1px solid $secondary-color;
+      text-transform: uppercase;
+      width: fit-content;
+      padding-bottom: 4px;
     }
   }
 }

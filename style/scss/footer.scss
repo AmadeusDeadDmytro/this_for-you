@@ -4,16 +4,20 @@
 .footer {
   background: $dark;
   margin-top: $top-default;
-  padding-top: 128px;
+
+  position: relative;
+  display: block;
 
   .footer__div {
     padding: 0;
 
+    .footer__img {
+      display: block;
+    }
+
     .footer__row {
-      height: 652px;
       display: flex;
-      justify-content: space-between;
-      width: 65%;
+      padding-top: 128px;
 
       .footer__title {
         h5 {
@@ -23,17 +27,23 @@
         }
       }
 
-      .footer__block {
-        max-width: 188px;
-        max-height: 328px;
+      .footer__block:first-child {
+        width: 25%;
+      }
+      .footer__block:nth-child(2) {
+        width: 25%;
+      }
 
+      .footer__block {
         .footer__text {
 
           ul {
             margin-top: 30px;
             padding: 0;
 
-
+            li:first-child {
+              margin-top: 0;
+            }
             li {
               list-style: none;
               margin-top: 15px;

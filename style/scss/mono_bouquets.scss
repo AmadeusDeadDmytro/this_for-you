@@ -36,9 +36,9 @@
     display: flex;
     justify-content: flex-end;
     width: 40%;
+    overflow: hidden;
 
     img {
-      overflow: hidden;
       box-sizing: border-box;
       object-fit: cover;
       width: 100%;
@@ -51,7 +51,7 @@
 
 .button__link {
   a {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     padding: 11px 41px;

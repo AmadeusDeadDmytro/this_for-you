@@ -1,6 +1,7 @@
 .photo_blocks {
   background: #FAFAFA;
   margin-top: 110px;
+  padding-bottom: 110px;
 }
 .photo_blocks .photo_blocks__main {
   padding: 0;
@@ -13,7 +14,7 @@
 .photo_blocks .photo_blocks__div {
   display: flex;
   flex-flow: column wrap;
-  height: 800px;
+  height: 783px;
   width: 100%;
 }
 .photo_blocks .photo_blocks__div .photo_blocks__img:nth-child(2n) {
@@ -24,9 +25,9 @@
 }
 .photo_blocks .photo_blocks__div .last_block {
   margin-top: 10px !important;
+  overflow: hidden;
 }
 .photo_blocks .photo_blocks__div .last_block img {
-  overflow: hidden;
   box-sizing: border-box;
   object-fit: cover;
   width: 100%;

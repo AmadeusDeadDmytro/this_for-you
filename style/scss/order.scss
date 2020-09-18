@@ -3,9 +3,9 @@
 
 .order {
   padding:  $top-default 0 0 0;
+  overflow: hidden;
 
   img {
-    overflow: hidden;
     box-sizing: border-box;
     object-fit: cover;
     width: 100%;

@@ -29,22 +29,27 @@
             margin-top: 50px;
 
             a {
-                h5 {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-                    width: 349px;
-                    height: 65px;
-                    background: #A91D20;
-                    border: 1px solid #A91D20;
-                    text-transform: uppercase;
+                width: 349px;
+                height: 65px;
+                background: #A91D20;
+                border: 1px solid #A91D20;
+                text-transform: uppercase;
 
-                    color: white;
-                    box-sizing: border-box;
-                }
+                color: white;
+                box-sizing: border-box;
+
+                font-family: 'History Pro';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 21px;
+                line-height: 34px;
+                letter-spacing: 0.1em;
+                margin: 0;
             }
-
         }
     }
 }
