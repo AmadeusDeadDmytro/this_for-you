@@ -324,42 +324,26 @@ $(document).ready(function(){
     })
 });
 
-function headerFixed() {
-    window.addEventListener("scroll" ,() => {
-        var header = document.getElementById('header_top');
+// header
+  $(window).scroll(function() {
+      var header = $("#header_top");
 
-        if(window.scrollY > 100){
-            header.style.position = "fixed";
-            header.style.boxShadow = "0 5px 8px -5px";
-        } else {
-            header.style.position = "relative";
-            header.style.boxShadow = "none";
-        }
-    });
+      if($(window)[0].scrollY > 100) {
+          header.addClass('header_active');
+      } else {
+          header.removeClass('active');
+      }
+  });
+if ($(window).innerWidth() < 1000) {
+    window.addEventListener("resize", resizeThrottler, false);
 }
-
-headerFixed();
-
-window.addEventListener("resize", resizeThrottler, false);
-
-var resizeTimeout;
 
 function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
 
-    if ( !resizeTimeout ) {
-          resizeTimeout = setTimeout(function() {
-              resizeTimeout = null;
-              actualResizeHandler();
-
-              // The actualResizeHandler will execute at a rate of 15fps
-          }, 66);
-      }
-}
-
-function actualResizeHandler() {
     $(document).ready(function(){
         $('.contact__img').scrollLeft(400)
     })
 }
+
 

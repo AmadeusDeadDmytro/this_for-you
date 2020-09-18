@@ -38,6 +38,7 @@
   background-size: cover;
   display: flex;
   width: 130px;
+  padding-bottom: 40px;
   position: absolute;
   left: 0;
   height: 100%;
@@ -53,12 +54,11 @@
 .our .our_blog .our_blog__img .our_blog__img-block .our_blog__h4 {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  bottom: 43px;
   color: white;
-  right: 37px;
   position: relative;
   width: 100%;
   text-align: left;
+  line-height: 140px;
 }
 .our .our_blog .our_blog__img .our_blog__img-block.active {
   width: calc(100% - 260px);
@@ -89,7 +89,7 @@
   transition: 0.5s all unset;
 }
 .our .our_blog .our_blog__div-content .our_blog__div .our_blog__container {
-  padding: 110px 280px 110px 150px;
+  padding: 110px 150px 110px 150px;
   height: 640px;
 }
 .our .our_blog .our_blog__div-content .our_blog__div .our_blog__container .our_blog__text {

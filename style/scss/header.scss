@@ -6,6 +6,11 @@
   transition: 0.7s all linear;
 }
 
+.header_active {
+  position: fixed;
+  box-shadow: 0 5px 8px -5px;
+}
+
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
+
 
     .logo {
         margin-right: 100px;
@@ -55,6 +61,7 @@
         border-top: 0;
       }
     }
+
     .menu-wrapper {
       overflow: hidden;
       max-width: 100%;
