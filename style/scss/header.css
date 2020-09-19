@@ -37,7 +37,7 @@
 }
 .header .header__card .header__request_phone a {
   padding-bottom: 5px;
-  color: #A91D20;
+  color: #A91D20 !important;
   border-bottom: 1px solid #A91D20;
   text-transform: uppercase;
   width: fit-content;
