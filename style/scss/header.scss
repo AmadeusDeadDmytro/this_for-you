@@ -14,27 +14,42 @@
 }
 
 .header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+
+
+  .logo {
+    margin-right: 100px;
+  }
+
+  .header__card {
     display: flex;
-    flex-wrap: wrap;
-    height: 120px;
-    justify-content: space-between;
     align-items: center;
-    padding: 0;
 
+    .header__request_phone {
+      margin-right: 114px;
 
+      a::before {
+        content: none;
+      }
 
-    .logo {
-        margin-right: 100px;
+      a::after {
+        content: none;
+      }
+
+      a {
+        padding-bottom: 5px;
+        color: $secondary-color;
+        border-bottom: 1px solid $secondary-color;
+        text-transform: uppercase;
+        width: fit-content;
+      }
     }
-
-    .header__card {
-      display: flex;
-      align-items: center;
-
-        .header__request_phone {
-            margin-right: 114px;
-        }
-    }
+  }
 
   .menu-container {
     display: none;
@@ -179,38 +194,8 @@
 
       a {
         color: $dark;
-        font-family: 'History Pro';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: 0.1em;
-        margin: 0;
         text-transform: uppercase;
       }
     }
   }
-  .header__request_phone {
-    a::before {
-      content: none !important;
-    }
-    a::after {
-      content: none !important;
-    }
-    a {
-      font-family: 'History Pro';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 26px;
-      letter-spacing: 0.1em;
-      margin: 0;
-      color: $secondary-color;
-      border-bottom: 1px solid $secondary-color;
-      text-transform: uppercase;
-      width: fit-content;
-      padding-bottom: 4px;
-    }
-  }
 }
-
