@@ -49,9 +49,9 @@
           left: 0;
           height: 100%;
           cursor: pointer;
+          overflow: hidden;
 
           img {
-            overflow: hidden;
             box-sizing: border-box;
             object-fit: cover;
             position: relative;

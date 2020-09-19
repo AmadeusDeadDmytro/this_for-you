@@ -43,9 +43,9 @@
   left: 0;
   height: 100%;
   cursor: pointer;
+  overflow: hidden;
 }
 .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate img {
-  overflow: hidden;
   box-sizing: border-box;
   object-fit: cover;
   position: relative;

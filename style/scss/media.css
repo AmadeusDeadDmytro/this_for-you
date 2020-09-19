@@ -15,8 +15,8 @@
   }
 
   h5 {
-    width: 200px;
-    height: 50px;
+    font-size: 17px;
+    line-height: 27px;
   }
 
   h6 {
@@ -55,13 +55,6 @@
     padding: 8px 20px;
   }
 
-  .sales nav ul {
-    flex-wrap: wrap;
-  }
-  .sales nav ul li {
-    width: 50%;
-  }
-
   .slider.slider .slick-track, .regular.slider .slick-list, .sub-category.slider .slick-track, .sub-category.slider .slick-list {
     margin: 0 0 0 -50px !important;
   }
@@ -84,6 +77,23 @@
 
   .mob_hidden {
     display: none;
+  }
+
+  .catalog {
+    height: 80vh;
+  }
+  .catalog .catalog_block {
+    display: block;
+  }
+  .catalog .catalog_block .catalog_block__text {
+    margin-top: 0;
+  }
+  .catalog .catalog_block .catalog_block__link {
+    margin-top: 15px;
+  }
+  .catalog .catalog_block .catalog_block__link a {
+    width: 234px;
+    height: 50px;
   }
 
   .menu-container {
@@ -165,29 +175,17 @@
     padding-top: 10px !important;
   }
 
-  .catalog {
-    height: 80vh;
-  }
-  .catalog .catalog_block .catalog_block__text {
-    margin-top: 0;
-  }
-  .catalog .catalog_block .catalog_block__link {
-    margin-top: 15px;
-  }
-  .catalog .catalog_block .catalog_block__link a {
-    width: 296px;
-    height: 65px;
-  }
-
   .sales .sales__nav {
     padding-bottom: 20px;
   }
   .sales .sales__nav .sales__ul {
     padding-left: 0;
+    flex-wrap: wrap;
   }
   .sales .sales__nav .sales__ul .sales__li {
     padding-right: 0;
     text-align: center;
+    width: 50%;
   }
 
   .sales__div .sales_card {
@@ -1281,6 +1279,7 @@
     width: 100%;
     height: 90px;
     position: relative;
+    background: url("./img/our_block/photo-big.png");
   }
   .our .our_blog .our_blog__img .our_blog__img-block .our_blog__h4 {
     writing-mode: unset;
@@ -1739,7 +1738,7 @@
   .catalog .catalog_block .catalog_block__text {
     margin-top: 30px;
   }
-  .catalog .catalog_block .catalog_block__link a h5 {
+  .catalog .catalog_block .catalog_block__link a {
     width: 317px;
     height: 53px;
   }
@@ -1946,7 +1945,7 @@
   .catalog .catalog_block .catalog_block__text {
     margin-top: 35px;
   }
-  .catalog .catalog_block .catalog_block__link a h5 {
+  .catalog .catalog_block .catalog_block__link h5 a {
     width: 324px;
     height: 53px;
   }
