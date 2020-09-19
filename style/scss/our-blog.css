@@ -33,6 +33,15 @@
   overflow: hidden;
   transition: all .4s linear;
 }
+.our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-first {
+  background: url("./../../img/our_block/2.png");
+}
+.our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-second {
+  background: url("./../../img/our_block/3.png");
+}
+.our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-third {
+  background: url("./../../img/our_block/4.png");
+}
 .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate {
   background-size: cover;
   display: flex;
@@ -43,7 +52,6 @@
   left: 0;
   height: 100%;
   cursor: pointer;
-  overflow: hidden;
 }
 .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate img {
   box-sizing: border-box;

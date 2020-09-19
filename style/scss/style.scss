@@ -11,6 +11,7 @@ body {
 
 .container-bg {
     margin: 0 auto;
+    width: 100%;
 }
 
 @media (min-width: 1920px) {
@@ -121,9 +122,24 @@ body {
     .go-catalog {
         padding: 40px 0 0 0 !important;
     }
+    body {
+        background: red;
+    }
     .our {
         margin-top: 55px !important;
         padding-bottom: 55px !important;
+
+        .our_blog .our_blog__img .our_blog__img-block {
+            .our_blog__decorate-first {
+                background: url("./../../img/our_block/photo-big.png") !important;
+            }
+            .our_blog__decorate-second {
+                background: url("./../../img/our_block/photo-big.png") !important;
+            }
+            .our_blog__decorate-third {
+                background: url("./../../img/our_block/photo-big.png") !important;
+            }
+        }
     }
 
     .contact__work div {

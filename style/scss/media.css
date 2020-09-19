@@ -1279,7 +1279,6 @@
     width: 100%;
     height: 90px;
     position: relative;
-    background: url("./img/our_block/photo-big.png");
   }
   .our .our_blog .our_blog__img .our_blog__img-block .our_blog__h4 {
     writing-mode: unset;
@@ -1419,10 +1418,6 @@
   .contact .contact__row .contact__div:first-child {
     width: 50%;
     text-align: center;
-  }
-
-  body {
-    background: #6c757d;
   }
 
   .footer .footer__div .footer__row {
