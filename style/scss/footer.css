@@ -1,43 +1,36 @@
-.footer {
-  background: #151212;
-  margin-top: 110px;
-  position: relative;
-  display: block;
-}
-.footer .footer__div {
-  padding: 0;
-}
-.footer .footer__div .footer__img {
-  display: block;
-}
-.footer .footer__div .footer__row {
-  display: flex;
-  padding-top: 128px;
-}
-.footer .footer__div .footer__row .footer__title h5 {
-  line-height: 59px;
-  color: white;
-  text-transform: uppercase;
-}
-.footer .footer__div .footer__row .footer__block:first-child {
-  width: 25%;
-}
-.footer .footer__div .footer__row .footer__block:nth-child(2) {
-  width: 25%;
-}
-.footer .footer__div .footer__row .footer__block .footer__text ul {
-  margin-top: 30px;
-  padding: 0;
-}
-.footer .footer__div .footer__row .footer__block .footer__text ul li:first-child {
-  margin-top: 0;
-}
-.footer .footer__div .footer__row .footer__block .footer__text ul li {
-  list-style: none;
-  margin-top: 15px;
-}
-.footer .footer__div .footer__row .footer__block .footer__text ul li a {
-  color: white;
-}
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 65 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\footer.scss
 
-/*# sourceMappingURL=footer.css.map */
+60:         }
+61:       }
+62:     }
+63:   }
+64: }
+
+Backtrace:
+C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\footer.scss:65
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 65 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\footer.scss\A \A 60:         }\A 61:       }\A 62:     }\A 63:   }\A 64: }"; }

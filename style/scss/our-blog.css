@@ -104,6 +104,13 @@
   color: #A91D20;
   border-bottom: 1px solid #A91D20;
   width: 196px;
+  font-family: History Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  margin: 0;
 }
 .our .our_blog .our_blog__div-content .our_blog__div .our_blog__container .our_blog__title {
   margin-bottom: 40px;

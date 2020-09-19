@@ -1,256 +1,46 @@
-body {
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-}
+/*
+Error: Invalid CSS after "...: 'History Pro'": expected "{", was ";"
+        on line 205 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\style.scss
 
-.container {
-  margin: 0 auto;
-}
+200:     margin: 0;
+201: }
+202: 
+203: h6 {
+204: <<<<<<< HEAD
+205:     font-family: 'History Pro';
+206: =======
+207:     font-family: History Pro;
+208: >>>>>>> origin/main
+209:     font-style: normal;
+210:     font-weight: normal;
 
-.container-bg {
-  margin: 0 auto;
-}
-
-@media (min-width: 1920px) {
-  .container {
-    max-width: 1605px;
-  }
-
-  .container-bg {
-    max-width: 1860px;
-  }
-}
-@media (max-width: 539px) and (min-width: 200px) {
-  .container {
-    max-width: 100%;
-  }
-}
-@media (max-width: 767.99px) and (min-width: 540px) {
-  .container {
-    max-width: 85%;
-  }
-}
-@media (max-width: 991.99px) and (min-width: 768px) {
-  .container {
-    max-width: 85%;
-  }
-}
-@media (max-width: 1199px) and (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-@media (max-width: 1250px) and (min-width: 1200px) {
-  .container {
-    max-width: 1000px;
-  }
-}
-@media (max-width: 1299px) and (min-width: 1251px) {
-  .container {
-    max-width: 1053px;
-  }
-}
-@media (max-width: 1348px) and (min-width: 1300px) {
-  .container {
-    max-width: 1230px;
-  }
-}
-@media (max-width: 1499px) and (min-width: 1349px) {
-  .container {
-    max-width: 1230px;
-  }
-}
-@media (max-width: 1604.99px) and (min-width: 1500px) {
-  .container {
-    max-width: 1295px;
-  }
-}
-@media (max-width: 1639px) and (min-width: 1605px) {
-  .container {
-    max-width: 1400px;
-  }
-
-  .container-bg {
-    max-width: 1560px;
-  }
-}
-@media (max-width: 1919px) and (min-width: 1640px) {
-  .container {
-    max-width: 1550px;
-  }
-
-  .container-bg {
-    max-width: 1590px;
-  }
-}
-@media (max-width: 991px) {
-  .block__title {
-    padding: 55px 0 40px 0 !important;
-  }
-
-  .photo_blocks {
-    margin-top: 55px !important;
-  }
-
-  .order {
-    padding-top: 55px !important;
-  }
-
-  .gift__row {
-    padding-top: 55px !important;
-  }
-
-  .flowers_div .block__title {
-    padding-top: 40px !important;
-  }
-
-  .flowers__gift_div .block__title {
-    padding-top: 40px !important;
-  }
-
-  .go-catalog {
-    padding: 40px 0 0 0 !important;
-  }
-
-  .our {
-    margin-top: 55px !important;
-    padding-bottom: 55px !important;
-  }
-
-  .contact__work div {
-    font-size: 32px !important;
-    line-height: 51px !important;
-  }
-
-  .contact__content div:first-child {
-    margin: 0 !important;
-  }
-
-  .our_blog__text {
-    margin-top: 15px !important;
-  }
-
-  .mono_bouquets {
-    padding: 55px 0 0 0 !important;
-  }
-
-  .contact__row {
-    padding-bottom: 40px !important;
-  }
-
-  .footer {
-    margin-top: 55px !important;
-    padding-top: 40px !important;
-  }
-}
-h1 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 64px;
-  line-height: 102px;
-  letter-spacing: 0.1em;
-  margin: 0;
-  color: white;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 38px;
-  line-height: 61px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #234612;
-}
-
-h4 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 45px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-h5 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 21px;
-  line-height: 34px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-
-h6 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-
-.text-1 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-
-.text-2 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 29px;
-  margin: 0;
-}
-
-.text-3 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 32px;
-  margin: 0;
-}
-
-.text-4 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 23px;
-  line-height: 37px;
-  margin: 0;
-}
-
-.text-big {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 42px;
-  margin: 0;
-}
-
-.text_green {
-  color: #1A9940 !important;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\style.scss:205
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...: 'History Pro'\": expected \"{\", was \";\"\A         on line 205 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\style.scss\A \A 200:     margin: 0;\A 201: }\A 202: \A 203: h6 {\A 204: <<<<<<< HEAD\A 205:     font-family: 'History Pro';\A 206: =======\A 207:     font-family: History Pro;\A 208: >>>>>>> origin/main\A 209:     font-style: normal;\A 210:     font-weight: normal;"; }

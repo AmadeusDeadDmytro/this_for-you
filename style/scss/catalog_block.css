@@ -1,44 +1,58 @@
-.catalog {
-  background-image: url(../../img/bg/bg.png);
-  height: 850px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.catalog .catalog_block .catalog_block__title {
-  text-align: center;
-}
-.catalog .catalog_block .catalog_block__title h1 {
-  margin: 0;
-}
-.catalog .catalog_block .catalog_block__text {
-  text-align: center;
-  color: white;
-  margin-top: 40px;
-}
-.catalog .catalog_block .catalog_block__link {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-.catalog .catalog_block .catalog_block__link a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 349px;
-  height: 65px;
-  background: #A91D20;
-  border: 1px solid #A91D20;
-  text-transform: uppercase;
-  color: white;
-  box-sizing: border-box;
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 21px;
-  line-height: 34px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
+/*
+Error: Invalid CSS after "...: 'History Pro'": expected "{", was ";"
+        on line 46 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\catalog_block.scss
 
-/*# sourceMappingURL=catalog_block.css.map */
+41: 
+42:                 color: white;
+43:                 box-sizing: border-box;
+44: 
+45: <<<<<<< HEAD
+46:                 font-family: 'History Pro';
+47: =======
+48:                 font-family: History Pro;
+49: >>>>>>> origin/main
+50:                 font-style: normal;
+51:                 font-weight: normal;
+
+Backtrace:
+C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\catalog_block.scss:46
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...: 'History Pro'\": expected \"{\", was \";\"\A         on line 46 of C:\Users\nasti\Documents\It\work\verstka\thisForYou\style\scss\catalog_block.scss\A \A 41: \A 42:                 color: white;\A 43:                 box-sizing: border-box;\A 44: \A 45: <<<<<<< HEAD\A 46:                 font-family: 'History Pro';\A 47: =======\A 48:                 font-family: History Pro;\A 49: >>>>>>> origin/main\A 50:                 font-style: normal;\A 51:                 font-weight: normal;"; }
