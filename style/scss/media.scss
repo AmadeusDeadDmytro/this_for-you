@@ -1895,14 +1895,16 @@
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-
+  body {
+    background: #6c757d;
+  }
   h1 {
     font-size: 46px;
     line-height: 71px;
   }
   h3 {
     font-size: 23px;
-    line-height: 42px;
+    line-height: 40px;
   }
   h4 {
     font-size: 17px;
@@ -1993,6 +1995,13 @@
     padding: 60px 0 50px 0;
   }
 
+  .flowers_div .block__title {
+    padding-top: 60px;
+  }
+  .flowers__gift_div .block__title {
+    padding-top: 60px;
+  }
+
   .our {
     padding: 0;
 
@@ -2077,7 +2086,7 @@
   }
 
   .sales .sales__nav {
-    padding-bottom: 40px;
+    padding-bottom: 35px;
   }
 
   .photo_blocks {
@@ -2133,6 +2142,8 @@
   }
 
   .mono_bouquets {
+    padding: 60px 0 0 0;
+
     .button__link {
       a {
         width: 128px;
@@ -2279,6 +2290,8 @@
     padding: 0;
 
     .our_blog {
+      margin-top: 75px;
+
       .our_blog__div-content .our_blog__div {
 
         .our_blog__container {
@@ -2325,7 +2338,7 @@
     }
 
     .block__title {
-      padding: 90px 0 60px 0;
+      padding: 75px 0 60px 0;
     }
   }
 
@@ -2349,6 +2362,8 @@
   }
 
   .order {
+    padding: 75px 0 0 0;
+
     .order__row {
       .button__link a {
         width: 173px;
@@ -2388,13 +2403,15 @@
   }
 
   .photo_blocks {
+    padding-bottom: 75px;
 
     .photo_blocks__main {
       margin-top: 90px;
     }
     .photo_blocks__title {
-      padding: 80px 0 80px 0;
+      padding: 75px 0 60px 0;
     }
+
     .photo_blocks__div {
       height: auto;
       flex-flow: wrap;
@@ -2408,7 +2425,9 @@
     }
   }
 
-  .gift .gift__right {
+  .gift {
+    padding: 75px 0 0 0;
+    .gift__right {
     padding: 70px 0 70px 110px;
 
     .gift__div {
@@ -2433,6 +2452,7 @@
         margin-bottom: 30px;
       }
     }
+  }
   }
 
   .contact__img {
@@ -2542,16 +2562,29 @@
     }
   }
 
+  .block__title {
+    padding: 80px 0 60px 0;
+  }
+
   .mono_bouquets {
-    .mono_bouquets__div .mono_bouquets__title {
-      margin-bottom: 30px;
+    padding: 80px 0 0 0;
+
+    .mono_bouquets__div {
+      .mono_bouquets__inform {
+        margin: 30px 0 40px 0;
+      }
+      .mono_bouquets__title {
+        margin-bottom: 30px;
+      }
     }
+
     .button__link a {
       width: 166px;
     }
   }
 
   .order {
+    padding: 80px 0 0 0;
     .button__link a {
       width: 173px;
     }
@@ -2586,6 +2619,8 @@
     padding: 0;
 
     .our_blog {
+      margin-top: 80px;
+
       .our_blog__div-content .our_blog__div {
 
         .our_blog__container {
@@ -2628,14 +2663,21 @@
     }
 
     .block__title {
-      padding: 90px 0 60px 0;
+      padding: 80px 0 60px 0;
     }
   }
 
   .photo_blocks {
-    .photo_blocks__title {
-      padding: 90px 0 90px 0;
+    padding-bottom: 80px;
+
+    .photo_blocks__main {
+      margin-top: 80px;
     }
+
+    .photo_blocks__title {
+      padding: 80px 0 60px 0;
+    }
+
     .photo_blocks__div {
       height: auto;
       flex-flow: wrap;
@@ -2649,7 +2691,10 @@
     }
   }
 
-  .gift .gift__right .gift__div {
+  .gift {
+    padding: 80px 0 0 0;
+
+    .gift__right .gift__div {
     .gift_block__link {
       width: 281.21px;
       height: 55px;
@@ -2670,6 +2715,7 @@
     .gift__title {
       margin-bottom: 30px;
     }
+  }
   }
 
   .contact__img {
