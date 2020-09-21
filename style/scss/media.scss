@@ -184,6 +184,7 @@
       }
     }
   }
+
   .flowers__gift_div .block__title {
     padding-top: 25px;
   }
@@ -273,7 +274,7 @@
 
   .photo_blocks {
     margin-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
 
     .photo_blocks__main {
       margin-top: 40px;
@@ -375,12 +376,17 @@
     padding: 15px 0;
   }
 
+  .block__title {
+    padding: 40px 0 25px 0;
+  }
+
   .our {
     margin-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 25px;
 
     .our_blog {
       padding: 0;
+      margin-top: 0;
 
       .our_blog__mob-img {
         min-width: 390px;
@@ -466,7 +472,8 @@
     .contact__row {
       margin-right: 0;
       flex-wrap: wrap;
-      margin-bottom: 0;
+      margin-bottom: 5px;
+
       .contact__div {
         width: 100%;
         margin-bottom: 20px;
@@ -840,11 +847,13 @@
 
   .gift__row {
     margin-top: 0;
+    padding-top: 55px;
   }
 
   .our {
     margin-top: 55px;
     padding-bottom: 55px;
+    margin-bottom: 5px;
 
     .our_blog {
       padding: 0;
@@ -931,7 +940,7 @@
     .contact__row {
       margin-right: 0;
       flex-wrap: wrap;
-      margin-bottom: 0;
+      margin-bottom: 5px;
 
       .contact__div {
         width: 50%;
@@ -1282,7 +1291,7 @@
     padding-bottom: 55px;
 
     .our_blog {
-      padding: 0;
+      margin-top: 30px;
 
       .our_blog__mob-img {
         min-width: 390px;
@@ -1362,7 +1371,7 @@
   }
 
   .block__title {
-    padding: 55px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
 
   .go-catalog {
@@ -1373,7 +1382,7 @@
     .contact__row {
       margin-right: 0;
       flex-wrap: wrap;
-      margin-bottom: 0;
+      margin-bottom: 5px;
 
       .contact__div {
         width: 50%;
@@ -1433,6 +1442,7 @@
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
+
   h1 {
     font-size: 44px;
     line-height: 68px;
@@ -1597,7 +1607,7 @@
     padding-bottom: 55px;
 
     .our_blog {
-      padding: 0;
+      margin-top: 0;
 
       .our_blog__mob-img {
         min-width: 390px;
@@ -1737,6 +1747,7 @@
 
   .gift {
     flex-direction: column-reverse;
+    padding: 40px 0 0 0;
 
     .gift__right {
       padding: 20px 0 0 0;
@@ -1939,6 +1950,8 @@
     padding: 0;
 
     .our_blog {
+      margin-top: 50px;
+
       .our_blog__div-content .our_blog__div {
 
         .our_blog__container {
@@ -1984,18 +1997,20 @@
     }
 
     .block__title {
-      padding: 90px 0 60px 0;
+      padding: 55px 0 60px 0;
     }
   }
 
   .order {
+    padding-top: 25px;
+
     .button__link a {
       width: 128px;
     }
     .order__row {
       .order__div {
         margin-bottom: 50px;
-        margin-left: 100px;
+        margin-left: 70px;
         margin-top: 50px;
 
         .order__title br {
@@ -2019,6 +2034,8 @@
   }
 
   .photo_blocks {
+    padding-bottom: 55px;
+
     .photo_blocks__main {
       margin-top: 80px;
     }
@@ -2040,6 +2057,8 @@
   }
 
   .gift {
+    padding: 80px 0 0 0;
+
     .gift__right {
       padding: 60px 0 60px 80px;
 
@@ -2108,6 +2127,8 @@
   }
 
   .footer {
+    margin-top: 80px;
+
     .footer__div {
       .footer__row {
         width: 100%;
@@ -2312,7 +2333,7 @@
   .photo_blocks {
 
     .photo_blocks__main {
-      margin-top: 100px;
+      margin-top: 90px;
     }
     .photo_blocks__title {
       padding: 80px 0 80px 0;
@@ -2371,6 +2392,7 @@
   }
 
   .footer {
+    margin-top: 80px;
     .footer__div {
       .footer__row {
         width: 100%;

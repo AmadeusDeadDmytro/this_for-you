@@ -3,7 +3,6 @@
 
 .our {
   background: $bgWhite;
-  margin-top: $top-default;
   padding-bottom: $top-default;
 
     img {
@@ -16,6 +15,7 @@
 
   .our_blog {
     padding: 0;
+    margin-top: $top-default;
 
     .our_blog__mob-img {
       min-width: 390px;
