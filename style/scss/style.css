@@ -88,12 +88,18 @@ body {
 @media (max-width: 991px) {
   .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-first {
     background: url("./../../img/our_block/photo-big.png");
+    background-size: cover;
+    background-position: center;
   }
   .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-second {
     background: url("./../../img/our_block/photo-big.png");
+    background-size: cover;
+    background-position: center;
   }
   .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-third {
     background: url("./../../img/our_block/photo-big.png");
+    background-size: cover;
+    background-position: center;
   }
 }
 h1 {
