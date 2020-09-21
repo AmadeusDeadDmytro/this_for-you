@@ -48,9 +48,9 @@
       position: relative;
       width: fit-content;
       margin-right: 10px;
+      overflow: hidden;
 
       .photo_blocks__first {
-        overflow: hidden;
         box-sizing: border-box;
         object-fit: cover;
         width: 100%;

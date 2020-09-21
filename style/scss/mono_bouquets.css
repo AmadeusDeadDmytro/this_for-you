@@ -28,7 +28,6 @@
   width: 40%;
 }
 .mono_bouquets .mono_bouquets__img img {
-  overflow: hidden;
   box-sizing: border-box;
   object-fit: cover;
   width: 100%;

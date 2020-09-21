@@ -64,7 +64,6 @@
   outline: none;
 }
 .sales__div .sales_card .sales_card__img img {
-  overflow: hidden;
   box-sizing: border-box;
   object-fit: cover;
   width: 100%;
