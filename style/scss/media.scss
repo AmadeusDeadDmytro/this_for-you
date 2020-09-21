@@ -11,7 +11,7 @@
   }
   h4 {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 26px;
   }
 
   h5 {
@@ -34,8 +34,8 @@
   }
 
   .text-3 {
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 22px;
   }
 
   .text-4 {
@@ -43,8 +43,8 @@
     line-height: 22px;
   }
   .text-big {
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 23px;
   }
 
   .text-h6 {
@@ -160,6 +160,9 @@
     .header__card {
       .header__request_phone {
         margin-right: 35px;
+        a {
+          color: #A91D20;
+        }
       }
     }
   }
@@ -169,6 +172,7 @@
 
     .catalog_block {
       display: block;
+      padding: 0 5px;
 
       .catalog_block__text {
         margin-top: 0;
@@ -186,11 +190,11 @@
   }
 
   .flowers__gift_div .block__title {
-    padding-top: 25px;
+    padding-top: 40px;
   }
 
   .flowers_div .block__title {
-    padding-top: 25px;
+    padding-top: 40px;
   }
 
   .sales .sales__nav {
@@ -234,7 +238,7 @@
   }
 
   .order {
-    padding-top: 55px;
+    padding-top: 40px;
 
     .button__link a {
       width: 128px;
@@ -281,7 +285,7 @@
     }
 
     .photo_blocks__title {
-      padding: 35px 0 20px 0;
+      padding: 40px 0 20px 0;
     }
     .photo_blocks__div {
       height: auto;
@@ -300,7 +304,7 @@
   .mono_bouquets {
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    padding: 55px 0 0 0;
+    padding: 40px 0 0 0;
 
     .button__link {
       a {
@@ -322,7 +326,7 @@
       padding: 15px;
 
       .mono_bouquets__title {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
 
       .mono_bouquets__inform {
@@ -373,7 +377,7 @@
   }
 
   .go-catalog {
-    padding: 15px 0;
+    padding: 40px 0 0 0;
   }
 
   .block__title {
@@ -381,7 +385,7 @@
   }
 
   .our {
-    margin-top: 55px;
+    margin-top: 40px;
     padding-bottom: 25px;
 
     .our_blog {
@@ -438,7 +442,7 @@
           flex-direction: column;
 
           .our_blog__container {
-            padding: 0 15px 25px 15px;
+            padding: 15px 15px 25px 15px;
             height: fit-content;
 
             .our_blog__text {
@@ -456,7 +460,7 @@
             }
 
             .our_blog__title {
-              margin-bottom: 0;
+              margin-bottom: 5px;
 
               br {
                 display: none;
@@ -481,8 +485,12 @@
         flex-direction: column;
         align-items: center;
 
-        .contact__content div:first-child {
-          margin: 0;
+        .contact__content {
+          text-align: center;
+
+          div:first-child {
+            margin: 0;
+          }
         }
       }
 
@@ -495,7 +503,7 @@
   }
 
   .footer {
-    margin-top: 55px;
+    margin-top: 0;
     padding-top: 40px;
 
     .footer__div {
@@ -506,7 +514,14 @@
         padding-left: 20px;
         padding-top: 5px;
 
+
+        .footer__block:nth-child(2) {
+          width: unset;
+        }
+
         .footer__block {
+          width: unset;
+
           .footer__text ul {
             margin-top: 15px;
           }
@@ -536,7 +551,7 @@
   }
   h3 {
     font-size: 23px;
-    line-height: 46px;
+    line-height: 39px;
   }
   h4 {
     font-size: 17px;
@@ -554,16 +569,19 @@
 
   .text-1 {
     font-size: 14px;
+    line-height: 22px;
   }
   .text-2 {
     font-size: 13px;
+    line-height: 24px;
   }
   .text-3 {
     font-size: 15px;
+    line-height: 24px;
   }
   .text-4 {
     font-size: 17px;
-    line-height: 31px;
+    line-height: 28px;
   }
   .text-big {
     font-size: 19px;
@@ -623,6 +641,9 @@
     .header__card {
       .header__request_phone {
         margin-right: 35px;
+        a {
+          color: #A91D20;
+        }
       }
     }
 
@@ -631,7 +652,7 @@
     }
 
     .header__ul .header__li {
-      margin-right: 40px;
+      margin: 0 14px 0 26px;
     }
   }
 
@@ -655,7 +676,7 @@
   }
 
   .block__title {
-    padding: 55px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
 
   .go-catalog {
@@ -851,12 +872,12 @@
   }
 
   .our {
-    margin-top: 55px;
-    padding-bottom: 55px;
-    margin-bottom: 5px;
+    margin: 40px 0 10px 0;
+    padding-bottom: 20px;
 
     .our_blog {
       padding: 0;
+      margin-top: 40px;
 
       .our_blog__mob-img {
         min-width: 390px;
@@ -884,7 +905,7 @@
             line-height: 100px;
           }
         }
-        .our_blog__img-block.active{
+        .our_blog__img-block.active {
           width: 100%;
           flex-direction: column;
           height: calc(100% - 260px);
@@ -907,7 +928,7 @@
           flex-direction: column;
 
           .our_blog__container {
-            padding: 0 0 25px 0;
+            padding: 10px 0 25px 0;
             height: fit-content;
 
             .our_blog__text {
@@ -949,8 +970,12 @@
         flex-direction: column;
         align-items: center;
 
-        .contact__content div:first-child {
-          margin: 0;
+        .contact__content {
+          text-align: center;
+
+          div:first-child {
+            margin: 0;
+          }
         }
       }
 
@@ -1002,8 +1027,9 @@
   }
   h3 {
     font-size: 23px;
-    line-height: 42px;
+    line-height: 39px;
   }
+
   h4 {
     font-size: 17px;
     line-height: 2;
@@ -1021,6 +1047,7 @@
 
   .text-1 {
     font-size: 14px;
+    line-height: 24px;
   }
   .text-2 {
     font-size: 14px;
@@ -1028,6 +1055,7 @@
   }
   .text-3 {
     font-size: 15px;
+    line-height: 25px;
   }
   .text-4 {
     font-size: 17px;
@@ -1054,6 +1082,9 @@
     .header__card {
       .header__request_phone {
         margin-right: 35px;
+        a {
+          color: #A91D20;
+        }
       }
     }
 
@@ -1072,7 +1103,8 @@
     }
 
     .header__ul .header__li {
-        margin-right: 40px;
+        margin-right: 28px;
+
       a {
         font-size: 14px;
         line-height: 2;
@@ -1190,11 +1222,11 @@
     padding-bottom: 50px;
 
     .photo_blocks__main {
-      margin-top: 65px;
+      margin-top: 45px;
     }
 
     .photo_blocks__title {
-      padding: 65px 0 60px 0;
+      padding: 50px 0 40px 0;
     }
     .photo_blocks__div {
       height: auto;
@@ -1239,7 +1271,7 @@
         }
       }
       .mono_bouquets__title {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
       }
     }
   }
@@ -1287,7 +1319,7 @@
   }
 
   .our {
-    margin-top: 55px;
+    margin-top: 45px;
     padding-bottom: 55px;
 
     .our_blog {
@@ -1319,7 +1351,7 @@
             line-height: 100px;
           }
         }
-        .our_blog__img-block.active{
+        .our_blog__img-block.active {
           width: 100%;
           flex-direction: column;
           height: calc(100% - 260px);
@@ -1342,7 +1374,7 @@
           flex-direction: column;
 
           .our_blog__container {
-            padding: 0 0 25px 0;
+            padding: 15px 0 25px 0;
             height: fit-content;
 
             .our_blog__text {
@@ -1391,9 +1423,16 @@
         flex-direction: column;
         align-items: center;
 
-        .contact__content div:first-child {
-          margin: 0;
+        .contact__content {
+          text-align: center;
+
+          div:first-child {
+            margin: 0;
+          }
         }
+      }
+      .contact__content {
+        text-align: center;
       }
       .contact__div:first-child {
         width: 50%;
@@ -1449,7 +1488,7 @@
   }
   h3 {
     font-size: 23px;
-    line-height: 46px;
+    line-height: 40px;
   }
   h4 {
     font-size: 17px;
@@ -1470,10 +1509,11 @@
   }
   .text-2 {
     font-size: 14px;
+    line-height: 22px;
   }
   .text-4 {
     font-size: 17px;
-    line-height: 31px;
+    line-height: 27px;
   }
   .text-3 {
     font-size: 15px;
@@ -1532,6 +1572,9 @@
     .header__card {
       .header__request_phone {
         margin-right: 35px;
+        a {
+          color: #A91D20;
+        }
       }
     }
 
@@ -1540,7 +1583,7 @@
     }
 
     .header__ul .header__li {
-      margin-right: 60px;
+      margin: 0 42px 0 52px;
 
       a {
         font-size: 14px;
@@ -1576,12 +1619,10 @@
       flex-direction: column;
 
       .order__div {
-        margin-bottom: 50px;
-        margin-left: 0;
-        margin-top: 50px;
+        margin: 30px;
 
         .order__title {
-          margin-bottom: 30px;
+          margin-bottom: 25px;
 
           br {
             display: none;
@@ -1727,9 +1768,7 @@
       padding-bottom: 20px;
       height: 79vh;
     }
-    .mono_bouquets__text br {
-      display: none;
-    }
+
     .mono_bouquets__div {
       width: 100%;
 
@@ -1740,7 +1779,7 @@
         }
       }
       .mono_bouquets__title {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
       }
     }
   }
@@ -1806,8 +1845,11 @@
         flex-direction: column;
         align-items: center;
 
-        .contact__content div:first-child {
-          margin: 0;
+        .contact__content {
+          text-align: center;
+          div:first-child {
+            margin: 0;
+          }
         }
       }
 
@@ -1925,6 +1967,10 @@
     .header__card {
       .header__request_phone {
         margin-right: 35px;
+
+        a {
+          color: #A91D20;
+        }
       }
     }
   }
@@ -2888,6 +2934,15 @@
     }
   }
 
+  .gift .gift__right .gift__div {
+    .gift__text {
+      margin-bottom: 50px;
+    }
+    .gift__title {
+      margin-bottom: 30px;
+    }
+  }
+
   .our .our_blog {
     .our_blog__div-content .our_blog__div .our_blog__container {
       padding: 90px 90px 90px 80px;
@@ -2902,6 +2957,7 @@
       margin-bottom: 20px;
     }
   }
+
   .photo_blocks {
     .photo_blocks__title {
       padding: 100px 0 100px 0;
@@ -2942,6 +2998,10 @@
 @media (max-width: 1919px) and (min-width: 1640px) {
   h3 {
     font-size: 37px;
+  }
+
+  .gift .gift__right .gift__div .gift__title {
+    margin-bottom: 55px;
   }
 
   .photo_blocks {
