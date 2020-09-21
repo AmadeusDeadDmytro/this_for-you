@@ -16,6 +16,10 @@
     padding: $top-default 0 122px 0;
   }
 
+  .mar_right {
+    margin-right: 0;
+  }
+
   .photo_blocks__div {
     display: flex;
     flex-flow: column wrap;
@@ -26,12 +30,9 @@
       order: 1;
     }
 
-    .mar_right {
-      margin-right: 0 !important;
-    }
 
     .last_block {
-      margin-top: 10px !important;
+      margin-top: 10px;
       overflow: hidden;
 
       img {

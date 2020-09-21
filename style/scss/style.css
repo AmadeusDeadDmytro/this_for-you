@@ -207,8 +207,8 @@ h6 {
   margin: 0;
 }
 
-.text_green {
-  color: #1A9940 !important;
+.sales__div .sales_card .sales_card__block .sales_card__text .text_green {
+  color: #1A9940;
 }
 
 a:hover {
