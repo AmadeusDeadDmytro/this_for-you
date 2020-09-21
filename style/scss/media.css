@@ -2000,6 +2000,9 @@
   .mono_bouquets .mono_bouquets__div .mono_bouquets__title {
     margin-bottom: 20px;
   }
+  .mono_bouquets .mono_bouquets__div .mono_bouquets__inform {
+    margin: 20px 0 30px 0;
+  }
   .mono_bouquets .button__link a {
     width: 166px;
   }
