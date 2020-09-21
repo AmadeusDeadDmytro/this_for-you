@@ -3,11 +3,11 @@
 
 .photo_blocks {
   background: #FAFAFA;
-  margin-top: $top-default;
   padding-bottom: $top-default;
 
   .photo_blocks__main {
     padding: 0;
+    margin-top: $top-default;
   }
 
   .photo_blocks__title {

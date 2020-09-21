@@ -1,10 +1,10 @@
 .photo_blocks {
   background: #FAFAFA;
-  margin-top: 110px;
   padding-bottom: 110px;
 }
 .photo_blocks .photo_blocks__main {
   padding: 0;
+  margin-top: 110px;
 }
 .photo_blocks .photo_blocks__title {
   display: flex;
