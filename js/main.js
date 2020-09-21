@@ -334,9 +334,9 @@ $(document).ready(function(){
           header.removeClass('header_active');
       }
   });
-if ($(window).innerWidth() < 1000) {
-    window.addEventListener("resize", resizeThrottler, false);
-}
+
+  window.addEventListener("resize", resizeThrottler, false);
+
 
 function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
