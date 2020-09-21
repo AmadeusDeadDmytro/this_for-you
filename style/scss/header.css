@@ -129,7 +129,7 @@
   z-index: 2;
 }
 .header .menu-container .accordion-toggle.active-tab {
-  background: #6c757d;
+  background: #c9ccce;
   transition: all 0.3s ease;
 }
 .header .menu-container .accordion-toggle a.active:before {
