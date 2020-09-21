@@ -37,7 +37,7 @@
 }
 .header .header__card .header__request_phone a {
   padding-bottom: 5px;
-  color: #A91D20 !important;
+  color: #A91D20;
   border-bottom: 1px solid #A91D20;
   text-transform: uppercase;
   width: fit-content;
@@ -134,11 +134,11 @@
 }
 .header .menu-container .accordion-toggle a.active:before {
   transform: rotate(0deg);
-  background: #fff !important;
+  background: #fff;
 }
 .header .menu-container .accordion-toggle a.active:after {
   transform: rotate(180deg);
-  background: #fff !important;
+  background: #fff;
   opacity: 0;
 }
 .header .menu-container .accordion-toggle, .header .menu-container .accordion-content {

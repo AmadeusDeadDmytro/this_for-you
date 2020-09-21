@@ -42,7 +42,7 @@
 
       a {
         padding-bottom: 5px;
-        color: $secondary-color !important;
+        color: $secondary-color;
         border-bottom: 1px solid $secondary-color;
         text-transform: uppercase;
         width: fit-content;
@@ -156,12 +156,12 @@
     }
     .accordion-toggle a.active:before {
       transform: rotate(0deg);
-      background: #fff !important;
+      background: #fff;
     }
 
     .accordion-toggle a.active:after {
       transform: rotate(180deg);
-      background: #fff !important;
+      background: #fff;
       opacity: 0;
     }
 
