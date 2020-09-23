@@ -4,41 +4,52 @@
   position: relative;
   display: block;
 }
-.footer .footer__div {
-  padding: 0;
+.footer .footer__row {
+  padding-top: 128px;
+  display: flex;
+  flex-wrap: wrap;
 }
-.footer .footer__div .footer__img {
+.footer .footer__row .footer__img {
   display: block;
 }
-.footer .footer__div .footer__row {
-  height: 652px;
-  display: flex;
-  padding-top: 128px;
+.footer .footer__row .footer__title {
+  color: #FFFFFF;
+  padding-top: 10px;
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
 }
-.footer .footer__div .footer__row .footer__title h5 {
-  line-height: 59px;
-  color: white;
-  text-transform: uppercase;
+.footer .footer__row .footer__block:first-child {
+  width: 21%;
 }
-.footer .footer__div .footer__row .footer__block:first-child {
-  width: 25%;
+.footer .footer__row .footer__block:nth-child(2) {
+  width: 21%;
 }
-.footer .footer__div .footer__row .footer__block:nth-child(2) {
-  width: 25%;
+.footer .footer__row .footer__block:last-child {
+  width: 33%;
 }
-.footer .footer__div .footer__row .footer__block .footer__text ul {
-  margin-top: 30px;
-  padding: 0;
+.footer .footer__row .footer__block .footer__text {
+  list-style-type: none;
+  padding: 36px 0 0 0;
 }
-.footer .footer__div .footer__row .footer__block .footer__text ul li:first-child {
-  margin-top: 0;
+.footer .footer__row .footer__block .footer__text .footer__text-li {
+  text-decoration: none;
+  padding: 0 0 10px 0;
 }
-.footer .footer__div .footer__row .footer__block .footer__text ul li {
-  list-style: none;
-  margin-top: 15px;
+.footer .footer__row .footer__block .footer__text .footer__text-li a {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: unset;
 }
-.footer .footer__div .footer__row .footer__block .footer__text ul li a {
-  color: white;
+.footer .footer__row .footer__block .footer__text .footer__text-li:last-child {
+  padding-bottom: 0;
 }
 
 /*# sourceMappingURL=footer.css.map */

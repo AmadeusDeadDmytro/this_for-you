@@ -4,24 +4,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.catalog .catalog_block .catalog_block__title {
+.catalog h1 {
+  margin: 0;
   text-align: center;
 }
-.catalog .catalog_block .catalog_block__title h1 {
-  margin: 0;
-}
-.catalog .catalog_block .catalog_block__text {
+.catalog .catalog_block__text {
   text-align: center;
   color: white;
   margin-top: 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 42px;
+  letter-spacing: unset;
 }
-.catalog .catalog_block .catalog_block__link {
+.catalog .catalog_block__link {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
-.catalog .catalog_block .catalog_block__link a {
+.catalog .catalog_block__link a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +37,12 @@
   text-transform: uppercase;
   color: white;
   box-sizing: border-box;
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
 }
 
 /*# sourceMappingURL=catalog_block.css.map */

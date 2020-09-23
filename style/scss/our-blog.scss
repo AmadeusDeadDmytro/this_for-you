@@ -1,5 +1,6 @@
 @import './colors';
 @import './dimentions';
+@import './mixin';
 
 .our {
   background: $bgWhite;
@@ -19,10 +20,7 @@
 
     .our_blog__mob-img {
       min-width: 390px;
-
-      img {
-        width: 100%;
-      }
+      width: 100%;
     }
 
     .our_blog__img {
@@ -56,17 +54,9 @@
           padding-bottom: 40px;
           position: absolute;
           left: 0;
-          background-size: cover;
           background-position: center;
           height: 100%;
           cursor: pointer;
-
-          img {
-            box-sizing: border-box;
-            object-fit: cover;
-            position: relative;
-            display: block;
-          }
         }
 
         .our_blog__h4 {
@@ -83,10 +73,9 @@
         width: calc(100% - 260px);
         transition: all .4s linear;
 
-        .our_blog__div-content {
+        .our_blog__content {
           opacity: 1;
           transition: all .4s linear;
-
         }
 
         .our_blog__decorate {
@@ -103,12 +92,12 @@
       background: white;
     }
 
-    .our_blog__div-content {
+    .our_blog__content {
       display: block;
       opacity: 0;
       transition: all .4s linear;
 
-      .our_blog__div {
+      .our_blog__wrap {
         display: flex;
         flex: 1;
         transition: 0.5s all unset;
@@ -120,6 +109,12 @@
           .our_blog__text {
             margin-top: 30px;
             color: $grey4;
+
+            @include style-text(16px, 26px, 0.1em, 'Open Sans', 300);
+          }
+
+          .our_blog__p {
+            @include style-text(20px, 32px, unset, 'Open Sans', 300);
           }
 
           .our_blog__link {
@@ -131,6 +126,9 @@
               color: $secondary-color;
               border-bottom: 1px solid $secondary-color;
               width: 196px;
+              padding-bottom: 5px;
+
+              @include style-text(16px, 26px, 0.1em);
             }
           }
 

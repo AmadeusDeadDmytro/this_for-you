@@ -1,4 +1,5 @@
 @import '../scss/colors.scss';
+@import "../scss/mixin";
 
 .fixed-top {
   background: white;
@@ -22,7 +23,7 @@
   padding: 0;
 
   .logo {
-    margin-right: 100px;
+    margin-right: 120px;
     display: block;
   }
 
@@ -185,17 +186,23 @@
     margin: 0;
     padding: 0;
 
+    .header__li:first-child {
+      margin: 0;
+    }
+
     .header__li {
       margin-left: 40px;
-
-      .header__li:first-child {
-        margin: 0;
-      }
 
       a {
         color: $dark;
         text-transform: uppercase;
       }
     }
+  }
+
+  .header__text-h6 {
+    color: #151212;
+
+    @include style-text(16px, 26px, 0.1em, $font-family: 'History Pro');
   }
 }

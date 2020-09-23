@@ -77,13 +77,22 @@ body {
     max-width: 1560px;
   }
 }
-@media (max-width: 1919px) and (min-width: 1640px) {
+@media (max-width: 1799px) and (min-width: 1640px) {
   .container {
-    max-width: 1550px;
+    max-width: 1500px;
   }
 
   .container-bg {
     max-width: 1590px;
+  }
+}
+@media (max-width: 1919px) and (min-width: 1800px) {
+  .container {
+    max-width: 1650px;
+  }
+
+  .container-bg {
+    max-width: 1760px;
   }
 }
 @media (max-width: 991px) {
@@ -104,118 +113,95 @@ body {
   }
 }
 h1 {
-  font-family: 'History Pro';
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-family: "History Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
   line-height: 102px;
   letter-spacing: 0.1em;
-  margin: 0;
-  color: white;
-  text-transform: uppercase;
 }
 
 h3 {
-  font-family: 'History Pro';
+  text-transform: uppercase;
+  margin: 0;
+  color: #234612;
+  font-family: "History Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 38px;
   line-height: 61px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #234612;
 }
 
 h4 {
-  font-family: 'History Pro';
+  margin: 0;
+  font-family: "History Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
   line-height: 45px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
 }
 
 h5 {
-  font-family: 'History Pro';
+  margin: 0;
+  font-family: "History Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
   line-height: 34px;
   letter-spacing: 0.1em;
-  margin: 0;
 }
 
 h6 {
-  font-family: 'History Pro';
+  font-family: "History Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.1em;
-  margin: 0;
 }
 
-.text-1 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: 0.1em;
-  margin: 0;
-}
-
-.text-2 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 29px;
-  margin: 0;
-}
-
-.text-3 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 32px;
-  margin: 0;
-}
-
-.text-4 {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 23px;
-  line-height: 37px;
-  margin: 0;
-}
-
-.text-big {
+.button__link a {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
-  line-height: 42px;
-  margin: 0;
-}
-
-.text-h6 {
-  font-family: 'History Pro';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
+  padding: 11px 41px;
+  width: fit-content;
+  font-size: 21px;
+  line-height: 160%;
   letter-spacing: 0.1em;
-  margin: 0;
+  color: #A91D20;
+  text-transform: uppercase;
+  border: 1px solid #A91D20;
+  border-radius: 0;
+  display: block;
 }
 
-.sales__div .sales_card .sales_card__block .sales_card__text .text_green {
-  color: #1A9940;
+.block__title {
+  display: flex;
+  justify-content: center;
+  padding: 110px 0 80px 0;
+}
+.block__title h3 {
+  border-bottom: 2px solid #234612;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.block__title h3:after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  bottom: -10px;
+  height: 1px;
+  width: 88%;
+  background: #234612;
 }
 
 a:hover {

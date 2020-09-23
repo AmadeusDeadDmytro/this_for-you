@@ -1,5 +1,6 @@
 @import './colors';
 @import './dimentions';
+@import './mixin';
 
 .mono_bouquets {
   padding: $top-default 0 0 0;
@@ -12,7 +13,7 @@
     }
   }
 
-  .mono_bouquets__div {
+  .mono_bouquets__wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,46 +24,22 @@
       margin-bottom: 60px;
     }
 
+    .mono_bouquets__text {
+      @include style-text(23px, 37px, unset, 'Open Sans', 300);
+    }
+
     .mono_bouquets__inform {
       margin: 40px 0 60px 0;
+      color: $grey4;
 
-      p {
-        color: $grey4;
-      }
+      @include style-text(18px, 29px, unset, 'Open Sans', 300);
     }
   }
 
   .mono_bouquets__img {
     display: flex;
     justify-content: flex-end;
-    width: 40%;
 
-    img {
-      box-sizing: border-box;
-      object-fit: cover;
-      width: 100%;
-      position: relative;
-      display: block;
-      height: 100%;
-    }
-  }
-}
-
-.button__link {
-  a {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    padding: 11px 41px;
-    width: fit-content;
-
-    font-size: 21px;
-    line-height: 160%;
-    letter-spacing: 0.1em;
-    color: $secondary-color;
-    text-transform: uppercase;
-    border: 1px solid $secondary-color;
-    border-radius: 0;
-    display: block;
+    @include img-wrap(40%);
   }
 }

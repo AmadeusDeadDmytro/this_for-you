@@ -20,7 +20,7 @@
   padding: 0;
 }
 .header .logo {
-  margin-right: 100px;
+  margin-right: 120px;
   display: block;
 }
 .header .header__card {
@@ -158,15 +158,24 @@
   margin: 0;
   padding: 0;
 }
+.header .header__ul .header__li:first-child {
+  margin: 0;
+}
 .header .header__ul .header__li {
   margin-left: 40px;
-}
-.header .header__ul .header__li .header__li:first-child {
-  margin: 0;
 }
 .header .header__ul .header__li a {
   color: #151212;
   text-transform: uppercase;
+}
+.header .header__text-h6 {
+  color: #151212;
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
 }
 
 /*# sourceMappingURL=header.css.map */
