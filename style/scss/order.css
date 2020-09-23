@@ -13,21 +13,34 @@
 .order .order__row {
   display: flex;
 }
-.order .order__row .order__div {
+.order .order__row .order__wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
   margin-left: 150px;
 }
-.order .order__row .order__div .order__title {
+.order .order__row .order__wrap .order__title {
   margin-bottom: 60px;
 }
-.order .order__row .order__div .order__inform {
-  margin: 40px 0 60px 0;
+.order .order__row .order__wrap .order-text {
+  color: #444444;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 37px;
+  letter-spacing: unset;
 }
-.order .order__row .order__div .order__inform p {
+.order .order__row .order__wrap .order__inform {
+  margin: 40px 0 60px 0;
   color: #999999;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: unset;
 }
 .order .button__link a {
   width: 215px;

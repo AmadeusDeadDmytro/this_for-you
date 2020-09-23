@@ -1,4 +1,5 @@
 @import '../scss/colors.scss';
+@import "../scss/mixin";
 
 .catalog {
     background-image: url(../../img/bg/bg.png);
@@ -6,44 +7,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
-    .catalog_block {
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
 
-        .catalog_block__title {
-            text-align: center;
+  .catalog_block__text {
+    text-align: center;
+    color: $white;
+    margin-top: 40px;
 
-            h1 {
-                margin: 0;
-            }
-        }
+    @include style-text(26px, 42px, unset, $font-family: 'Open Sans');
+  }
 
-        .catalog_block__text {
-            text-align: center;
-            color: $white;
-            margin-top: 40px;
-        }
+  .catalog_block__link {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 
-        .catalog_block__link {
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-            a {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+      width: 349px;
+      height: 65px;
+      background: #A91D20;
+      border: 1px solid #A91D20;
+      text-transform: uppercase;
 
-                width: 349px;
-                height: 65px;
-                background: #A91D20;
-                border: 1px solid #A91D20;
-                text-transform: uppercase;
+      color: white;
+      box-sizing: border-box;
 
-                color: white;
-                box-sizing: border-box;
-            }
-
-        }
+      @include style-text(21px, 34px, 0.1em, $font-family: 'History Pro');
     }
+  }
 }
 

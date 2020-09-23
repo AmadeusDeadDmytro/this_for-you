@@ -269,6 +269,7 @@
       ]
   });
 
+  // for menu open and close mobile menu
 $(function() {
     function slideMenu() {
         var menuList =  $(".menu-container .menu-list");
@@ -295,15 +296,19 @@ $(function() {
 // img
 $(document).ready(function(){
 
+    // for tab with efect
     $(".our_blog__decorate").click(function(){
 
         $(".our_blog__img-block").removeClass('active');
         $(this).parent().addClass('active')
     })
 
-    $('.contact__img').scrollLeft(400);
 
+    // for tab with slider
     $(".sales__li").click(function(){
+        $(".sales__li").removeClass('active');
+
+        $(this).addClass('active');
 
         var panel = $(this).attr('data-id');
 
@@ -324,7 +329,7 @@ $(document).ready(function(){
     })
 });
 
-// header
+// header top fixed
   $(window).scroll(function() {
       var header = $("#header_top");
 
@@ -335,6 +340,12 @@ $(document).ready(function(){
       }
   });
 
+
+  // first one for contanct img to stay center
+  $('.contact__img').scrollLeft(400);
+
+
+  // resize one for contact img to stay center every time when page change with
   window.addEventListener("resize", resizeThrottler, false);
 
 
@@ -342,7 +353,7 @@ function resizeThrottler() {
       // ignore resize events as long as an actualResizeHandler execution is in the queue
 
     if ($(window).innerWidth() < 1000) {
-        $('.contact__img').scrollLeft(400)
+        $('.contact__img').scrollLeft(400);
     }
 }
 

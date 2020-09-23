@@ -1,30 +1,6 @@
 @import './colors';
 @import './dimentions';
-
-.block__title {
-    display: flex;
-    justify-content: center;
-    padding: $top-default 0 80px 0;
-
-    h3 {
-        border-bottom: 2px solid $primary-color;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    h3:after {
-        content: "";
-        display: block;
-        position: relative;
-        margin: 0 auto;
-        bottom: -10px;
-        height: 1px;
-        width: 88%;
-        background: $primary-color;
-    }
-}
+@import './mixin';
 
 .sales {
     padding: 0;
@@ -32,10 +8,10 @@
     .tab__content {
         display: none;
     }
+
     .tab__content.active {
         display: block;
     }
-
 
     .sales__nav {
         display: flex;
@@ -51,14 +27,13 @@
                 list-style-type: none;
                 padding-right: 60px;
                 cursor: pointer;
+                color: $dark;
 
-                .active {
+                @include style-text(23px, 37px, unset, 'Open Sans', 300);
+            }
 
-                }
-
-                div {
-                    color: $dark;
-                }
+            .active {
+                color: $secondary-color;
             }
 
             li:last-child {
@@ -68,7 +43,7 @@
     }
 }
 
-.sales__div {
+.sales__wrap {
     display: flex;
 
     .sales_card:last-child {
@@ -99,8 +74,9 @@
             }
 
             .sales_card__price {
-                color: #A91D20;
-                font-weight: bold;
+                color: $secondary-color;
+
+                @include style-text(18px, 29px, unset, 'Open Sans', bold);
             }
 
             .sales_card__text {
@@ -111,6 +87,17 @@
 
                 .sales_card__size {
                     display: flex;
+                    margin: unset;
+
+                    div {
+                        @include style-text(16px, 26px, unset, 'Open Sans', 300);
+                    }
+                }
+
+                .sales-availability {
+                    color: #1A9940;
+
+                    @include style-text(16px, 26px, unset, 'Open Sans', 300);
                 }
 
                 div {
