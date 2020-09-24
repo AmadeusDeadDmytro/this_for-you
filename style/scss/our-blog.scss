@@ -21,6 +21,10 @@
     .our_blog__mob-img {
       min-width: 390px;
       width: 100%;
+
+      img {
+        @include img-wrap();
+      }
     }
 
     .our_blog__img {
