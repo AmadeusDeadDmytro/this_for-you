@@ -2,7 +2,6 @@
   background-image: url(../../img/bg/bg.png);
   height: 850px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }

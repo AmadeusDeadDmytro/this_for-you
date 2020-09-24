@@ -20,7 +20,7 @@
   padding: 0;
 }
 .header .logo {
-  margin-right: 120px;
+  margin-right: 144px;
   display: block;
 }
 .header .header__card {
@@ -28,7 +28,7 @@
   align-items: center;
 }
 .header .header__card .header__request_phone {
-  margin-right: 114px;
+  margin-right: 112px;
 }
 .header .header__card .header__request_phone a::before {
   content: none;
@@ -37,7 +37,7 @@
   content: none;
 }
 .header .header__card .header__request_phone a {
-  padding-bottom: 5px;
+  padding-bottom: 9px;
   color: #A91D20;
   border-bottom: 1px solid #A91D20;
   text-transform: uppercase;

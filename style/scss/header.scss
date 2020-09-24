@@ -23,7 +23,7 @@
   padding: 0;
 
   .logo {
-    margin-right: 120px;
+    margin-right: 144px;
     display: block;
   }
 
@@ -32,7 +32,7 @@
     align-items: center;
 
     .header__request_phone {
-      margin-right: 114px;
+      margin-right: 112px;
 
       a::before {
         content: none;
@@ -43,7 +43,7 @@
       }
 
       a {
-        padding-bottom: 5px;
+        padding-bottom: 9px;
         color: $secondary-color;
         border-bottom: 1px solid $secondary-color;
         text-transform: uppercase;
