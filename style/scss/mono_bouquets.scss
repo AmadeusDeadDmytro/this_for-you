@@ -6,10 +6,12 @@
   padding: $top-default 0 0 0;
   display: flex;
   order: 1;
+  flex-wrap: wrap;
 
   .button__link {
     a {
-      width: 206px;
+      width: 216px;
+      letter-spacing: 0.139em;
     }
   }
 
@@ -18,10 +20,10 @@
     flex-direction: column;
     justify-content: center;
     padding: 0;
-    width: 60%;
+    width: 59%;
 
     .mono_bouquets__title {
-      margin-bottom: 60px;
+      margin: 18px 0 60px 0;
     }
 
     .mono_bouquets__text {
@@ -39,7 +41,10 @@
   .mono_bouquets__img {
     display: flex;
     justify-content: flex-end;
+    width: 41%;
 
-    @include img-wrap(40%);
+    img {
+      @include img-wrap();
+    }
   }
 }

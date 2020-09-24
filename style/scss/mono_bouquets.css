@@ -2,19 +2,21 @@
   padding: 110px 0 0 0;
   display: flex;
   order: 1;
+  flex-wrap: wrap;
 }
 .mono_bouquets .button__link a {
-  width: 206px;
+  width: 216px;
+  letter-spacing: 0.139em;
 }
 .mono_bouquets .mono_bouquets__wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0;
-  width: 60%;
+  width: 59%;
 }
 .mono_bouquets .mono_bouquets__wrap .mono_bouquets__title {
-  margin-bottom: 60px;
+  margin: 18px 0 60px 0;
 }
 .mono_bouquets .mono_bouquets__wrap .mono_bouquets__text {
   font-family: "Open Sans";
@@ -37,9 +39,12 @@
 .mono_bouquets .mono_bouquets__img {
   display: flex;
   justify-content: flex-end;
+  width: 41%;
+}
+.mono_bouquets .mono_bouquets__img img {
   box-sizing: border-box;
   object-fit: cover;
-  width: 40%;
+  width: 100%;
   position: relative;
   display: block;
   height: 100%;
