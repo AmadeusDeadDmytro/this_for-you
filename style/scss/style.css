@@ -192,15 +192,16 @@ h6 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 6px;
 }
 .block__title h3:after {
   content: "";
   display: block;
   position: relative;
   margin: 0 auto;
-  bottom: -10px;
+  bottom: -21px;
   height: 1px;
-  width: 88%;
+  width: 73%;
   background: #234612;
 }
 
