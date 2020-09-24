@@ -314,14 +314,13 @@
 
   .order {
     padding-top: 40px;
+    flex-direction: column;
 
     .button__link a {
       width: 128px;
     }
-    .order__row {
-      flex-direction: column;
 
-      .order__wrap {
+    .order__wrap {
         margin: 5px 0 10px 0;
         padding: 14px;
 
@@ -353,7 +352,6 @@
           }
         }
       }
-    }
 
     .order__img {
       height: 50vh;
@@ -842,19 +840,17 @@
 
   .order {
     padding-top: 55px;
+    flex-direction: column;
 
     .button__link a {
       width: 128px;
     }
 
-    .order__row {
-      flex-direction: column;
-
-      .order__img {
+    .order__img {
         height: 50vh;
       }
 
-      .order__wrap {
+    .order__wrap {
         margin: 25px 0 5px 0;
 
         .order__title {
@@ -882,7 +878,6 @@
           }
         }
       }
-    }
   }
 
   .mob_hidden {
@@ -1341,19 +1336,17 @@
 
   .order {
     padding-top: 55px;
+    flex-direction: column;
 
     .button__link a {
       width: 128px;
     }
 
-    .order__row {
-      flex-direction: column;
-
-      .order__img {
+    .order__img {
         height: 50vh;
       }
 
-      .order__wrap {
+    .order__wrap {
         margin: 25px 0 5px 0;
 
         .order__title {
@@ -1383,7 +1376,6 @@
           }
         }
       }
-    }
   }
 
   .gift {
@@ -1846,44 +1838,41 @@
 
   .order {
     padding-top: 55px;
+    flex-direction: column;
 
     .button__link a {
       width: 128px;
     }
 
-    .order__row {
-      flex-direction: column;
+    .order__wrap {
+      margin: 15px 0 0 0;
 
-      .order__wrap {
-        margin: 15px 0 0 0;
+      .order__title {
+        margin-bottom: 15px;
 
-        .order__title {
-          margin-bottom: 15px;
-
-          br {
-            display: none;
-          }
-        }
-
-        .order__inform {
-          margin: 20px 0 30px 0;
-          font-size: 16px;
-          line-height: 25px;
-        }
-
-        .order-text {
-          font-size: 21px;
-          line-height: 30px;
-
-          br {
-            display: none;
-          }
+        br {
+          display: none;
         }
       }
 
-      .order__img {
-        height: 79vh;
+      .order__inform {
+        margin: 20px 0 30px 0;
+        font-size: 16px;
+        line-height: 25px;
       }
+
+      .order-text {
+        font-size: 21px;
+        line-height: 30px;
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+    .order__img {
+      height: 79vh;
     }
   }
 
@@ -2255,8 +2244,8 @@
     .button__link a {
       width: 128px;
     }
-    .order__row {
-      .order__wrap {
+
+    .order__wrap {
         margin: 50px 0 50px 70px;
         max-width: 50%;
 
@@ -2283,7 +2272,7 @@
           }
         }
       }
-    }
+
   }
 
   .sales .sales__nav {
@@ -2598,12 +2587,11 @@
   .order {
     padding: 75px 0 0 0;
 
-    .order__row {
-      .button__link a {
+    .button__link a {
         width: 173px;
       }
 
-      .order__wrap {
+    .order__wrap {
         margin: 50px;
         max-width: 50%;
 
@@ -2630,7 +2618,6 @@
           }
         }
       }
-    }
   }
 
   .sales .sales__nav {
@@ -2989,8 +2976,7 @@
       width: 173px;
     }
 
-    .order__row {
-      .order__wrap {
+    .order__wrap {
         margin: 50px 0 50px 70px;
         max-width: 52%;
 
@@ -3006,7 +2992,6 @@
           margin-bottom: 30px;
         }
       }
-    }
   }
 
   .gift {
@@ -3275,7 +3260,7 @@
     }
   }
 
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin-left: 100px;
     width: 55%;
 
@@ -3441,7 +3426,7 @@
     }
   }
 
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     .order__title {
       margin-bottom: 25px;
     }
@@ -3481,7 +3466,7 @@
     font-size: 34px;
   }
 
-  .order .order__row .order__wrap  {
+  .order .order__wrap  {
     .order__title {
       margin-bottom: 40px;
     }

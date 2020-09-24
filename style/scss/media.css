@@ -274,38 +274,36 @@
 
   .order {
     padding-top: 40px;
+    flex-direction: column;
   }
   .order .button__link a {
     width: 128px;
   }
-  .order .order__row {
-    flex-direction: column;
-  }
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin: 5px 0 10px 0;
     padding: 14px;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 15px;
     font-size: 17px;
     line-height: 26px;
   }
-  .order .order__row .order__wrap .order__title br {
+  .order .order__wrap .order__title br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 20px 0 30px 0;
     font-size: 15px;
     line-height: 24px;
   }
-  .order .order__row .order__wrap .order__inform br {
+  .order .order__wrap .order__inform br {
     display: none;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 19px;
     line-height: 27px;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
   .order .order__img {
@@ -722,38 +720,36 @@
 
   .order {
     padding-top: 55px;
+    flex-direction: column;
   }
   .order .button__link a {
     width: 128px;
   }
-  .order .order__row {
-    flex-direction: column;
-  }
-  .order .order__row .order__img {
+  .order .order__img {
     height: 50vh;
   }
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin: 25px 0 5px 0;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 5px;
   }
-  .order .order__row .order__wrap .order__title br {
+  .order .order__wrap .order__title br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 10px 0 20px 0;
     font-size: 16px;
     line-height: 22px;
   }
-  .order .order__row .order__wrap .order__inform br {
+  .order .order__wrap .order__inform br {
     display: none;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 17px;
     line-height: 26px;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
 
@@ -1141,40 +1137,38 @@
 
   .order {
     padding-top: 55px;
+    flex-direction: column;
   }
   .order .button__link a {
     width: 128px;
   }
-  .order .order__row {
-    flex-direction: column;
-  }
-  .order .order__row .order__img {
+  .order .order__img {
     height: 50vh;
   }
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin: 25px 0 5px 0;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 5px;
     font-size: 19px;
     line-height: 30px;
   }
-  .order .order__row .order__wrap .order__title br {
+  .order .order__wrap .order__title br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 10px 0 20px 0;
     font-size: 16px;
     line-height: 24px;
   }
-  .order .order__row .order__wrap .order__inform br {
+  .order .order__wrap .order__inform br {
     display: none;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 19px;
     line-height: 28px;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
 
@@ -1575,35 +1569,33 @@
 
   .order {
     padding-top: 55px;
+    flex-direction: column;
   }
   .order .button__link a {
     width: 128px;
   }
-  .order .order__row {
-    flex-direction: column;
-  }
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin: 15px 0 0 0;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 15px;
   }
-  .order .order__row .order__wrap .order__title br {
+  .order .order__wrap .order__title br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 20px 0 30px 0;
     font-size: 16px;
     line-height: 25px;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 21px;
     line-height: 30px;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
-  .order .order__row .order__img {
+  .order .order__img {
     height: 79vh;
   }
 
@@ -1919,29 +1911,29 @@
   .order .button__link a {
     width: 128px;
   }
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin: 50px 0 50px 70px;
     max-width: 50%;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 20px;
   }
-  .order .order__row .order__wrap .order__title br {
+  .order .order__wrap .order__title br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 20px 0 30px 0;
     font-size: 16px;
     line-height: 26px;
   }
-  .order .order__row .order__wrap .order__inform br {
+  .order .order__wrap .order__inform br {
     display: none;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 19px;
     line-height: 28px;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
 
@@ -2209,30 +2201,30 @@
   .order {
     padding: 75px 0 0 0;
   }
-  .order .order__row .button__link a {
+  .order .button__link a {
     width: 173px;
   }
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin: 50px;
     max-width: 50%;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 19px;
     line-height: 29px;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 25px 0 40px 0;
   }
-  .order .order__row .order__wrap .order__inform br {
+  .order .order__wrap .order__inform br {
     display: none;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 20px;
   }
-  .order .order__row .order__wrap .order__title br {
+  .order .order__wrap .order__title br {
     display: none;
   }
 
@@ -2540,17 +2532,17 @@
   .order .button__link a {
     width: 173px;
   }
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin: 50px 0 50px 70px;
     max-width: 52%;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 30px 0 40px 0;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 30px;
   }
 
@@ -2770,21 +2762,21 @@
     margin-right: 0;
   }
 
-  .order .order__row .order__wrap {
+  .order .order__wrap {
     margin-left: 100px;
     width: 55%;
   }
-  .order .order__row .order__wrap br {
+  .order .order__wrap br {
     display: none;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 20px;
     line-height: 34px;
   }
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 25px;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 31px 0 40px 0;
     font-size: 16px;
     line-height: 23px;
@@ -2897,17 +2889,17 @@
     margin-right: 0;
   }
 
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 25px;
   }
-  .order .order__row .order__wrap .order-text {
+  .order .order__wrap .order-text {
     font-size: 20px;
     line-height: 32px;
   }
-  .order .order__row .order__wrap .order-text br {
+  .order .order__wrap .order-text br {
     display: none;
   }
-  .order .order__row .order__wrap .order__inform {
+  .order .order__wrap .order__inform {
     margin: 30px 0 40px 0;
   }
 
@@ -2929,7 +2921,7 @@
     font-size: 34px;
   }
 
-  .order .order__row .order__wrap .order__title {
+  .order .order__wrap .order__title {
     margin-bottom: 40px;
   }
 
