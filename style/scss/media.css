@@ -1,4 +1,4 @@
-@media (max-width: 539px) and (min-width: 200px) {
+@media (max-width: 539.999px) and (min-width: 200px) {
   h1 {
     font-size: 25px;
     line-height: 41px;
@@ -173,6 +173,13 @@
 
   .block__title {
     padding: 40px 0 25px 0;
+  }
+  .block__title h3 {
+    padding-bottom: 0;
+  }
+  .block__title h3:after {
+    bottom: -7px;
+    width: 87%;
   }
 
   .sales__wrap .sales_card {
@@ -484,7 +491,7 @@
     line-height: 16px;
   }
 }
-@media (max-width: 578px) and (min-width: 540px) {
+@media (max-width: 578.999px) and (min-width: 540px) {
   h1 {
     font-size: 34px;
     line-height: 59px;
@@ -596,6 +603,13 @@
 
   .block__title {
     padding: 40px 0 40px 0;
+  }
+  .block__title h3 {
+    padding-bottom: 0;
+  }
+  .block__title h3:after {
+    bottom: -8px;
+    width: 87%;
   }
 
   .go-catalog {
@@ -926,7 +940,7 @@
     line-height: 16px;
   }
 }
-@media (max-width: 767px) and (min-width: 579px) {
+@media (max-width: 767.9999px) and (min-width: 579px) {
   h1 {
     font-size: 34px;
     line-height: 59px;
@@ -1205,6 +1219,13 @@
   .block__title {
     padding: 40px 0 40px 0;
   }
+  .block__title h3 {
+    padding-bottom: 0;
+  }
+  .block__title h3:after {
+    bottom: -10px;
+    width: 85%;
+  }
 
   .go-catalog {
     padding: 40px 0 0 0;
@@ -1351,7 +1372,7 @@
     line-height: 24px;
   }
 }
-@media (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 991.999px) and (min-width: 768px) {
   h1 {
     font-size: 44px;
     line-height: 68px;
@@ -1388,6 +1409,13 @@
 
   .block__title {
     padding: 55px 0 40px 0;
+  }
+  .block__title h3 {
+    padding-bottom: 0;
+  }
+  .block__title h3:after {
+    bottom: -10px;
+    width: 85%;
   }
 
   .flowers__wrap .block__title {
@@ -1756,7 +1784,7 @@
     line-height: 24px;
   }
 }
-@media (max-width: 1199px) and (min-width: 992px) {
+@media (max-width: 1199.999px) and (min-width: 992px) {
   h1 {
     font-size: 46px;
     line-height: 71px;
@@ -2070,7 +2098,7 @@
     line-height: 27px;
   }
 }
-@media (max-width: 1299px) and (min-width: 1200px) {
+@media (max-width: 1299.999px) and (min-width: 1200px) {
   h1 {
     font-size: 50px;
     line-height: 73px;
@@ -2386,7 +2414,7 @@
     line-height: 27px;
   }
 }
-@media (max-width: 1499px) and (min-width: 1300px) {
+@media (max-width: 1499.999px) and (min-width: 1300px) {
   h1 {
     font-size: 51px;
     line-height: 75px;
@@ -2829,7 +2857,7 @@
     margin-top: 20px;
   }
 }
-@media (max-width: 1639px) and (min-width: 1605px) {
+@media (max-width: 1639.999px) and (min-width: 1605px) {
   h3 {
     font-size: 29px;
     line-height: 51px;
@@ -2896,7 +2924,7 @@
     padding: 90px 90px 90px 80px;
   }
 }
-@media (max-width: 1919px) and (min-width: 1640px) {
+@media (max-width: 1919.999px) and (min-width: 1640px) {
   h3 {
     font-size: 34px;
   }
