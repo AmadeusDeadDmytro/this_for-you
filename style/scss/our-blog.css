@@ -69,7 +69,7 @@
   line-height: 140px;
 }
 .our .our_blog .our_blog__img .our_blog__img-block.active {
-  width: calc(100% - 260px);
+  width: calc(100% - 388px);
   transition: all .4s linear;
 }
 .our .our_blog .our_blog__img .our_blog__img-block.active .our_blog__content {
@@ -119,7 +119,7 @@
   letter-spacing: unset;
 }
 .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container .our_blog__link {
-  margin-top: 60px;
+  margin-top: 38px;
 }
 .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container .our_blog__link a {
   text-decoration: none;
