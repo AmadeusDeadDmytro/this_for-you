@@ -57,7 +57,7 @@
   z-index: 999;
   overflow-y: auto;
   overflow-x: hidden;
-  left: -101%;
+  left: -105%;
   top: 62px;
 }
 .header .menu-container .menu-list li.accordion-toggle, .header .menu-container .menu-list #menu-container .menu-list .menu-login {

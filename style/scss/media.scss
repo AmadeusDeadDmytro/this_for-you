@@ -263,23 +263,23 @@
       padding: 15px;
 
       .mono_bouquets__text {
-        font-size: 17px;
-        line-height: 23px;
+        font-size: 13px;
+        line-height: 17px;
         br {
           display: none;
         }
       }
 
       .mono_bouquets__title {
-        margin-bottom: 20px;
-        font-size: 18px;
-        line-height: 26px;
+        margin: 0 0 20px 0;
+        font-size: 13px;
+        line-height: 18px;
       }
 
       .mono_bouquets__inform {
         margin: 20px 0 30px 0;
-        font-size: 15px;
-        line-height: 19px;
+        font-size: 13px;
+        line-height: 17px;
 
         br {
           display: none;
@@ -326,8 +326,8 @@
 
         .order__title {
           margin-bottom: 15px;
-          font-size: 17px;
-          line-height: 26px;
+          font-size: 14px;
+          line-height: 21px;
 
           br {
             display: none;
@@ -335,8 +335,8 @@
         }
         .order__inform {
           margin: 20px 0 30px 0;
-          font-size: 15px;
-          line-height: 24px;
+          font-size: 13px;
+          line-height: 17px;
 
           br {
             display: none;
@@ -344,8 +344,8 @@
         }
 
         .order-text {
-          font-size: 19px;
-          line-height: 27px;
+          font-size: 14px;
+          line-height: 17px;
 
           br {
             display: none;
@@ -461,15 +461,30 @@
             padding: 15px 15px 25px 15px;
             height: fit-content;
 
+            .our_blog__title {
+              margin-bottom: 5px;
+
+              br {
+                display: none;
+              }
+            }
+
             .our_blog__p {
-              font-size: 17px;
-              line-height: 22px;
+              font-size: 14px;
+              line-height: 18px;
+              br {
+                display: none;
+              }
             }
 
             .our_blog__text {
               margin-top: 15px;
-              font-size: 14px;
-              line-height: 21px;
+              font-size: 13px;
+              line-height: 18px;
+
+              br {
+                display: none;
+              }
             }
 
             .our_blog__link {
@@ -481,14 +496,6 @@
                 line-height: 26px;
               }
             }
-
-            .our_blog__title {
-              margin-bottom: 5px;
-
-              br {
-                display: none;
-              }
-            }
           }
         }
       }
@@ -496,6 +503,10 @@
   }
 
   .contact {
+    .block__title {
+
+      padding: 20px 0 25px 0;
+    }
     .contact__row {
       margin: 0 0 30px 0;
       justify-content: space-between;
@@ -536,7 +547,7 @@
     margin-top: 30px;
 
     .footer__row {
-      padding-top: 30px;
+      padding: 30px 0 0px 5px;
 
       .footer__img {
         width: 100px;
