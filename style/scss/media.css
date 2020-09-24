@@ -427,8 +427,10 @@
 
   .contact .contact__row {
     margin: 0 0 30px 0;
+    justify-content: space-between;
   }
   .contact .contact__row .contact__wrap {
+    margin-right: 0;
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
@@ -874,8 +876,10 @@
 
   .contact .contact__row {
     margin: 0 0 50px 0;
+    justify-content: space-between;
   }
   .contact .contact__row .contact__wrap {
+    margin-right: 0;
     width: 50%;
     margin-bottom: 20px;
     text-align: center;
@@ -1303,8 +1307,10 @@
 
   .contact .contact__row {
     margin: 0 0 50px 0;
+    justify-content: space-between;
   }
   .contact .contact__row .contact__wrap {
+    margin-right: 0;
     width: 50%;
     margin-bottom: 20px;
     text-align: center;
@@ -1713,11 +1719,13 @@
 
   .contact .contact__row {
     margin: 0 0 55px 0;
+    justify-content: space-between;
   }
   .contact .contact__row .contact__wrap {
-    width: 50%;
+    margin-right: 0;
     margin-bottom: 20px;
     text-align: center;
+    width: 50%;
   }
   .contact .contact__row .contact__wrap .contact__logo {
     font-size: 57px;
@@ -2033,6 +2041,10 @@
   }
   .contact .contact__row {
     margin: 0 0 55px 0;
+    justify-content: space-between;
+  }
+  .contact .contact__row .contact__wrap {
+    margin-right: 0;
   }
   .contact .contact__row .contact__wrap .contact__logo {
     font-size: 57px;
@@ -2349,6 +2361,10 @@
   }
   .contact .contact__row {
     margin: 0 30px 60px 0;
+    justify-content: space-between;
+  }
+  .contact .contact__row .contact__wrap {
+    margin-right: 0;
   }
   .contact .contact__row .contact__wrap .contact__logo {
     font-size: 57px;
@@ -2625,6 +2641,10 @@
   }
   .contact .contact__row {
     margin: 0 50px 60px 0;
+    justify-content: space-between;
+  }
+  .contact .contact__row .contact__wrap {
+    margin-right: 0;
   }
   .contact .contact__row .contact__wrap .contact__logo {
     font-size: 61px;
@@ -2831,10 +2851,16 @@
     padding: 90px 0 60px 0;
   }
 
-  .contact__img {
+  .contact .contact__row {
+    justify-content: space-between;
+  }
+  .contact .contact__row .contact__wrap {
+    margin-right: 0;
+  }
+  .contact .contact__img {
     overflow: hidden;
   }
-  .contact__img img {
+  .contact .contact__img img {
     box-sizing: border-box;
     object-fit: cover;
     width: 100%;
@@ -2918,10 +2944,16 @@
     padding: 90px 90px 90px 80px;
   }
 
-  .contact__img {
+  .contact .contact__row {
+    justify-content: space-between;
+  }
+  .contact .contact__row .contact__wrap {
+    margin-right: 0;
+  }
+  .contact .contact__img {
     overflow: hidden;
   }
-  .contact__img img {
+  .contact .contact__img img {
     box-sizing: border-box;
     object-fit: cover;
     width: 100%;

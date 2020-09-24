@@ -498,8 +498,10 @@
   .contact {
     .contact__row {
       margin: 0 0 30px 0;
+      justify-content: space-between;
 
       .contact__wrap {
+        margin-right: 0;
         width: 100%;
         margin-bottom: 10px;
         text-align: center;
@@ -1024,8 +1026,10 @@
   .contact {
     .contact__row {
       margin: 0 0 50px 0;
+      justify-content: space-between;
 
       .contact__wrap {
+        margin-right: 0;
         width: 50%;
         margin-bottom: 20px;
         text-align: center;
@@ -1529,8 +1533,10 @@
   .contact {
     .contact__row {
       margin: 0 0 50px 0;
+      justify-content: space-between;
 
       .contact__wrap {
+        margin-right: 0;
         width: 50%;
         margin-bottom: 20px;
         text-align: center;
@@ -2014,11 +2020,13 @@
   .contact {
     .contact__row {
       margin: 0 0 55px 0;
+      justify-content: space-between;
 
       .contact__wrap {
-        width: 50%;
+        margin-right: 0;
         margin-bottom: 20px;
         text-align: center;
+        width: 50%;
 
         .contact__logo {
           font-size: 57px;
@@ -2391,8 +2399,11 @@
 
     .contact__row {
       margin: 0 0 55px 0;
+      justify-content: space-between;
 
       .contact__wrap {
+        margin-right: 0;
+
         .contact__logo {
           font-size: 57px;
           line-height: 85px;
@@ -2767,8 +2778,11 @@
 
     .contact__row {
       margin: 0 30px 60px 0;
+      justify-content: space-between;
 
       .contact__wrap {
+        margin-right: 0;
+
         .contact__logo {
           font-size: 57px;
           line-height: 85px;
@@ -3081,7 +3095,6 @@
     }
   }
 
-
   .contact {
     .contact__img {
       img {
@@ -3091,8 +3104,11 @@
 
     .contact__row {
       margin: 0 50px 60px 0;
+      justify-content: space-between;
 
       .contact__wrap {
+        margin-right: 0;
+
         .contact__logo {
           font-size: 61px;
           line-height: 93px;
@@ -3348,13 +3364,23 @@
     }
   }
 
-  .contact__img {
-    overflow: hidden;
+  .contact {
+    .contact__row {
+      justify-content: space-between;
 
-    img {
-      @include img-wrap();
+      .contact__wrap {
+        margin-right: 0;
+      }
+    }
+    .contact__img {
+      overflow: hidden;
+
+      img {
+        @include img-wrap();
+      }
     }
   }
+
 
   .footer {
     .footer__row {
@@ -3452,11 +3478,20 @@
     }
   }
 
-  .contact__img {
-    overflow: hidden;
+  .contact {
+    .contact__row {
+      justify-content: space-between;
 
-    img {
-      @include img-wrap();
+      .contact__wrap {
+        margin-right: 0;
+      }
+    }
+    .contact__img {
+      overflow: hidden;
+
+      img {
+        @include img-wrap();
+      }
     }
   }
 }
