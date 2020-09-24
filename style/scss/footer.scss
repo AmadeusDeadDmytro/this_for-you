@@ -9,7 +9,7 @@
   display: block;
 
   .footer__row {
-    padding-top: 128px;
+    padding: 113px 0 0 0;
     display: flex;
     flex-wrap: wrap;
 
@@ -18,22 +18,14 @@
     }
 
     .footer__title {
+      padding-top: 18px;
       color: #FFFFFF;
-      padding-top: 10px;
 
       @include style-text(21px, 34px, 0.1em);
     }
 
-    .footer__block:first-child {
-      width: 21%;
-    }
-    .footer__block:nth-child(2) {
-      width: 21%;
-    }
-    .footer__block:last-child {
-      width: 33%;
-    }
     .footer__block {
+      width: 25%;
 
       .footer__text {
         list-style-type: none;

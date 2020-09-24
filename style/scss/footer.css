@@ -5,7 +5,7 @@
   display: block;
 }
 .footer .footer__row {
-  padding-top: 128px;
+  padding: 113px 0 0 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -13,8 +13,8 @@
   display: block;
 }
 .footer .footer__row .footer__title {
+  padding-top: 18px;
   color: #FFFFFF;
-  padding-top: 10px;
   font-family: "History Pro";
   font-style: normal;
   font-weight: normal;
@@ -22,14 +22,8 @@
   line-height: 34px;
   letter-spacing: 0.1em;
 }
-.footer .footer__row .footer__block:first-child {
-  width: 21%;
-}
-.footer .footer__row .footer__block:nth-child(2) {
-  width: 21%;
-}
-.footer .footer__row .footer__block:last-child {
-  width: 33%;
+.footer .footer__row .footer__block {
+  width: 25%;
 }
 .footer .footer__row .footer__block .footer__text {
   list-style-type: none;
