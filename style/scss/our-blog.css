@@ -245,7 +245,7 @@ a:hover {
   letter-spacing: unset;
 }
 .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container .our_blog__link {
-  margin-top: 38px;
+  margin-top: 60px;
 }
 .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container .our_blog__link a {
   text-decoration: none;
@@ -253,7 +253,7 @@ a:hover {
   color: #A91D20;
   border-bottom: 1px solid #A91D20;
   width: 196px;
-  padding-bottom: 5px;
+  padding-bottom: 9px;
   font-family: "History Pro";
   font-style: normal;
   font-weight: normal;
