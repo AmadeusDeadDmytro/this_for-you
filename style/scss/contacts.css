@@ -1,3 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.container-bg {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 102px;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 0;
+  color: #234612;
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 61px;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  margin: 0;
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+}
+
+h5 {
+  margin: 0;
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+}
+
+h6 {
+  font-family: "History Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+}
+
+.button__link a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  padding: 11px 41px;
+  width: fit-content;
+  font-size: 21px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  color: #A91D20;
+  text-transform: uppercase;
+  border: 1px solid #A91D20;
+  border-radius: 0;
+  display: block;
+}
+
+.block__title {
+  display: flex;
+  justify-content: center;
+  padding: 110px 0 69px 0;
+}
+.block__title h3 {
+  border-bottom: 2px solid #234612;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 6px;
+}
+.block__title h3:after {
+  content: "";
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  bottom: -21px;
+  height: 1px;
+  width: 73%;
+  background: #234612;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.flowers__wrap .block__title {
+  padding-top: 80px;
+}
+
+.go-catalog {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 0 0;
+}
+.go-catalog a {
+  font-family: 'History Pro';
+  padding: 11px 39px;
+}
+
 .contact {
   padding: 0;
 }
@@ -50,11 +177,10 @@
   letter-spacing: unset;
 }
 .contact .contact__row .contact__wrap .contact__bold {
-  font-weight: bold;
   color: #444444;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   line-height: 29px;
   letter-spacing: unset;

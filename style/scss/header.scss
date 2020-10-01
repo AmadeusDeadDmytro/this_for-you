@@ -1,5 +1,4 @@
-@import '../scss/colors.scss';
-@import "../scss/mixin";
+@import '../scss/style';
 
 .fixed-top {
   background: white;
@@ -23,7 +22,6 @@
   padding: 0;
 
   .logo {
-    margin-right: 144px;
     display: block;
   }
 
@@ -50,6 +48,33 @@
         width: fit-content;
       }
     }
+  }
+
+  .header__ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .header__li:first-child {
+      margin: 0;
+    }
+
+    .header__li {
+      margin-left: 40px;
+
+      a {
+        color: $dark;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .header__text-h6 {
+    color: #151212;
+
+    @include style-text(16px, 26px, 0.1em, $font-family: 'History Pro');
   }
 
   .menu-container {
@@ -177,32 +202,5 @@
     .accordion-content {
       display: none;
     }
-  }
-
-  .header__ul {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    .header__li:first-child {
-      margin: 0;
-    }
-
-    .header__li {
-      margin-left: 40px;
-
-      a {
-        color: $dark;
-        text-transform: uppercase;
-      }
-    }
-  }
-
-  .header__text-h6 {
-    color: #151212;
-
-    @include style-text(16px, 26px, 0.1em, $font-family: 'History Pro');
   }
 }

@@ -1,6 +1,4 @@
-@import './colors';
-@import './dimentions';
-@import './mixin';
+@import './style';
 
 .our {
   background: $bgWhite;
@@ -114,7 +112,7 @@
             margin-top: 30px;
             color: $grey4;
 
-            @include style-text(16px, 26px, 0.1em, 'Open Sans', 300);
+            @include style-text(16px, 26px, unset, 'Open Sans', 300);
           }
 
           .our_blog__p {

@@ -14,104 +14,6 @@ body {
   position: relative;
 }
 
-@media (min-width: 1920px) {
-  .container {
-    max-width: 1605px;
-  }
-
-  .container-bg {
-    max-width: 1860px;
-  }
-}
-@media (max-width: 539px) and (min-width: 200px) {
-  .container {
-    max-width: 100%;
-  }
-}
-@media (max-width: 767.99px) and (min-width: 540px) {
-  .container {
-    max-width: 85%;
-  }
-}
-@media (max-width: 991.99px) and (min-width: 768px) {
-  .container {
-    max-width: 85%;
-  }
-}
-@media (max-width: 1199px) and (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-@media (max-width: 1250px) and (min-width: 1200px) {
-  .container {
-    max-width: 1000px;
-  }
-}
-@media (max-width: 1299px) and (min-width: 1251px) {
-  .container {
-    max-width: 1053px;
-  }
-}
-@media (max-width: 1348px) and (min-width: 1300px) {
-  .container {
-    max-width: 1230px;
-  }
-}
-@media (max-width: 1499px) and (min-width: 1349px) {
-  .container {
-    max-width: 1230px;
-  }
-}
-@media (max-width: 1604.99px) and (min-width: 1500px) {
-  .container {
-    max-width: 1295px;
-  }
-}
-@media (max-width: 1639px) and (min-width: 1605px) {
-  .container {
-    max-width: 1400px;
-  }
-
-  .container-bg {
-    max-width: 1560px;
-  }
-}
-@media (max-width: 1799px) and (min-width: 1640px) {
-  .container {
-    max-width: 1500px;
-  }
-
-  .container-bg {
-    max-width: 1590px;
-  }
-}
-@media (max-width: 1919px) and (min-width: 1800px) {
-  .container {
-    max-width: 1650px;
-  }
-
-  .container-bg {
-    max-width: 1760px;
-  }
-}
-@media (max-width: 991px) {
-  .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-first {
-    background: url("./../../img/our_block/photo-big.png");
-    background-size: cover;
-    background-position: center;
-  }
-  .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-second {
-    background: url("./../../img/our_block/photo-big.png");
-    background-size: cover;
-    background-position: center;
-  }
-  .our .our_blog .our_blog__img .our_blog__img-block .our_blog__decorate-third {
-    background: url("./../../img/our_block/photo-big.png");
-    background-size: cover;
-    background-position: center;
-  }
-}
 h1 {
   margin: 0;
   color: white;
@@ -207,6 +109,20 @@ h6 {
 
 a:hover {
   text-decoration: none;
+}
+
+.flowers__wrap .block__title {
+  padding-top: 80px;
+}
+
+.go-catalog {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 0 0;
+}
+.go-catalog a {
+  font-family: 'History Pro';
+  padding: 11px 39px;
 }
 
 /*# sourceMappingURL=style.css.map */
