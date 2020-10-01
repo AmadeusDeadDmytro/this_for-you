@@ -1,6 +1,4 @@
-@import './colors';
-@import './dimentions';
-@import './mixin';
+@import './style';
 
 .our {
   background: $bgWhite;
@@ -20,10 +18,9 @@
 
     .our_blog__mob-img {
       min-width: 390px;
-      width: 100%;
 
       img {
-        @include img-wrap();
+        @include img-wrap(100%, 100%);
       }
     }
 
@@ -114,7 +111,7 @@
             margin-top: 30px;
             color: $grey4;
 
-            @include style-text(16px, 26px, 0.1em, 'Open Sans', 300);
+            @include style-text(16px, 26px, unset, 'Open Sans', 300);
           }
 
           .our_blog__p {

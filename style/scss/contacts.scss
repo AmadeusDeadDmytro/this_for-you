@@ -1,6 +1,4 @@
-@import './colors';
-@import './dimentions';
-@import './mixin';
+@import './style';
 
 .contact {
   padding: 0;
@@ -48,10 +46,9 @@
       }
 
       .contact__bold {
-        font-weight: bold;
         color: #444444;
 
-        @include style-text(18px, 29px, unset, 'Open Sans', 700);
+        @include style-text(18px, 29px, unset, 'Open Sans', bold);
       }
     }
   }

@@ -1,6 +1,4 @@
-@import './colors';
-@import './dimentions';
-@import './mixin';
+@import './style';
 
 .mono_bouquets {
   padding: $top-default 0 0 0;
@@ -10,6 +8,7 @@
 
   .button__link {
     a {
+      font-family: 'History Pro';
       width: 216px;
       letter-spacing: 0.139em;
     }
@@ -44,7 +43,7 @@
     width: 41%;
 
     img {
-      @include img-wrap();
+      @include img-wrap(100%, unset);
     }
   }
 }

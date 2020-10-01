@@ -296,13 +296,17 @@ $(function() {
 // img
 $(document).ready(function(){
 
+    // first one for contanct img to stay center
+
+    if ($(window).innerWidth() < 1000) {
+        $('.contact__img').scrollLeft(400);
+    }
     // for tab with efect
     $(".our_blog__decorate").click(function(){
 
         $(".our_blog__img-block").removeClass('active');
         $(this).parent().addClass('active')
     })
-
 
     // for tab with slider
     $(".sales__li").click(function(){
@@ -339,11 +343,6 @@ $(document).ready(function(){
           header.removeClass('header_active');
       }
   });
-
-
-  // first one for contanct img to stay center
-  $('.contact__img').scrollLeft(400);
-
 
   // resize one for contact img to stay center every time when page change with
   window.addEventListener("resize", resizeThrottler, false);

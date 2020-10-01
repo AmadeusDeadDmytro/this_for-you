@@ -1,5 +1,4 @@
-@import '../scss/colors.scss';
-@import "../scss/dimentions";
+@import "../scss/style";
 
 .photo_blocks {
   background: #FAFAFA;
@@ -25,7 +24,6 @@
     flex-flow: column wrap;
     height: 783px;
     width: 100%;
-    background: linear-gradient(360deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0) 50%);
 
     .photo_blocks__img:nth-child(2n) {
       order: 1;
@@ -36,12 +34,7 @@
       overflow: hidden;
 
       img {
-        box-sizing: border-box;
-        object-fit: cover;
-        width: 100%;
-        position: relative;
-        display: block;
-        height: 100%;
+        @include img-wrap();
       }
     }
 
@@ -50,6 +43,7 @@
       width: fit-content;
       margin-right: 15px;
       overflow: hidden;
+      background: linear-gradient(360deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0) 50%);
 
       .photo_blocks__first {
         box-sizing: border-box;

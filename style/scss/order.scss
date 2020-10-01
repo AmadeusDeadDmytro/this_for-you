@@ -1,6 +1,4 @@
-@import '../scss/colors.scss';
-@import './dimentions';
-@import './mixin';
+@import '../scss/style';
 
 .order {
   padding:  $top-default 0 0 0;
@@ -36,6 +34,6 @@
 
   .button__link a {
     width: 229px;
-    letter-spacing: 0.16556em;
+    font-family: 'History Pro';
   }
 }
