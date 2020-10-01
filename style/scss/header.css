@@ -147,6 +147,7 @@ a:hover {
   padding: 0;
 }
 .header .logo {
+  margin-right: 144px;
   display: block;
 }
 .header .header__card {
