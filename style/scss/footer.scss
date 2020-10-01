@@ -22,6 +22,10 @@
       @include style-text(21px, 34px, 0.1em);
     }
 
+    .footer__block:last-child {
+      width: 16%;
+    }
+
     .footer__block {
       width: 25%;
 
@@ -29,10 +33,9 @@
         list-style-type: none;
         padding: 36px 0 0 0;
 
-
         .footer__text-li {
           text-decoration: none;
-          padding: 0 0 10px 0;
+          padding: 0 0 19px 0;
 
           a {
             color: #FFFFFF;

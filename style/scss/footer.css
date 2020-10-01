@@ -149,6 +149,9 @@ a:hover {
   line-height: 34px;
   letter-spacing: 0.1em;
 }
+.footer .footer__row .footer__block:last-child {
+  width: 16%;
+}
 .footer .footer__row .footer__block {
   width: 25%;
 }
@@ -158,7 +161,7 @@ a:hover {
 }
 .footer .footer__row .footer__block .footer__text .footer__text-li {
   text-decoration: none;
-  padding: 0 0 10px 0;
+  padding: 0 0 19px 0;
 }
 .footer .footer__row .footer__block .footer__text .footer__text-li a {
   color: #FFFFFF;
