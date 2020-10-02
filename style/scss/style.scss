@@ -824,10 +824,12 @@ a:hover {
         display: flex;
         margin: 0 50px 80px 0;
         flex-wrap: wrap;
+        align-items: flex-end;
 
         .contact__wrap:last-child {
             margin-right: 0;
         }
+
         .contact__wrap {
             display: flex;
             flex-direction: column;
