@@ -1,4 +1,4 @@
-@import './style';
+@import "mixin";
 
 @media (max-width: 539.999px) and (min-width: 200px) {
   h1 {
@@ -526,11 +526,9 @@
           line-height: 24px;
         }
 
-        .contact__content {
-          .contact__text {
-            font-size: 15px;
-            line-height: 23px;
-          }
+        .contact__text {
+          font-size: 15px;
+          line-height: 23px;
         }
 
         .contact__bold {
@@ -1054,11 +1052,9 @@
           line-height: 24px;
         }
 
-        .contact__content {
-          .contact__text {
-            font-size: 15px;
-            line-height: 23px;
-          }
+        .contact__text {
+          font-size: 15px;
+          line-height: 23px;
         }
 
         .contact__bold {
@@ -1561,11 +1557,9 @@
           line-height: 24px;
         }
 
-        .contact__content {
-          .contact__text {
-            font-size: 15px;
-            line-height: 23px;
-          }
+        .contact__text {
+          font-size: 15px;
+          line-height: 23px;
         }
 
         .contact__bold {
@@ -2048,11 +2042,9 @@
           line-height: 24px;
         }
 
-        .contact__content {
-          .contact__text {
-            font-size: 15px;
-            line-height: 23px;
-          }
+        .contact__text {
+          font-size: 15px;
+          line-height: 23px;
         }
 
         .contact__bold {
@@ -2424,11 +2416,9 @@
           line-height: 24px;
         }
 
-        .contact__content {
-          .contact__text {
-            font-size: 15px;
-            line-height: 23px;
-          }
+        .contact__text {
+          font-size: 15px;
+          line-height: 23px;
         }
 
         .contact__bold {
@@ -2803,11 +2793,9 @@
           line-height: 24px;
         }
 
-        .contact__content {
-          .contact__text {
-            font-size: 15px;
-            line-height: 23px;
-          }
+        .contact__text {
+          font-size: 15px;
+          line-height: 23px;
         }
 
         .contact__bold {
@@ -3129,11 +3117,9 @@
           line-height: 24px;
         }
 
-        .contact__content {
-          .contact__text {
-            font-size: 15px;
-            line-height: 23px;
-          }
+        .contact__text {
+          font-size: 15px;
+          line-height: 23px;
         }
 
         .contact__bold {
@@ -3406,7 +3392,7 @@
   }
 }
 
-@media (max-width: 1639.999px) and (min-width: 1605px) {
+@media (max-width: 1624.999px) and (min-width: 1605px) {
   h3 {
     font-size: 29px;
     line-height: 51px;
@@ -3506,50 +3492,50 @@
   }
 }
 
-@media (max-width: 1918.999px) and (min-width: 1640px) {
-  h3 {
-    font-size: 34px;
-  }
-
-  .order .order__wrap  {
-    .order__title {
-      margin-bottom: 40px;
-    }
-  }
-
-  .gift .gift__right .gift__title {
-    margin-bottom: 55px;
-  }
-
-  .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container {
-    padding: 110px 115px 110px 115px;
-  }
-
-  .photo_blocks {
-    .photo_blocks__title {
-      padding: 100px 0 100px 0;
-    }
-    .photo_blocks__wrap {
-      height: auto;
-      flex-flow: wrap;
-      justify-content: space-between;
-
-      .photo_blocks__img {
-        width: 32.6%;
-        margin-top: 13px;
-        margin-right: 0;
-      }
-    }
-  }
-
-  .contact__img {
-    overflow: hidden;
-
-    img {
-      @include img-wrap();
-    }
-  }
-}
+//@media (max-width: 1.999px) and (min-width: 1640px) {
+//  h3 {
+//    font-size: 34px;
+//  }
+//
+//  .order .order__wrap  {
+//    .order__title {
+//      margin-bottom: 40px;
+//    }
+//  }
+//
+//  .gift .gift__right .gift__title {
+//    margin-bottom: 55px;
+//  }
+//
+//  .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container {
+//    padding: 110px 115px 110px 115px;
+//  }
+//
+//  .photo_blocks {
+//    .photo_blocks__title {
+//      padding: 100px 0 100px 0;
+//    }
+//    .photo_blocks__wrap {
+//      height: auto;
+//      flex-flow: wrap;
+//      justify-content: space-between;
+//
+//      .photo_blocks__img {
+//        width: 32.6%;
+//        margin-top: 13px;
+//        margin-right: 0;
+//      }
+//    }
+//  }
+//
+//  .contact__img {
+//    overflow: hidden;
+//
+//    img {
+//      @include img-wrap();
+//    }
+//  }
+//}
 
 @media (max-height: 500px) and (max-width: 539.999px) {
 
@@ -3679,7 +3665,7 @@
   }
 }
 
-@media (max-width: 1639px) and (min-width: 1605px) {
+@media (max-width: 1624.999px) and (min-width: 1605px) {
   .container {
     max-width: 1400px;
   }
@@ -3688,21 +3674,13 @@
   }
 }
 
-@media (max-width: 1799px) and (min-width: 1640px) {
+@media (max-width: 1920px) and (min-width: 1625px) {
   .container {
-    max-width: 1500px;
+    max-width: 1605px;
   }
-  .container-bg {
-    max-width: 1590px;
-  }
-}
 
-@media (max-width: 1919px) and (min-width: 1800px) {
-  .container {
-    max-width: 1650px;
-  }
   .container-bg {
-    max-width: 1760px;
+    max-width: 1860px;
   }
 }
 
