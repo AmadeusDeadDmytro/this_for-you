@@ -135,7 +135,7 @@ a:hover {
 
 .header_active {
   position: fixed;
-  box-shadow: 0 5px 8px -5px;
+  box-shadow: 0 15px 20px rgba(51, 51, 51, 0.06);
 }
 
 .header {
@@ -158,10 +158,10 @@ a:hover {
   margin-right: 112px;
 }
 .header .header__card .header__request_phone a::before {
-  content: none;
+  content: none !important;
 }
 .header .header__card .header__request_phone a::after {
-  content: none;
+  content: none !important;
 }
 .header .header__card .header__request_phone a {
   padding-bottom: 9px;
@@ -212,6 +212,7 @@ a:hover {
   overflow-x: hidden;
   left: -105%;
   top: 62px;
+  height: 100vh;
 }
 .header .menu-container .menu-list li.accordion-toggle, .header .menu-container .menu-list #menu-container .menu-list .menu-login {
   font-size: 16px;
@@ -513,59 +514,42 @@ a:hover {
   background: #FAFAFA;
   padding-bottom: 110px;
 }
-.photo_blocks .photo_blocks__main {
-  padding: 0;
-  margin-top: 110px;
-}
 .photo_blocks .photo_blocks__title {
   display: flex;
   justify-content: center;
   padding: 110px 0 122px 0;
 }
-.photo_blocks .mar_right {
-  margin-right: 0;
+.photo_blocks .photo_blocks__main {
+  padding: 0;
+  margin-top: 110px;
 }
 .photo_blocks .photo_blocks__wrap {
   display: flex;
-  flex-flow: column wrap;
-  height: 785px;
-  width: 100%;
 }
-.photo_blocks .photo_blocks__wrap .photo_blocks__img:nth-child(2n) {
-  order: 1;
-}
-.photo_blocks .photo_blocks__wrap .last_block {
-  margin-top: 15px;
-  overflow: hidden;
-}
-.photo_blocks .photo_blocks__wrap .last_block img {
-  box-sizing: border-box;
-  object-fit: cover;
-  width: 100%;
-  position: relative;
-  display: block;
-  height: unset;
-}
-.photo_blocks .photo_blocks__wrap .photo_blocks__img {
-  position: relative;
-  width: fit-content;
+.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images {
+  display: flex;
+  flex-direction: column;
   margin-right: 15px;
+}
+.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img:last-child {
+  margin-top: 15px;
+}
+.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img {
+  position: relative;
   overflow: hidden;
   background: linear-gradient(360deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0) 50%);
 }
-.photo_blocks .photo_blocks__wrap .photo_blocks__img .photo_blocks__first {
-  box-sizing: border-box;
-  object-fit: cover;
-  width: 100%;
-  position: relative;
-  display: block;
-  height: unset;
-}
-.photo_blocks .photo_blocks__wrap .photo_blocks__img h4 {
+.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img h4 {
   position: absolute;
   bottom: 30px;
   left: 30px;
   color: #FFFFFF;
+}
+.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images:last-child {
+  margin-right: 0;
+}
+.photo_blocks .for-mobile {
+  display: none;
 }
 
 .order {
@@ -768,6 +752,7 @@ a:hover {
 .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container {
   padding: 110px 150px 110px 150px;
   height: 640px;
+  width: 826px;
 }
 .our .our_blog .our_blog__content .our_blog__wrap .our_blog__container .our_blog__text {
   margin-top: 30px;
