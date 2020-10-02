@@ -1,7 +1,7 @@
 @media (max-width: 539.999px) and (min-width: 200px) {
   h1 {
     font-size: 25px;
-    line-height: 41px;
+    line-height: 34px;
   }
 
   h3 {
@@ -140,12 +140,12 @@
     margin-top: 0;
   }
   .catalog .catalog_block__text {
-    margin-top: 0;
-    font-size: 14px;
+    margin-top: 25px;
+    font-size: 16px;
     line-height: 23px;
   }
   .catalog .catalog_block__link {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 20px auto;
   }
@@ -223,7 +223,7 @@
   }
   .mono_bouquets .button__link a {
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   .mono_bouquets .mono_bouquets__img {
@@ -235,7 +235,7 @@
     padding: 15px;
   }
   .mono_bouquets .mono_bouquets__wrap .mono_bouquets__text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 145%;
   }
   .mono_bouquets .mono_bouquets__wrap .mono_bouquets__text br {
@@ -248,7 +248,7 @@
   }
   .mono_bouquets .mono_bouquets__wrap .mono_bouquets__inform {
     margin: 10px 0 20px 0;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 140%;
   }
   .mono_bouquets .mono_bouquets__wrap .mono_bouquets__inform br {
@@ -270,10 +270,21 @@
     flex-flow: wrap;
     justify-content: space-between;
   }
+  .photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images {
+    margin-right: 0;
+  }
   .photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img {
     width: 100%;
     margin-top: 0;
     margin-right: 0;
+  }
+  .photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img img {
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: unset;
   }
   .photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img:last-child {
     margin-top: 0;
@@ -284,7 +295,7 @@
     flex-direction: column;
   }
   .order .button__link a {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
   }
@@ -558,11 +569,15 @@
     padding-left: 0 !important;
   }
 
+  .mob_hidden {
+    display: none;
+  }
+
   .button__link a {
     font-size: 14px;
     line-height: 23px;
     padding: 8px 20px;
-    width: 90%;
+    width: 100%;
     text-align: center;
   }
 
@@ -686,7 +701,7 @@
     padding: 55px 0 0 0;
   }
   .mono_bouquets .button__link a {
-    width: 90%;
+    width: 100%;
   }
   .mono_bouquets .mono_bouquets__img {
     width: 100%;
@@ -739,16 +754,12 @@
     margin-top: 0;
   }
 
-  body {
-    background: #6c757d;
-  }
-
   .order {
     padding-top: 55px;
     flex-direction: column;
   }
   .order .button__link a {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
   }
@@ -777,10 +788,6 @@
     line-height: 26px;
   }
   .order .order__wrap .order-text br {
-    display: none;
-  }
-
-  .mob_hidden {
     display: none;
   }
 
@@ -899,6 +906,9 @@
     display: none;
   }
 
+  .contact .block__title {
+    padding: 50px 0 68px 0;
+  }
   .contact .contact__row {
     margin: 0 0 50px 0;
     justify-content: space-between;
@@ -976,7 +986,7 @@
   }
 
   h4 {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 1.5;
   }
 
