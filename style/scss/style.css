@@ -392,7 +392,7 @@ a:hover {
 }
 
 .sales__wrap {
-  display: flex;
+  display: block;
 }
 .sales__wrap .sales_card:last-child {
   padding: 0;
@@ -524,29 +524,24 @@ a:hover {
   margin-top: 110px;
 }
 .photo_blocks .photo_blocks__wrap {
-  display: flex;
+  display: block;
+  column-count: 3;
 }
-.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images {
-  display: flex;
-  flex-direction: column;
-  margin-right: 15px;
-}
-.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img:last-child {
-  margin-top: 15px;
-}
-.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img {
+.photo_blocks .photo_blocks__wrap .photo_blocks__img {
   position: relative;
   overflow: hidden;
+  display: flex;
   background: linear-gradient(360deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0) 50%);
+  margin-top: 15px;
 }
-.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images .photo_blocks__img h4 {
+.photo_blocks .photo_blocks__wrap .photo_blocks__img h4 {
   position: absolute;
   bottom: 30px;
   left: 30px;
   color: #FFFFFF;
 }
-.photo_blocks .photo_blocks__wrap .photo_blocks__wrap-images:last-child {
-  margin-right: 0;
+.photo_blocks .photo_blocks__wrap .photo_blocks__img:first-child {
+  margin-top: 0px;
 }
 .photo_blocks .for-mobile {
   display: none;

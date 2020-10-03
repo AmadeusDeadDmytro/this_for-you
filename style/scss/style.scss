@@ -409,7 +409,7 @@ a:hover {
 }
 
 .sales__wrap {
-    display: flex;
+    display: block;
 
     .sales_card:last-child {
         padding: 0;
@@ -540,33 +540,26 @@ a:hover {
     }
 
     .photo_blocks__wrap {
-        display: flex;
-
-        .photo_blocks__wrap-images {
+        display: block;
+        column-count: 3;
+        
+        .photo_blocks__img {
+            position: relative;
+            overflow: hidden;
             display: flex;
-            flex-direction: column;
-            margin-right: 15px;
+            background: linear-gradient(360deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0) 50%);
+            margin-top: 15px;
 
-            .photo_blocks__img:last-child {
-                margin-top: 15px;
-            }
-            
-            .photo_blocks__img {
-                position: relative;
-                overflow: hidden;
-                background: linear-gradient(360deg, rgba(21, 21, 21, 0.6) 0%, rgba(21, 21, 21, 0) 50%);
-
-                h4 {
-                    position: absolute;
-                    bottom: 30px;
-                    left: 30px;
-                    color: #FFFFFF;
-                }
+            h4 {
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+                color: #FFFFFF;
             }
         }
 
-        .photo_blocks__wrap-images:last-child {
-            margin-right: 0;
+        .photo_blocks__img:first-child {
+            margin-top: 0px;
         }
     }
 
